@@ -15,11 +15,12 @@ import {
 import Link from "next/link";
 import {
   answerFrequency,
+  answerWindow,
   buildRound,
+  itemWindow,
   mulberry32,
   modeByKey,
   pickItem,
-  recencyWindow,
   type Book,
   type ModeKey,
   type Round,
@@ -56,6 +57,8 @@ type Ctx = {
   freq: Map<string, number>;
   byId: Map<string, Book>;
   review: boolean;
+  itemWin: number;
+  answerWin: number;
 };
 
 type Action =
@@ -66,7 +69,6 @@ type Action =
 const LOOKAHEAD = 3;
 
 function freshRound(state: State, ctx: Ctx): { round: Round | null; nonce: number; recent: string[]; recentAnswers: string[] } {
-  const win = recencyWindow(ctx.pool.length);
   let recent = state.recent;
   let recentAnswers = state.recentAnswers;
   let nonce = state.nonce;
@@ -89,8 +91,8 @@ function freshRound(state: State, ctx: Ctx): { round: Round | null; nonce: numbe
   if (item) {
     round = buildRound(item, ctx.pool, ctx.mode, rng);
     if (round) {
-      recent = [round.item.id, ...recent].slice(0, win);
-      recentAnswers = [round.target, ...recentAnswers].slice(0, win);
+      recent = [round.item.id, ...recent].slice(0, ctx.itemWin);
+      recentAnswers = [round.target, ...recentAnswers].slice(0, ctx.answerWin);
     }
   }
   return { round, nonce, recent, recentAnswers };
@@ -208,7 +210,18 @@ export default function Quiz({
   const byId = useMemo(() => new Map(books.map((b) => [b.id, b])), [books]);
 
   const [reviewOn, setReviewOn] = useState(false);
-  const ctx: Ctx = useMemo(() => ({ pool, mode: m, freq, byId, review: reviewOn }), [pool, m, freq, byId, reviewOn]);
+  const ctx: Ctx = useMemo(() => {
+    const eligible = pool.reduce((n, b) => n + (m.target(b) != null ? 1 : 0), 0);
+    return {
+      pool,
+      mode: m,
+      freq,
+      byId,
+      review: reviewOn,
+      itemWin: itemWindow(eligible),
+      answerWin: answerWindow(freq.size),
+    };
+  }, [pool, m, freq, byId, reviewOn]);
 
   const [state, dispatch] = useReducer(reducer, undefined, (): State =>
     reducer(
@@ -227,7 +240,17 @@ export default function Quiz({
         seed: 1,
         nonce: 0,
       },
-      { type: "reset", seed: 1, pool, mode: m, freq, byId, review: reviewOn },
+      {
+        type: "reset",
+        seed: 1,
+        pool,
+        mode: m,
+        freq,
+        byId,
+        review: reviewOn,
+        itemWin: itemWindow(pool.length),
+        answerWin: answerWindow(freq.size),
+      },
     ),
   );
 
@@ -531,14 +554,16 @@ export default function Quiz({
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-1.5 mt-3">
-                  <Tag>{item.genre}</Tag>
-                  <Tag>{item.eraLabel}</Tag>
+                  {item.genre && <Tag>{item.genre}</Tag>}
+                  {item.eraLabel && <Tag>{item.eraLabel}</Tag>}
                   {item.themes.slice(0, 2).map((t) => (
                     <Tag key={t}>{t}</Tag>
                   ))}
                 </div>
 
-                <p className="text-sm leading-relaxed mt-3 text-ink-soft">{item.blurb}</p>
+                <p className="text-sm leading-relaxed mt-3 text-ink-soft">
+                  {item.blurb ?? describe(item)}
+                </p>
 
                 <button onClick={next} className="pill-solid focus-ring mt-auto self-start">
                   Neste
@@ -618,10 +643,18 @@ function PromptBody({ mode, item }: { mode: ModeKey; item: Book }) {
         {/* author helps for everything except when the author IS the answer */}
         {mode !== "author" && <Tag>{item.author}</Tag>}
         {/* genre helps except when genre is the answer */}
-        {mode !== "genre" && <Tag>{item.genre}</Tag>}
+        {mode !== "genre" && item.genre && <Tag>{item.genre}</Tag>}
       </div>
     </div>
   );
+}
+
+// fallback reveal text for fetched works that have no curated blurb
+function describe(item: Book): string {
+  const parts: string[] = [];
+  parts.push(item.genre ? `${item.genre} av ${item.author}` : `Verk av ${item.author}`);
+  if (item.year != null) parts.push(`utgitt i ${item.year}`);
+  return parts.join(", ") + ".";
 }
 
 function Tag({ children }: { children: React.ReactNode }) {

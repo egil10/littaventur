@@ -7,11 +7,11 @@ export type Book = {
   author: string; // the primary "answer" field
   year: number | null;
   decade: string | null;
-  genre: string;
-  era: string;
-  eraLabel: string;
+  genre: string | null; // null when unknown (fetched works) → excluded from genre mode
+  era: string | null;
+  eraLabel: string | null;
   themes: string[];
-  blurb: string;
+  blurb: string | null; // only curated works have a blurb → used for "title" mode + reveal
   orig: string | null; // English title, if any
   authorImg: string | null; // author portrait URL (recall; shown on reveal + in portrait mode)
   cats: string[]; // category tags this item belongs to ("era:samtid", "genre:roman", "theme:natur", "tag:popular")
@@ -118,7 +118,8 @@ export const MODES: Mode[] = [
     label: "Hvilket verk?",
     hint: "Gjett tittelen ut fra omtalen",
     question: "Hvilket verk omtales",
-    target: (b) => b.title,
+    // only works with a real blurb can be guessed from their description
+    target: (b) => (b.blurb ? b.title : null),
   },
 ];
 
@@ -197,8 +198,14 @@ function decNum(s: string): number {
 }
 
 // ── Smart weighted question picker ──────────────────────────────────────────
-// Sample K candidates and weight them by recency penalties + a rarity boost,
-// then pick proportionally. Keeps the endless stream from feeling repetitive.
+// Goal: spread things out so nothing repeats too soon. Two hard guarantees plus
+// a soft rarity boost:
+//   1. Never re-show an *item* that's inside the recency window (if avoidable).
+//   2. Prefer items whose *answer* hasn't appeared inside the answer window —
+//      so e.g. in author mode you cycle through many authors before repeating
+//      one, even though some authors have far more works than others.
+// Among the surviving candidates we sample K and weight by a 1/sqrt(frequency)
+// rarity boost (under-represented answers surface more), then pick proportionally.
 
 export function pickItem(
   pool: Book[],
@@ -211,25 +218,30 @@ export function pickItem(
   const eligible = pool.filter((b) => mode.target(b) != null);
   if (eligible.length === 0) return null;
 
-  const K = Math.min(24, eligible.length);
+  // (1) drop items shown recently, as long as something remains
+  let candidates = eligible.filter((b) => !recent.has(b.id));
+  if (candidates.length === 0) candidates = eligible;
+
+  // (2) prefer items whose answer isn't in the recent-answer window
+  const answerSet = new Set(recentAnswers);
+  const freshAnswer = candidates.filter((b) => !answerSet.has(mode.target(b)!));
+  if (freshAnswer.length > 0) candidates = freshAnswer;
+
+  // sample K and weight by rarity (under-represented answers get a boost)
+  const K = Math.min(28, candidates.length);
   const sample: Book[] = [];
   const used = new Set<number>();
   while (sample.length < K) {
-    const idx = Math.floor(rnd() * eligible.length);
+    const idx = Math.floor(rnd() * candidates.length);
     if (used.has(idx)) continue;
     used.add(idx);
-    sample.push(eligible[idx]);
+    sample.push(candidates[idx]);
   }
 
   const weights = sample.map((b) => {
-    let w = 1;
-    if (recent.has(b.id)) w *= 0.05; // strong penalty: shown recently
     const ans = mode.target(b)!;
-    const ai = recentAnswers.indexOf(ans);
-    if (ai >= 0) w *= 0.2 + 0.1 * ai; // decaying penalty: answer seen recently
     const freq = answerFreq.get(ans) ?? 1;
-    w *= 1 / Math.sqrt(freq); // boost under-represented answers
-    return w;
+    return 1 / Math.sqrt(freq);
   });
 
   const total = weights.reduce((a, b) => a + b, 0);
@@ -253,7 +265,14 @@ export function answerFrequency(pool: Book[], mode: Mode): Map<string, number> {
   return m;
 }
 
-// recency window scaled to pool size
-export function recencyWindow(poolSize: number): number {
-  return Math.max(6, Math.min(40, Math.floor(poolSize * 0.35)));
+// How many recent *items* to avoid repeating. Scales with the eligible pool so
+// large pools spread far, small pools still leave room to pick from.
+export function itemWindow(eligibleCount: number): number {
+  return Math.max(6, Math.min(250, Math.floor(eligibleCount * 0.6)));
+}
+
+// How many recent *answers* to avoid repeating. Scales with the number of
+// distinct answers for the mode (e.g. ~110 authors → ~66; only ~8 genres → ~4).
+export function answerWindow(distinctAnswers: number): number {
+  return Math.max(2, Math.min(80, Math.floor(distinctAnswers * 0.6)));
 }

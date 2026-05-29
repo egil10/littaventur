@@ -368,30 +368,105 @@ function decadeOf(year) {
   return `${Math.floor(year / 10) * 10}-tallet`;
 }
 
-const items = BOOKS.map((b, i) => {
-  const cats = [];
-  cats.push(`era:${b.era}`);
-  cats.push(`genre:${slugify(b.genre)}`);
-  for (const t of b.themes) cats.push(`theme:${slugify(t)}`);
-  // "Populær" tag for the most famous quartile — used for difficulty hinting.
-  if (i < Math.ceil(BOOKS.length / 4)) cats.push("tag:popular");
+function eraOf(year) {
+  if (year == null) return null;
+  if (year < 1700) return "saga";
+  if (year < 1800) return "1700";
+  if (year < 1900) return "1800";
+  if (year < 1945) return "1900";
+  if (year < 1980) return "etterkrig";
+  return "samtid";
+}
 
-  return {
-    id: `${slugify(b.author)}--${slugify(b.title)}`,
-    title: b.title,
-    author: b.author,
-    year: b.year,
-    decade: decadeOf(b.year),
-    genre: b.genre,
-    era: b.era,
-    eraLabel: ERA_LABELS[b.era] ?? b.era,
-    themes: b.themes,
-    blurb: b.blurb,
-    orig: b.orig ?? null,
-    authorImg: AUTHOR_IMAGES[b.author] ?? null, // portrait for recall (reveal only)
-    cats,
-    fame: i, // array order == notability rank (most famous first)
-  };
+function normTitle(t) {
+  return t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9æøå]+/g, " ").trim();
+}
+
+function catsFor({ era, genre, themes }) {
+  const cats = [];
+  if (era) cats.push(`era:${era}`);
+  if (genre) cats.push(`genre:${slugify(genre)}`);
+  for (const t of themes ?? []) cats.push(`theme:${slugify(t)}`);
+  return cats;
+}
+
+// 1) curated items — full metadata, authoritative ordering
+const curated = BOOKS.map((b) => ({
+  id: `${slugify(b.author)}--${slugify(b.title)}`,
+  title: b.title,
+  author: b.author,
+  year: b.year,
+  decade: decadeOf(b.year),
+  genre: b.genre,
+  era: b.era,
+  eraLabel: ERA_LABELS[b.era] ?? b.era,
+  themes: b.themes,
+  blurb: b.blurb,
+  orig: b.orig ?? null,
+  authorImg: AUTHOR_IMAGES[b.author] ?? null,
+  cats: catsFor(b),
+}));
+
+// fame rank of each author = their best (lowest) curated index, for ordering
+// their fetched works sensibly after the curated block.
+const authorRank = new Map();
+curated.forEach((it, i) => {
+  if (!authorRank.has(it.author)) authorRank.set(it.author, i);
+});
+
+// 2) fetched items from Wikidata — partial metadata, deduped against curated
+let WD = {};
+const wdPath = join(root, "public", "wikidata-works.json");
+if (existsSync(wdPath)) {
+  try {
+    WD = JSON.parse(readFileSync(wdPath, "utf8"));
+  } catch {
+    /* ignore */
+  }
+}
+
+const curatedKeys = new Set(curated.map((it) => `${it.author}|${normTitle(it.title)}`));
+const fetched = [];
+const seenIds = new Set(curated.map((it) => it.id));
+for (const [author, info] of Object.entries(WD)) {
+  for (const w of info.works ?? []) {
+    const key = `${author}|${normTitle(w.title)}`;
+    if (curatedKeys.has(key)) continue; // curated wins
+    if (fetched.some((f) => f.author === author && normTitle(f.title) === normTitle(w.title))) continue;
+    let id = `${slugify(author)}--${slugify(w.title)}`;
+    if (!id || id.endsWith("--")) continue;
+    let n = 2;
+    while (seenIds.has(id)) id = `${slugify(author)}--${slugify(w.title)}-${n++}`;
+    seenIds.add(id);
+    const era = eraOf(w.year);
+    fetched.push({
+      id,
+      title: w.title,
+      author,
+      year: w.year ?? null,
+      decade: decadeOf(w.year),
+      genre: w.genre ?? null,
+      era,
+      eraLabel: era ? ERA_LABELS[era] : null,
+      themes: [],
+      blurb: null, // no curated description → excluded from "title" mode
+      orig: null,
+      authorImg: AUTHOR_IMAGES[author] ?? null,
+      cats: catsFor({ era, genre: w.genre, themes: [] }),
+      _rank: authorRank.get(author) ?? 9999,
+    });
+  }
+}
+// order fetched after curated: by author notability, then year, then title
+fetched.sort((a, b) => a._rank - b._rank || (a.year ?? 9999) - (b.year ?? 9999) || a.title.localeCompare(b.title, "no"));
+for (const f of fetched) delete f._rank;
+
+// 3) combine, then assign fame rank + "popular" tag on the top quartile
+const items = [...curated, ...fetched];
+const popularCut = Math.ceil(items.length / 6);
+items.forEach((it, i) => {
+  it.fame = i;
+  if (i < popularCut) it.cats.push("tag:popular");
 });
 
 const outDir = join(root, "public");
@@ -401,8 +476,8 @@ writeFileSync(out, JSON.stringify(items, null, 2) + "\n", "utf8");
 
 // quick sanity stats
 const authors = new Set(items.map((i) => i.author));
-const byGenre = items.reduce((m, i) => ((m[i.genre] = (m[i.genre] || 0) + 1), m), {});
 const withImg = items.filter((i) => i.authorImg).length;
-console.log(`Wrote ${items.length} books by ${authors.size} authors → ${out}`);
-console.log("By genre:", byGenre);
-console.log(`Portraits attached: ${withImg}/${items.length} books (${[...authors].filter((a) => AUTHOR_IMAGES[a]).length}/${authors.size} authors)`);
+const withYear = items.filter((i) => i.year != null).length;
+const withGenre = items.filter((i) => i.genre != null).length;
+console.log(`Wrote ${items.length} books (${curated.length} curated + ${fetched.length} fetched) by ${authors.size} authors → ${out}`);
+console.log(`Year: ${withYear}/${items.length} · Genre: ${withGenre}/${items.length} · Portraits: ${withImg}/${items.length}`);

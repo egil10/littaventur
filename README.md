@@ -25,23 +25,30 @@ malerier.
 
 ## Datagrunnlag
 
-`public/books.json` inneholder **216 verk av 110 forfattere** — minst ett verk
+`public/books.json` inneholder **~880 verk av 110 forfattere** — minst ett verk
 fra hver av de 100 mest innflytelsesrike norske forfatterne (se
-[`docs/norwegian_authors_100.md`](docs/norwegian_authors_100.md)), med dyp
-katalog for de store (12 Ibsen-stykker, 13 Hamsun-romaner osv.). Hvert verk har
-tittel, forfatter, år, sjanger, epoke, temaer og en kort omtale.
+[`docs/norwegian_authors_100.md`](docs/norwegian_authors_100.md)).
 
-**Forfatterportretter** hentes fra Wikidata (98/110 forfattere — resten mangler
-fritt lisensiert bilde) og brukes til «Hvem er forfatteren?»-modusen og til
+Datasettet bygges i to lag av `scripts/build-books.mjs`:
+
+1. **Kuratert kjerne (216 verk):** håndskrevet med korrekt tittel, år, sjanger,
+   epoke, temaer og en omtale — kanonen, med dyp katalog for de store.
+2. **Wikidata-utvidelse (~670 verk):** hele bibliografien per forfatter hentes
+   fra Wikidata på *verk*-nivå. Vi godtar ufullstendige data: et verk uten år
+   eller sjanger spilles bare ikke i de modusene som trenger det feltet.
+
+Mange samtids-/mindre forfattere har tynn dekning i Wikidata, så ikke alle når
+10 verk. Bibliotek-API-er (nb.no m.fl.) ble vurdert, men returnerer utgaver +
+sekundærlitteratur og er for støyete til verksnivå.
+
+**Forfatterportretter** hentes også fra Wikidata (98/110 forfattere — resten
+mangler fritt lisensiert bilde), brukt til «Hvem er forfatteren?»-modusen og
 gjenkjenning i fasit og galleri.
 
-Datasettet bygges fra en kuratert kilde i `scripts/build-books.mjs`. Wikidatas
-data per *verk* (engelske titler, manglende år) er for støyete til å brukes
-direkte; derfor er verkene håndkuratert, og Wikidata brukes kun til portretter:
-
 ```bash
-npm run images   # henter forfatterportretter → public/author-images.json
-npm run data     # regenererer public/books.json (med portretter)
+npm run images   # forfatterportretter → public/author-images.json
+npm run works    # full bibliografi per forfatter → public/wikidata-works.json
+npm run data     # bygger public/books.json (kuratert + Wikidata + portretter)
 ```
 
 Fant du en feil? Trykk flagg-ikonet på et verk — det kopieres til utklippstavlen

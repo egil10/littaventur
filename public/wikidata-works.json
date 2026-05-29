@@ -1,0 +1,5340 @@
+{
+  "Henrik Ibsen": {
+    "qid": "Q36661",
+    "works": [
+      {
+        "title": "Kjæmpehøjen",
+        "lang": "nb",
+        "year": 1850,
+        "genre": "Drama"
+      },
+      {
+        "title": "Catilina",
+        "lang": "nb",
+        "year": 1850,
+        "genre": "Drama"
+      },
+      {
+        "title": "Norma",
+        "lang": "nb",
+        "year": 1851,
+        "genre": "Drama"
+      },
+      {
+        "title": "Sancthansnatten",
+        "lang": "nb",
+        "year": 1853,
+        "genre": "Drama"
+      },
+      {
+        "title": "Gildet paa Solhoug",
+        "lang": "nb",
+        "year": 1856,
+        "genre": "Drama"
+      },
+      {
+        "title": "Fru Inger til Østeraad",
+        "lang": "nb",
+        "year": 1857,
+        "genre": "Drama"
+      },
+      {
+        "title": "Olaf Liljekrans",
+        "lang": "nb",
+        "year": 1857,
+        "genre": "Drama"
+      },
+      {
+        "title": "Hærmændene paa Helgeland",
+        "lang": "nb",
+        "year": 1858,
+        "genre": "Drama"
+      },
+      {
+        "title": "Kjærlighedens Komedie",
+        "lang": "nb",
+        "year": 1862,
+        "genre": "Drama"
+      },
+      {
+        "title": "Terje Vigen",
+        "lang": "nb",
+        "year": 1862,
+        "genre": null
+      },
+      {
+        "title": "Kongs-Emnerne",
+        "lang": "nb",
+        "year": 1863,
+        "genre": "Drama"
+      },
+      {
+        "title": "Brand",
+        "lang": "nb",
+        "year": 1866,
+        "genre": "Drama"
+      },
+      {
+        "title": "Peer Gynt",
+        "lang": "nb",
+        "year": 1867,
+        "genre": "Lyrikk"
+      },
+      {
+        "title": "De unges Forbund",
+        "lang": "nb",
+        "year": 1869,
+        "genre": "Drama"
+      },
+      {
+        "title": "Digte",
+        "lang": "nb",
+        "year": 1871,
+        "genre": "Lyrikk"
+      },
+      {
+        "title": "Kejser og Galilæer",
+        "lang": "nb",
+        "year": 1873,
+        "genre": "Drama"
+      },
+      {
+        "title": "Samfundets Støtter",
+        "lang": "nb",
+        "year": 1877,
+        "genre": "Drama"
+      },
+      {
+        "title": "Et dukkehjem",
+        "lang": "nb",
+        "year": 1879,
+        "genre": "Drama"
+      },
+      {
+        "title": "Gengangere",
+        "lang": "nb",
+        "year": 1881,
+        "genre": "Drama"
+      },
+      {
+        "title": "En Folkefiende",
+        "lang": "nb",
+        "year": 1882,
+        "genre": "Drama"
+      },
+      {
+        "title": "Vildanden",
+        "lang": "nb",
+        "year": 1884,
+        "genre": "Drama"
+      },
+      {
+        "title": "Hvide Heste",
+        "lang": "nb",
+        "year": 1886,
+        "genre": "Drama"
+      },
+      {
+        "title": "Rosmersholm",
+        "lang": "nb",
+        "year": 1886,
+        "genre": "Drama"
+      },
+      {
+        "title": "Fruen fra Havet",
+        "lang": "nb",
+        "year": 1888,
+        "genre": "Drama"
+      },
+      {
+        "title": "Hedda Gabler",
+        "lang": "nb",
+        "year": 1890,
+        "genre": "Drama"
+      },
+      {
+        "title": "Bygmester Solness",
+        "lang": "nb",
+        "year": 1892,
+        "genre": "Drama"
+      },
+      {
+        "title": "Lille Eyolf",
+        "lang": "nb",
+        "year": 1894,
+        "genre": "Drama"
+      },
+      {
+        "title": "John Gabriel Borkman",
+        "lang": "nb",
+        "year": 1896,
+        "genre": "Drama"
+      },
+      {
+        "title": "Når vi døde vågner",
+        "lang": "nb",
+        "year": 1899,
+        "genre": "Drama"
+      },
+      {
+        "title": "Episk Brand",
+        "lang": "nb",
+        "year": null,
+        "genre": "Lyrikk"
+      },
+      {
+        "title": "Svanhild",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Rypen i Justedal",
+        "lang": "nb",
+        "year": null,
+        "genre": "Drama"
+      },
+      {
+        "title": "Fjeldfuglen",
+        "lang": "nb",
+        "year": null,
+        "genre": "Drama"
+      }
+    ]
+  },
+  "Knut Hamsun": {
+    "qid": "Q40826",
+    "works": [
+      {
+        "title": "Den Gaadefulde",
+        "lang": "nb",
+        "year": 1877,
+        "genre": null
+      },
+      {
+        "title": "Bjørger",
+        "lang": "nb",
+        "year": 1878,
+        "genre": null
+      },
+      {
+        "title": "Et Gjensyn",
+        "lang": "nb",
+        "year": 1878,
+        "genre": null
+      },
+      {
+        "title": "Fra det moderne Amerikas Aandsliv",
+        "lang": "nb",
+        "year": 1889,
+        "genre": null
+      },
+      {
+        "title": "Sult",
+        "lang": "nb",
+        "year": 1890,
+        "genre": "Roman"
+      },
+      {
+        "title": "Fra det ubevidste Sjæleliv",
+        "lang": "nn",
+        "year": 1890,
+        "genre": null
+      },
+      {
+        "title": "Mysterier",
+        "lang": "nb",
+        "year": 1892,
+        "genre": null
+      },
+      {
+        "title": "Redaktør Lynge",
+        "lang": "nb",
+        "year": 1893,
+        "genre": null
+      },
+      {
+        "title": "Ny jord",
+        "lang": "nb",
+        "year": 1893,
+        "genre": null
+      },
+      {
+        "title": "Pan",
+        "lang": "nb",
+        "year": 1894,
+        "genre": null
+      },
+      {
+        "title": "Ved Rigets Port",
+        "lang": "nb",
+        "year": 1895,
+        "genre": null
+      },
+      {
+        "title": "En ganske almindelig flue av middels størrelse",
+        "lang": "nb",
+        "year": 1895,
+        "genre": null
+      },
+      {
+        "title": "Livets Spil",
+        "lang": "nb",
+        "year": 1896,
+        "genre": null
+      },
+      {
+        "title": "Siesta",
+        "lang": "nb",
+        "year": 1897,
+        "genre": null
+      },
+      {
+        "title": "Victoria",
+        "lang": "nb",
+        "year": 1898,
+        "genre": null
+      },
+      {
+        "title": "Aftenrøde",
+        "lang": "nb",
+        "year": 1898,
+        "genre": null
+      },
+      {
+        "title": "Munken Vendt",
+        "lang": "nb",
+        "year": 1902,
+        "genre": null
+      },
+      {
+        "title": "Dronning Tamara",
+        "lang": "nb",
+        "year": 1903,
+        "genre": null
+      },
+      {
+        "title": "I Æventyrland",
+        "lang": "nb",
+        "year": 1903,
+        "genre": null
+      },
+      {
+        "title": "Kratskog",
+        "lang": "nb",
+        "year": 1903,
+        "genre": null
+      },
+      {
+        "title": "Sværmere",
+        "lang": "nb",
+        "year": 1904,
+        "genre": null
+      },
+      {
+        "title": "Det vilde Kor",
+        "lang": "nb",
+        "year": 1904,
+        "genre": null
+      },
+      {
+        "title": "Stridende Liv",
+        "lang": "nb",
+        "year": 1905,
+        "genre": null
+      },
+      {
+        "title": "Under Høststjærnen",
+        "lang": "nb",
+        "year": 1906,
+        "genre": null
+      },
+      {
+        "title": "Vandrertrilogien",
+        "lang": "nb",
+        "year": 1906,
+        "genre": null
+      },
+      {
+        "title": "Benoni",
+        "lang": "nb",
+        "year": 1908,
+        "genre": null
+      },
+      {
+        "title": "Rosa",
+        "lang": "nb",
+        "year": 1908,
+        "genre": null
+      },
+      {
+        "title": "En Vandrer spiller med Sordin",
+        "lang": "nb",
+        "year": 1909,
+        "genre": null
+      },
+      {
+        "title": "Livet ivold",
+        "lang": "nb",
+        "year": 1910,
+        "genre": null
+      },
+      {
+        "title": "Den siste glæde",
+        "lang": "nb",
+        "year": 1912,
+        "genre": null
+      },
+      {
+        "title": "Børn av tiden",
+        "lang": "nb",
+        "year": 1913,
+        "genre": null
+      },
+      {
+        "title": "Segelfoss by",
+        "lang": "nb",
+        "year": 1915,
+        "genre": null
+      },
+      {
+        "title": "Markens Grøde",
+        "lang": "nb",
+        "year": 1917,
+        "genre": null
+      },
+      {
+        "title": "Konerne ved Vandposten",
+        "lang": "nb",
+        "year": 1920,
+        "genre": null
+      },
+      {
+        "title": "Siste kapitel",
+        "lang": "nb",
+        "year": 1923,
+        "genre": null
+      },
+      {
+        "title": "Landstrykere",
+        "lang": "nb",
+        "year": 1927,
+        "genre": null
+      },
+      {
+        "title": "August",
+        "lang": "nb",
+        "year": 1930,
+        "genre": null
+      },
+      {
+        "title": "Men livet lever",
+        "lang": "nb",
+        "year": 1933,
+        "genre": null
+      },
+      {
+        "title": "Ringen sluttet",
+        "lang": "nb",
+        "year": 1936,
+        "genre": null
+      },
+      {
+        "title": "Paa gjengrodde Stier",
+        "lang": "nb",
+        "year": 1949,
+        "genre": "Sakprosa"
+      },
+      {
+        "title": "August-trilogien",
+        "lang": "nb",
+        "year": null,
+        "genre": "Roman"
+      },
+      {
+        "title": "Sproget i Fare",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Mordet på Lars Oftedal",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Knut Hamsun's obituary of Adolf Hitler",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Sigrid Undset": {
+    "qid": "Q44306",
+    "works": [
+      {
+        "title": "Grimus",
+        "lang": "en",
+        "year": 1975,
+        "genre": "Roman"
+      },
+      {
+        "title": "Midnight's Children",
+        "lang": "nn",
+        "year": 1981,
+        "genre": "Roman"
+      },
+      {
+        "title": "Shame",
+        "lang": "en",
+        "year": 1983,
+        "genre": null
+      },
+      {
+        "title": "The Jaguar Smile",
+        "lang": "en",
+        "year": 1987,
+        "genre": null
+      },
+      {
+        "title": "Sataniske vers",
+        "lang": "nb",
+        "year": 1988,
+        "genre": "Roman"
+      },
+      {
+        "title": "Haroun and the Sea of Stories",
+        "lang": "en",
+        "year": 1990,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Imaginary Homelands",
+        "lang": "en",
+        "year": 1992,
+        "genre": null
+      },
+      {
+        "title": "East, West",
+        "lang": "en",
+        "year": 1994,
+        "genre": null
+      },
+      {
+        "title": "The Moor's Last Sigh",
+        "lang": "en",
+        "year": 1995,
+        "genre": "Roman"
+      },
+      {
+        "title": "The Ground Beneath Her Feet",
+        "lang": "en",
+        "year": 1999,
+        "genre": null
+      },
+      {
+        "title": "Fury",
+        "lang": "en",
+        "year": 2001,
+        "genre": null
+      },
+      {
+        "title": "Shalimar the Clown",
+        "lang": "en",
+        "year": 2005,
+        "genre": null
+      },
+      {
+        "title": "The Enchantress of Florence",
+        "lang": "en",
+        "year": 2008,
+        "genre": null
+      },
+      {
+        "title": "Luka and the Fire of Life",
+        "lang": "en",
+        "year": 2010,
+        "genre": null
+      },
+      {
+        "title": "Joseph Anton: A Memoir",
+        "lang": "en",
+        "year": 2012,
+        "genre": "Sakprosa"
+      },
+      {
+        "title": "Two Years Eight Months and Twenty-Eight Nights",
+        "lang": "en",
+        "year": 2015,
+        "genre": null
+      },
+      {
+        "title": "The Golden House",
+        "lang": "en",
+        "year": 2017,
+        "genre": null
+      },
+      {
+        "title": "Quichotte",
+        "lang": "en",
+        "year": 2019,
+        "genre": null
+      },
+      {
+        "title": "Victory City",
+        "lang": "en",
+        "year": 2022,
+        "genre": null
+      },
+      {
+        "title": "Knife: Meditations After an Attempted Murder",
+        "lang": "en",
+        "year": null,
+        "genre": "Sakprosa"
+      },
+      {
+        "title": "AIDS Sutra",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Salman Rushdie's Midnight's Children",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The wizard of Oz",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The Screenplay of Midnight's Children",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Languages of Truth",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Bjørnstjerne Bjørnson": {
+    "qid": "Q81960",
+    "works": [
+      {
+        "title": "Another",
+        "lang": "en",
+        "year": 1784,
+        "genre": null
+      },
+      {
+        "title": "Man was made to Mourn",
+        "lang": "en",
+        "year": 1784,
+        "genre": null
+      },
+      {
+        "title": "Poems, Chiefly in the Scottish Dialect.",
+        "lang": "en",
+        "year": 1786,
+        "genre": "Lyrikk"
+      },
+      {
+        "title": "Poor Mallie's Elegy",
+        "lang": "en",
+        "year": 1786,
+        "genre": null
+      },
+      {
+        "title": "Epistle to Davie, A Brother Poet",
+        "lang": "en",
+        "year": 1786,
+        "genre": null
+      },
+      {
+        "title": "Death and Doctor Hornbook",
+        "lang": "en",
+        "year": 1787,
+        "genre": null
+      },
+      {
+        "title": "Address to the Haggis",
+        "lang": "en",
+        "year": 1787,
+        "genre": null
+      },
+      {
+        "title": "McPherson's Farewell",
+        "lang": "en",
+        "year": 1788,
+        "genre": null
+      },
+      {
+        "title": "My Heart's in the Highlands",
+        "lang": "nb",
+        "year": 1789,
+        "genre": null
+      },
+      {
+        "title": "Lament For James",
+        "lang": "en",
+        "year": 1791,
+        "genre": null
+      },
+      {
+        "title": "Tam o' Shanter",
+        "lang": "en",
+        "year": 1791,
+        "genre": "Lyrikk"
+      },
+      {
+        "title": "On Seeing a Wounded Hare limp by me, which a Fellow had just shot at",
+        "lang": "en",
+        "year": 1793,
+        "genre": null
+      },
+      {
+        "title": "Scots Wha Hae",
+        "lang": "nb",
+        "year": 1793,
+        "genre": null
+      },
+      {
+        "title": "The bonnie lass made the bed to me",
+        "lang": "en",
+        "year": 1796,
+        "genre": null
+      },
+      {
+        "title": "Oh, wert thou in the cauld blast",
+        "lang": "en",
+        "year": 1796,
+        "genre": "Lyrikk"
+      },
+      {
+        "title": "Elegy On The Death of Peg Nicholson",
+        "lang": "en",
+        "year": 1808,
+        "genre": null
+      },
+      {
+        "title": "The Ronalds of the Bennals",
+        "lang": "en",
+        "year": 1851,
+        "genre": null
+      },
+      {
+        "title": "The Unselfish Gene",
+        "lang": "en",
+        "year": 2008,
+        "genre": "Roman"
+      },
+      {
+        "title": "My Nanie’s Awa",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Handsome Nell",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Now Westlin' Winds",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Theniel Menzie's bonie Mary",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Her Flowing Locks",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "To Daunton Me",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Duncan Davison",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "When first I came to Stewart Kyle",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Jockie's ta'en the parting kiss",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Jamie, come try me",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Whistle O’er The Lave O’t",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The Parting Kiss",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The Gallant Weaver",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "My love she's but a lassie yet",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "On The Seas And Far Away",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Gudewife, Count The Lawin",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "For The Sake O’ Somebody",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The Flowery Banks Of Cree",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Open The Door To Me, Oh",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "I’m O’er Young To Marry Yet",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Farewell to Ballochmyle",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "To The Weavers Gin Ye Go",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "My Bonie Bell",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The Lovely Lass O’ Inverness",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "O lovely Polly Stewart",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The Highland Widow’s Lament",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The Laddie’s Dear Sel’",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "O’er The Water To Charlie",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Lady Mary Ann",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The Country Lass",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Meg O’ The Mill",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Highland Harry Back Again",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The Highland Laddie",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Charlie, He's My Darling",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Beware O' Bonie Ann",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Does Haughty Gaul Invasion Threat?",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The Jolly Beggars: A Cantata",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Green Grow the Rashes",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Auld Rob Morris",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Damon And Sylvia",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The blue-eyed Lassie",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "No churchman am I",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Camilla Collett": {
+    "qid": "Q243045",
+    "works": [
+      {
+        "title": "Amtmandens Døtre",
+        "lang": "nb",
+        "year": 1854,
+        "genre": null
+      },
+      {
+        "title": "I de lange Nætter",
+        "lang": "nb",
+        "year": 1863,
+        "genre": null
+      }
+    ]
+  },
+  "Alexander Kielland": {
+    "qid": "Q318358",
+    "works": [
+      {
+        "title": "Novelletter",
+        "lang": "nb",
+        "year": 1879,
+        "genre": null
+      },
+      {
+        "title": "Nye Novelletter",
+        "lang": "nb",
+        "year": 1880,
+        "genre": null
+      },
+      {
+        "title": "Garman & Worse",
+        "lang": "nb",
+        "year": 1880,
+        "genre": null
+      },
+      {
+        "title": "Arbeidsfolk",
+        "lang": "nb",
+        "year": 1881,
+        "genre": null
+      },
+      {
+        "title": "Else",
+        "lang": "nb",
+        "year": 1881,
+        "genre": null
+      },
+      {
+        "title": "Skipper Worse",
+        "lang": "nb",
+        "year": 1882,
+        "genre": null
+      },
+      {
+        "title": "To Novelletter fra Danmark",
+        "lang": "nb",
+        "year": 1882,
+        "genre": null
+      },
+      {
+        "title": "Gift",
+        "lang": "nb",
+        "year": 1883,
+        "genre": null
+      },
+      {
+        "title": "Fortuna",
+        "lang": "nb",
+        "year": 1884,
+        "genre": null
+      },
+      {
+        "title": "Sne",
+        "lang": "nb",
+        "year": 1886,
+        "genre": null
+      },
+      {
+        "title": "Sankt Hans Fest",
+        "lang": "nb",
+        "year": 1887,
+        "genre": null
+      },
+      {
+        "title": "Jacob",
+        "lang": "nb",
+        "year": 1891,
+        "genre": null
+      }
+    ]
+  },
+  "Amalie Skram": {
+    "qid": "Q291676",
+    "works": [
+      {
+        "title": "Madam Høiers Leiefolk",
+        "lang": "nb",
+        "year": 1882,
+        "genre": null
+      },
+      {
+        "title": "Constance Ring",
+        "lang": "nb",
+        "year": 1885,
+        "genre": null
+      },
+      {
+        "title": "Karens Jul",
+        "lang": "nb",
+        "year": 1885,
+        "genre": null
+      },
+      {
+        "title": "Sjur Gabriel",
+        "lang": "nb",
+        "year": 1887,
+        "genre": null
+      },
+      {
+        "title": "To venner",
+        "lang": "nb",
+        "year": 1888,
+        "genre": null
+      },
+      {
+        "title": "Lucie",
+        "lang": "nb",
+        "year": 1888,
+        "genre": null
+      },
+      {
+        "title": "S.G. Myre",
+        "lang": "nb",
+        "year": 1890,
+        "genre": null
+      },
+      {
+        "title": "Fru Inés",
+        "lang": "nb",
+        "year": 1891,
+        "genre": null
+      },
+      {
+        "title": "Forraadt",
+        "lang": "nb",
+        "year": 1892,
+        "genre": null
+      },
+      {
+        "title": "Agnete",
+        "lang": "nb",
+        "year": 1893,
+        "genre": null
+      },
+      {
+        "title": "Professor Hieronimus",
+        "lang": "nb",
+        "year": 1895,
+        "genre": null
+      },
+      {
+        "title": "Paa St. Jørgen",
+        "lang": "nb",
+        "year": 1895,
+        "genre": null
+      },
+      {
+        "title": "Afkom",
+        "lang": "nb",
+        "year": 1898,
+        "genre": null
+      },
+      {
+        "title": "Landsforrædere",
+        "lang": "nb",
+        "year": 1901,
+        "genre": null
+      },
+      {
+        "title": "Hellemyrsfolket",
+        "lang": "nb",
+        "year": null,
+        "genre": "Roman"
+      }
+    ]
+  },
+  "Jonas Lie": {
+    "qid": "Q469681",
+    "works": [
+      {
+        "title": "Den fremsynte",
+        "lang": "nb",
+        "year": 1870,
+        "genre": null
+      },
+      {
+        "title": "Tremasteren Fremtiden",
+        "lang": "nb",
+        "year": 1872,
+        "genre": null
+      },
+      {
+        "title": "Losen og hans hustru",
+        "lang": "nb",
+        "year": 1874,
+        "genre": null
+      },
+      {
+        "title": "Gå på!",
+        "lang": "nb",
+        "year": 1882,
+        "genre": null
+      },
+      {
+        "title": "Familien på Gilje",
+        "lang": "nb",
+        "year": 1883,
+        "genre": null
+      },
+      {
+        "title": "En malstrøm",
+        "lang": "nb",
+        "year": 1884,
+        "genre": null
+      },
+      {
+        "title": "Kommandørens døtre",
+        "lang": "nb",
+        "year": 1886,
+        "genre": null
+      },
+      {
+        "title": "Naar sol gaar ned",
+        "lang": "nb",
+        "year": 1895,
+        "genre": null
+      },
+      {
+        "title": "Lindelin",
+        "lang": "nb",
+        "year": 1897,
+        "genre": null
+      },
+      {
+        "title": "Trold",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Arne Garborg": {
+    "qid": "Q467497",
+    "works": [
+      {
+        "title": "Bondestudentar",
+        "lang": "nb",
+        "year": 1883,
+        "genre": null
+      },
+      {
+        "title": "Mannfolk",
+        "lang": "nb",
+        "year": 1886,
+        "genre": null
+      },
+      {
+        "title": "Kolbotnbrev",
+        "lang": "nb",
+        "year": 1890,
+        "genre": null
+      },
+      {
+        "title": "Trætte Mænd",
+        "lang": "nb",
+        "year": 1891,
+        "genre": null
+      },
+      {
+        "title": "Fred",
+        "lang": "nb",
+        "year": 1892,
+        "genre": null
+      },
+      {
+        "title": "Haugtussa",
+        "lang": "nb",
+        "year": 1895,
+        "genre": "Lyrikk"
+      },
+      {
+        "title": "Læraren",
+        "lang": "nb",
+        "year": 1896,
+        "genre": null
+      },
+      {
+        "title": "Maaneskinsmøyane",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "I Helheim",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Sigbjørn Obstfelder": {
+    "qid": "Q539525",
+    "works": []
+  },
+  "Henrik Wergeland": {
+    "qid": "Q351705",
+    "works": [
+      {
+        "title": "Digte. Første Ring",
+        "lang": "nb",
+        "year": 1829,
+        "genre": null
+      },
+      {
+        "title": "Skabelsen, Mennesket og Messias",
+        "lang": "nb",
+        "year": 1830,
+        "genre": null
+      },
+      {
+        "title": "Spaniolen",
+        "lang": "nb",
+        "year": 1833,
+        "genre": "Lyrikk"
+      },
+      {
+        "title": "Papegøien",
+        "lang": "nb",
+        "year": 1835,
+        "genre": null
+      },
+      {
+        "title": "De Sidste Kloge",
+        "lang": "nb",
+        "year": 1835,
+        "genre": null
+      },
+      {
+        "title": "Jan van Huysums Blomsterstykke",
+        "lang": "nb",
+        "year": 1840,
+        "genre": null
+      },
+      {
+        "title": "Mig Selv",
+        "lang": "nb",
+        "year": 1841,
+        "genre": null
+      },
+      {
+        "title": "Svalen",
+        "lang": "nb",
+        "year": 1841,
+        "genre": null
+      },
+      {
+        "title": "Jødesagen i det norske storthing",
+        "lang": "nb",
+        "year": 1842,
+        "genre": null
+      },
+      {
+        "title": "Jøden",
+        "lang": "nb",
+        "year": 1842,
+        "genre": null
+      },
+      {
+        "title": "Jødinden",
+        "lang": "nb",
+        "year": 1844,
+        "genre": null
+      },
+      {
+        "title": "Den engelske Lods",
+        "lang": "nb",
+        "year": 1844,
+        "genre": null
+      },
+      {
+        "title": "Hassel-Nødder",
+        "lang": "nb",
+        "year": 1845,
+        "genre": null
+      },
+      {
+        "title": "Til min Gyldenlak",
+        "lang": "nb",
+        "year": 1845,
+        "genre": null
+      },
+      {
+        "title": "Mennesket",
+        "lang": "nb",
+        "year": 1845,
+        "genre": null
+      },
+      {
+        "title": "Det befriede Europa 1831",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Eivindvig",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Digte. Anden Ring",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Poesier",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "De tre",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Irreparabile tempus",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Følg Kaldet",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Aasmund Olavsson Vinje": {
+    "qid": "Q513454",
+    "works": []
+  },
+  "Aksel Sandemose": {
+    "qid": "Q371019",
+    "works": [
+      {
+        "title": "Klabautermanden",
+        "lang": "nb",
+        "year": 1927,
+        "genre": null
+      },
+      {
+        "title": "En sjømann går i land",
+        "lang": "nb",
+        "year": 1931,
+        "genre": null
+      },
+      {
+        "title": "En flyktning krysser sitt spor",
+        "lang": "nb",
+        "year": 1933,
+        "genre": null
+      },
+      {
+        "title": "Vi pynter oss med horn",
+        "lang": "nb",
+        "year": 1936,
+        "genre": null
+      },
+      {
+        "title": "Varulven",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Cora Sandel": {
+    "qid": "Q287727",
+    "works": [
+      {
+        "title": "Alberte og Jakob",
+        "lang": "nb",
+        "year": 1926,
+        "genre": null
+      },
+      {
+        "title": "Alberte og friheten",
+        "lang": "nb",
+        "year": 1931,
+        "genre": null
+      },
+      {
+        "title": "Bare Alberte",
+        "lang": "nb",
+        "year": 1939,
+        "genre": null
+      },
+      {
+        "title": "Kranes konditori",
+        "lang": "nb",
+        "year": 1945,
+        "genre": null
+      },
+      {
+        "title": "Figurer på mørk bunn",
+        "lang": "nb",
+        "year": 1949,
+        "genre": null
+      },
+      {
+        "title": "Alberte-trilogien",
+        "lang": "nb",
+        "year": null,
+        "genre": "Roman"
+      }
+    ]
+  },
+  "Olav Duun": {
+    "qid": "Q721763",
+    "works": [
+      {
+        "title": "Løglege skruvar og anna folk",
+        "lang": "nb",
+        "year": 1907,
+        "genre": null
+      },
+      {
+        "title": "Marjane",
+        "lang": "nb",
+        "year": 1908,
+        "genre": null
+      },
+      {
+        "title": "På tvert",
+        "lang": "nb",
+        "year": 1909,
+        "genre": null
+      },
+      {
+        "title": "Nøkksjølia",
+        "lang": "nb",
+        "year": 1910,
+        "genre": null
+      },
+      {
+        "title": "Gamal jord",
+        "lang": "nb",
+        "year": 1911,
+        "genre": null
+      },
+      {
+        "title": "Hilderøya",
+        "lang": "nb",
+        "year": 1912,
+        "genre": null
+      },
+      {
+        "title": "Storbåten",
+        "lang": "nb",
+        "year": 1912,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Sigyn",
+        "lang": "nb",
+        "year": 1913,
+        "genre": null
+      },
+      {
+        "title": "Sommar-eventyr",
+        "lang": "nb",
+        "year": 1913,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Tre venner",
+        "lang": "nb",
+        "year": 1914,
+        "genre": null
+      },
+      {
+        "title": "Harald",
+        "lang": "nb",
+        "year": 1915,
+        "genre": null
+      },
+      {
+        "title": "Det gode samvitet",
+        "lang": "nb",
+        "year": 1916,
+        "genre": null
+      },
+      {
+        "title": "På Lyngsøya",
+        "lang": "nb",
+        "year": 1917,
+        "genre": null
+      },
+      {
+        "title": "Juvikingar",
+        "lang": "nb",
+        "year": 1918,
+        "genre": null
+      },
+      {
+        "title": "I blinda",
+        "lang": "nb",
+        "year": 1919,
+        "genre": null
+      },
+      {
+        "title": "Storbrylloppe",
+        "lang": "nb",
+        "year": 1920,
+        "genre": null
+      },
+      {
+        "title": "I eventyre",
+        "lang": "nb",
+        "year": 1921,
+        "genre": null
+      },
+      {
+        "title": "I ungdommen",
+        "lang": "nb",
+        "year": 1922,
+        "genre": null
+      },
+      {
+        "title": "I stormen",
+        "lang": "nb",
+        "year": 1923,
+        "genre": null
+      },
+      {
+        "title": "Blind-Anders",
+        "lang": "nb",
+        "year": 1924,
+        "genre": null
+      },
+      {
+        "title": "Straumen og evja",
+        "lang": "nb",
+        "year": 1926,
+        "genre": null
+      },
+      {
+        "title": "Olsøygutane",
+        "lang": "nb",
+        "year": 1927,
+        "genre": null
+      },
+      {
+        "title": "Carolus Magnus",
+        "lang": "nb",
+        "year": 1928,
+        "genre": null
+      },
+      {
+        "title": "Medmenneske",
+        "lang": "nb",
+        "year": 1929,
+        "genre": null
+      },
+      {
+        "title": "Vegar og villstig",
+        "lang": "nb",
+        "year": 1930,
+        "genre": null
+      },
+      {
+        "title": "Ragnhild",
+        "lang": "nb",
+        "year": 1931,
+        "genre": null
+      },
+      {
+        "title": "Ettermæle",
+        "lang": "nb",
+        "year": 1932,
+        "genre": null
+      },
+      {
+        "title": "Siste leveåre",
+        "lang": "nb",
+        "year": 1933,
+        "genre": null
+      },
+      {
+        "title": "Gud smiler",
+        "lang": "nb",
+        "year": 1935,
+        "genre": null
+      },
+      {
+        "title": "Samtid",
+        "lang": "nb",
+        "year": 1936,
+        "genre": null
+      },
+      {
+        "title": "Mennesket og maktene",
+        "lang": "nb",
+        "year": 1938,
+        "genre": null
+      },
+      {
+        "title": "Tredje gongen og andre fortelingar",
+        "lang": "nb",
+        "year": 1976,
+        "genre": null
+      },
+      {
+        "title": "Juvikfolket",
+        "lang": "nb",
+        "year": null,
+        "genre": "Roman"
+      }
+    ]
+  },
+  "Johan Falkberget": {
+    "qid": "Q721749",
+    "works": [
+      {
+        "title": "Eli Sjursdotter",
+        "lang": "nb",
+        "year": 1913,
+        "genre": null
+      },
+      {
+        "title": "Bør Børson Jr.",
+        "lang": "nb",
+        "year": 1920,
+        "genre": null
+      },
+      {
+        "title": "Den fjerde nattevakt",
+        "lang": "nb",
+        "year": 1923,
+        "genre": null
+      },
+      {
+        "title": "Solfrid i Bjørnstu og de syv svende",
+        "lang": "nb",
+        "year": 1928,
+        "genre": null
+      },
+      {
+        "title": "An-Magritt",
+        "lang": "nb",
+        "year": 1940,
+        "genre": null
+      },
+      {
+        "title": "Plogjernet",
+        "lang": "nb",
+        "year": 1946,
+        "genre": null
+      },
+      {
+        "title": "Johannes",
+        "lang": "nb",
+        "year": 1952,
+        "genre": null
+      },
+      {
+        "title": "Kjærlighets veier",
+        "lang": "nb",
+        "year": 1959,
+        "genre": null
+      },
+      {
+        "title": "Christianus Sextus",
+        "lang": "nb",
+        "year": null,
+        "genre": "Roman"
+      },
+      {
+        "title": "Nattens brød",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Kristofer Uppdal": {
+    "qid": "Q2626726",
+    "works": [
+      {
+        "title": "Dansen gjenom skuggeheimen",
+        "lang": "nb",
+        "year": 1911,
+        "genre": null
+      },
+      {
+        "title": "Trolldom i lufta",
+        "lang": "nb",
+        "year": 1912,
+        "genre": null
+      },
+      {
+        "title": "Røysingfolke",
+        "lang": "nb",
+        "year": 1914,
+        "genre": null
+      },
+      {
+        "title": "Stigeren",
+        "lang": "nb",
+        "year": 1919,
+        "genre": null
+      },
+      {
+        "title": "Kongen",
+        "lang": "nb",
+        "year": 1920,
+        "genre": null
+      },
+      {
+        "title": "Domkyrkjebyggjaren",
+        "lang": "nb",
+        "year": 1921,
+        "genre": null
+      },
+      {
+        "title": "I skiftet",
+        "lang": "nb",
+        "year": 1922,
+        "genre": null
+      },
+      {
+        "title": "Vandringa",
+        "lang": "nb",
+        "year": 1923,
+        "genre": null
+      },
+      {
+        "title": "Fjellskjeringa",
+        "lang": "nb",
+        "year": 1924,
+        "genre": null
+      },
+      {
+        "title": "Herdsla",
+        "lang": "nb",
+        "year": 1924,
+        "genre": null
+      }
+    ]
+  },
+  "Sigurd Hoel": {
+    "qid": "Q138650",
+    "works": [
+      {
+        "title": "Syndere i sommersol",
+        "lang": "nb",
+        "year": 1927,
+        "genre": null
+      },
+      {
+        "title": "En dag i oktober",
+        "lang": "nb",
+        "year": 1931,
+        "genre": null
+      },
+      {
+        "title": "Fjorten dager før frostnettene",
+        "lang": "nb",
+        "year": 1935,
+        "genre": null
+      },
+      {
+        "title": "Møte ved milepelen",
+        "lang": "nb",
+        "year": 1947,
+        "genre": null
+      },
+      {
+        "title": "Stevnemøte med glemte år",
+        "lang": "nb",
+        "year": 1954,
+        "genre": null
+      },
+      {
+        "title": "Trollringen",
+        "lang": "nb",
+        "year": 1958,
+        "genre": null
+      }
+    ]
+  },
+  "Arnulf Øverland": {
+    "qid": "Q571691",
+    "works": [
+      {
+        "title": "Hustavler",
+        "lang": "nb",
+        "year": 1929,
+        "genre": null
+      },
+      {
+        "title": "Jul i Sachsenhausen",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Du må ikke sove",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Nordahl Grieg": {
+    "qid": "Q381734",
+    "works": [
+      {
+        "title": "Rundt Kap det gode Håp: Vers fra sjøen",
+        "lang": "nb",
+        "year": 1922,
+        "genre": null
+      },
+      {
+        "title": "Bergenstoget plyndret i natt",
+        "lang": "nb",
+        "year": 1923,
+        "genre": "Krim"
+      },
+      {
+        "title": "Skibet gaar videre",
+        "lang": "nb",
+        "year": 1924,
+        "genre": null
+      },
+      {
+        "title": "Norge i våre hjerter",
+        "lang": "nb",
+        "year": 1929,
+        "genre": null
+      },
+      {
+        "title": "Vår ære og vår makt",
+        "lang": "nb",
+        "year": 1935,
+        "genre": null
+      },
+      {
+        "title": "Nederlaget",
+        "lang": "nb",
+        "year": 1937,
+        "genre": null
+      },
+      {
+        "title": "Ung må verden ennu være",
+        "lang": "nb",
+        "year": 1938,
+        "genre": null
+      },
+      {
+        "title": "Friheten",
+        "lang": "nb",
+        "year": 1943,
+        "genre": null
+      },
+      {
+        "title": "Flagget",
+        "lang": "nb",
+        "year": 1945,
+        "genre": null
+      },
+      {
+        "title": "17 mai 1940",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Rolf Jacobsen": {
+    "qid": "Q1888602",
+    "works": [
+      {
+        "title": "Hemmelig liv",
+        "lang": "nb",
+        "year": 1954,
+        "genre": null
+      },
+      {
+        "title": "Jord og jern",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Olav H. Hauge": {
+    "qid": "Q1339990",
+    "works": []
+  },
+  "Inger Hagerup": {
+    "qid": "Q263004",
+    "works": [
+      {
+        "title": "Våre små søsken",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Agnar Mykle": {
+    "qid": "Q394358",
+    "works": [
+      {
+        "title": "Lasso rundt fru Luna",
+        "lang": "nb",
+        "year": 1954,
+        "genre": null
+      },
+      {
+        "title": "Sangen om den røde rubin",
+        "lang": "nb",
+        "year": 1956,
+        "genre": null
+      }
+    ]
+  },
+  "Jens Bjørneboe": {
+    "qid": "Q558044",
+    "works": [
+      {
+        "title": "Før hanen galer",
+        "lang": "nb",
+        "year": 1952,
+        "genre": null
+      },
+      {
+        "title": "Jonas",
+        "lang": "nb",
+        "year": 1955,
+        "genre": null
+      },
+      {
+        "title": "Under en hårdere himmel",
+        "lang": "nb",
+        "year": 1957,
+        "genre": null
+      },
+      {
+        "title": "Vinter i Bellapalma",
+        "lang": "nb",
+        "year": 1958,
+        "genre": null
+      },
+      {
+        "title": "Blåmann",
+        "lang": "nb",
+        "year": 1959,
+        "genre": null
+      },
+      {
+        "title": "Den onde hyrde",
+        "lang": "nb",
+        "year": 1960,
+        "genre": null
+      },
+      {
+        "title": "Drømmen og hjulet",
+        "lang": "nb",
+        "year": 1964,
+        "genre": null
+      },
+      {
+        "title": "Frihetens øyeblikk",
+        "lang": "nb",
+        "year": 1966,
+        "genre": null
+      },
+      {
+        "title": "Uten en tråd",
+        "lang": "nb",
+        "year": 1966,
+        "genre": null
+      },
+      {
+        "title": "Kruttårnet",
+        "lang": "nb",
+        "year": 1969,
+        "genre": null
+      },
+      {
+        "title": "Stillheten",
+        "lang": "nb",
+        "year": 1973,
+        "genre": null
+      },
+      {
+        "title": "Haiene",
+        "lang": "nb",
+        "year": 1974,
+        "genre": null
+      },
+      {
+        "title": "Fugleelskerne",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Tilfellet Torgersen",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Bestialitetens historie",
+        "lang": "nb",
+        "year": null,
+        "genre": "Roman"
+      }
+    ]
+  },
+  "Kjell Askildsen": {
+    "qid": "Q721753",
+    "works": [
+      {
+        "title": "Davids bror",
+        "lang": "nb",
+        "year": 1957,
+        "genre": null
+      },
+      {
+        "title": "Thomas F's siste nedtegnelser til almenheten",
+        "lang": "nb",
+        "year": 1983,
+        "genre": null
+      }
+    ]
+  },
+  "Dag Solstad": {
+    "qid": "Q469966",
+    "works": [
+      {
+        "title": "Irr! Grønt!",
+        "lang": "nb",
+        "year": 1969,
+        "genre": null
+      },
+      {
+        "title": "Arild Asnes, 1970",
+        "lang": "nb",
+        "year": 1971,
+        "genre": null
+      },
+      {
+        "title": "Dag Solstad. Et festskrift til 30-årsdagen 16 juli 1971",
+        "lang": "nb",
+        "year": 1971,
+        "genre": null
+      },
+      {
+        "title": "25. septemberplassen",
+        "lang": "nb",
+        "year": 1974,
+        "genre": null
+      },
+      {
+        "title": "Tilbake til Pelle Erobreren?",
+        "lang": "nb",
+        "year": 1977,
+        "genre": null
+      },
+      {
+        "title": "Krig. 1940",
+        "lang": "nb",
+        "year": 1978,
+        "genre": null
+      },
+      {
+        "title": "Gymnaslærer Pedersens beretning om den store politiske vekkelsen som har hjemsøkt vårt land",
+        "lang": "nb",
+        "year": 1982,
+        "genre": null
+      },
+      {
+        "title": "Forsøk på å beskrive det ugjennomtrengelige",
+        "lang": "nb",
+        "year": 1984,
+        "genre": null
+      },
+      {
+        "title": "Roman 1987",
+        "lang": "nb",
+        "year": 1987,
+        "genre": null
+      },
+      {
+        "title": "Medaljens forside",
+        "lang": "nb",
+        "year": 1990,
+        "genre": null
+      },
+      {
+        "title": "Ellevte roman, bok atten",
+        "lang": "nb",
+        "year": 1992,
+        "genre": null
+      },
+      {
+        "title": "Genanse og verdighet",
+        "lang": "nb",
+        "year": 1994,
+        "genre": null
+      },
+      {
+        "title": "T. Singer",
+        "lang": "nb",
+        "year": 1999,
+        "genre": null
+      },
+      {
+        "title": "Det uoppløselige episke element i Telemark i perioden 1591–1896",
+        "lang": "nb",
+        "year": 2013,
+        "genre": null
+      },
+      {
+        "title": "Endelig! Lykken – Og mitt forsøk, i 2022, på å utholde smerten ved tidens herjinger",
+        "lang": "nb",
+        "year": 2025,
+        "genre": null
+      },
+      {
+        "title": "Artikler om litteratur 1966-1981",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Tarjei Vesaas": {
+    "qid": "Q381443",
+    "works": [
+      {
+        "title": "Dei svarte hestane",
+        "lang": "nb",
+        "year": 1928,
+        "genre": null
+      },
+      {
+        "title": "Kimen",
+        "lang": "nb",
+        "year": 1940,
+        "genre": null
+      },
+      {
+        "title": "Huset i mørkret",
+        "lang": "nb",
+        "year": 1945,
+        "genre": null
+      },
+      {
+        "title": "Vårnatt",
+        "lang": "nb",
+        "year": 1954,
+        "genre": null
+      },
+      {
+        "title": "Fuglane",
+        "lang": "nb",
+        "year": 1957,
+        "genre": null
+      },
+      {
+        "title": "Brannen",
+        "lang": "nb",
+        "year": 1961,
+        "genre": null
+      },
+      {
+        "title": "Is-slottet",
+        "lang": "nb",
+        "year": 1963,
+        "genre": null
+      },
+      {
+        "title": "Båten om kvelden",
+        "lang": "nb",
+        "year": 1968,
+        "genre": null
+      }
+    ]
+  },
+  "Jon Fosse": {
+    "qid": "Q443868",
+    "works": [
+      {
+        "title": "Melancholia I",
+        "lang": "nb",
+        "year": 1995,
+        "genre": null
+      },
+      {
+        "title": "Namnet",
+        "lang": "nb",
+        "year": 1995,
+        "genre": null
+      },
+      {
+        "title": "Melancholia II",
+        "lang": "nb",
+        "year": 1996,
+        "genre": null
+      },
+      {
+        "title": "Morgon og kveld",
+        "lang": "nb",
+        "year": 2000,
+        "genre": null
+      },
+      {
+        "title": "Aliss at the Fire",
+        "lang": "en",
+        "year": 2004,
+        "genre": null
+      },
+      {
+        "title": "Andvake",
+        "lang": "nb",
+        "year": 2007,
+        "genre": null
+      },
+      {
+        "title": "Olavs draumar",
+        "lang": "nb",
+        "year": 2012,
+        "genre": null
+      },
+      {
+        "title": "Kveldsvævd",
+        "lang": "nb",
+        "year": 2014,
+        "genre": null
+      },
+      {
+        "title": "The Other Name: Septology I - II",
+        "lang": "en",
+        "year": 2019,
+        "genre": null
+      },
+      {
+        "title": "A New Name: Septology VI–VII",
+        "lang": "en",
+        "year": 2021,
+        "genre": null
+      },
+      {
+        "title": "A Shining",
+        "lang": "en",
+        "year": 2023,
+        "genre": null
+      },
+      {
+        "title": "Septologien",
+        "lang": "nb",
+        "year": null,
+        "genre": "Roman"
+      },
+      {
+        "title": "Nokon kjem til å kome",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Draum om hausten",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Natta syng sine songar",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Eg er vinden",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Karl Ove Knausgård": {
+    "qid": "Q609317",
+    "works": [
+      {
+        "title": "Ute av verden",
+        "lang": "nb",
+        "year": 1998,
+        "genre": null
+      },
+      {
+        "title": "En tid for alt",
+        "lang": "nb",
+        "year": 2004,
+        "genre": null
+      },
+      {
+        "title": "Min kamp. Andre bok",
+        "lang": "nb",
+        "year": 2009,
+        "genre": null
+      },
+      {
+        "title": "Min kamp. Første bok",
+        "lang": "nb",
+        "year": 2009,
+        "genre": null
+      },
+      {
+        "title": "Min kamp. Tredje bok",
+        "lang": "nb",
+        "year": 2009,
+        "genre": null
+      },
+      {
+        "title": "Min kamp",
+        "lang": "nb",
+        "year": 2009,
+        "genre": "Sakprosa"
+      },
+      {
+        "title": "Min kamp. Femte bok",
+        "lang": "nb",
+        "year": 2010,
+        "genre": null
+      },
+      {
+        "title": "Min kamp. Fjerde bok",
+        "lang": "nb",
+        "year": 2010,
+        "genre": null
+      },
+      {
+        "title": "Min kamp. Sjette bok",
+        "lang": "nb",
+        "year": 2011,
+        "genre": null
+      },
+      {
+        "title": "Morgenstjernen",
+        "lang": "nb",
+        "year": 2020,
+        "genre": null
+      },
+      {
+        "title": "The Third Realm",
+        "lang": "en",
+        "year": 2022,
+        "genre": null
+      },
+      {
+        "title": "The Wolves of Eternity",
+        "lang": "en",
+        "year": 2023,
+        "genre": null
+      },
+      {
+        "title": "The School of Night",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Per Petterson": {
+    "qid": "Q70155",
+    "works": [
+      {
+        "title": "Aske i munnen, sand i skoa",
+        "lang": "nb",
+        "year": 1987,
+        "genre": null
+      },
+      {
+        "title": "Ekkoland",
+        "lang": "nb",
+        "year": 1989,
+        "genre": null
+      },
+      {
+        "title": "Det er greit for meg",
+        "lang": "nb",
+        "year": 1992,
+        "genre": null
+      },
+      {
+        "title": "Ut og stjæle hester",
+        "lang": "nb",
+        "year": 2003,
+        "genre": null
+      },
+      {
+        "title": "Jeg forbanner tidens elv",
+        "lang": "nb",
+        "year": 2008,
+        "genre": null
+      }
+    ]
+  },
+  "Herbjørg Wassmo": {
+    "qid": "Q255359",
+    "works": [
+      {
+        "title": "Tora",
+        "lang": "nb",
+        "year": 1981,
+        "genre": null
+      },
+      {
+        "title": "Huset med den blinde glassveranda",
+        "lang": "nb",
+        "year": 1981,
+        "genre": null
+      },
+      {
+        "title": "Det stumme rommet",
+        "lang": "nb",
+        "year": 1983,
+        "genre": null
+      },
+      {
+        "title": "Veien å gå",
+        "lang": "nb",
+        "year": 1984,
+        "genre": null
+      },
+      {
+        "title": "Hudløs himmel",
+        "lang": "nb",
+        "year": 1987,
+        "genre": null
+      },
+      {
+        "title": "Dina",
+        "lang": "nb",
+        "year": 1989,
+        "genre": "Roman"
+      },
+      {
+        "title": "Dinas bok",
+        "lang": "nb",
+        "year": 1989,
+        "genre": null
+      },
+      {
+        "title": "Lykkens sønn",
+        "lang": "nb",
+        "year": 1992,
+        "genre": null
+      },
+      {
+        "title": "Karnas arv",
+        "lang": "nb",
+        "year": 1997,
+        "genre": null
+      },
+      {
+        "title": "Et glass melk takk",
+        "lang": "nb",
+        "year": 2006,
+        "genre": null
+      }
+    ]
+  },
+  "Lars Saabye Christensen": {
+    "qid": "Q366281",
+    "works": [
+      {
+        "title": "Beatles",
+        "lang": "nb",
+        "year": 1984,
+        "genre": null
+      },
+      {
+        "title": "Herman",
+        "lang": "nb",
+        "year": 1988,
+        "genre": null
+      },
+      {
+        "title": "Gutten som ville være en av gutta",
+        "lang": "nb",
+        "year": 1992,
+        "genre": null
+      },
+      {
+        "title": "Halvbroren",
+        "lang": "nb",
+        "year": 2001,
+        "genre": null
+      },
+      {
+        "title": "Maskeblomstfamilien",
+        "lang": "nb",
+        "year": 2003,
+        "genre": null
+      },
+      {
+        "title": "Bly",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Amatøren",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Bisettelsen",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Modellen",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Roy Jacobsen": {
+    "qid": "Q1395092",
+    "works": [
+      {
+        "title": "Seierherrene",
+        "lang": "nb",
+        "year": 1991,
+        "genre": null
+      },
+      {
+        "title": "Hoggerne",
+        "lang": "nb",
+        "year": 2005,
+        "genre": null
+      },
+      {
+        "title": "De Usynlige",
+        "lang": "nb",
+        "year": 2017,
+        "genre": null
+      }
+    ]
+  },
+  "Erlend Loe": {
+    "qid": "Q278285",
+    "works": [
+      {
+        "title": "Tatt av kvinnen",
+        "lang": "nb",
+        "year": 1993,
+        "genre": null
+      },
+      {
+        "title": "Kurt blir grusom",
+        "lang": "nb",
+        "year": 1995,
+        "genre": null
+      },
+      {
+        "title": "Naiv.Super.",
+        "lang": "nb",
+        "year": 1996,
+        "genre": null
+      },
+      {
+        "title": "Kurt quo vadis?",
+        "lang": "nb",
+        "year": 1998,
+        "genre": null
+      },
+      {
+        "title": "L",
+        "lang": "nb",
+        "year": 1999,
+        "genre": null
+      },
+      {
+        "title": "Fakta om Finland",
+        "lang": "nb",
+        "year": 2001,
+        "genre": null
+      },
+      {
+        "title": "Doppler",
+        "lang": "nb",
+        "year": 2004,
+        "genre": null
+      },
+      {
+        "title": "Volvo Lastvagnar",
+        "lang": "nb",
+        "year": 2005,
+        "genre": null
+      },
+      {
+        "title": "Muleum",
+        "lang": "nb",
+        "year": 2007,
+        "genre": null
+      },
+      {
+        "title": "Kurtby",
+        "lang": "nb",
+        "year": 2008,
+        "genre": null
+      },
+      {
+        "title": "Stille dager i Mixing Part",
+        "lang": "nb",
+        "year": 2009,
+        "genre": null
+      },
+      {
+        "title": "Fvonk",
+        "lang": "nb",
+        "year": 2011,
+        "genre": null
+      },
+      {
+        "title": "Vareopptelling",
+        "lang": "nb",
+        "year": 2013,
+        "genre": null
+      },
+      {
+        "title": "Slutten på verden slik vi kjenner den",
+        "lang": "nb",
+        "year": 2015,
+        "genre": null
+      },
+      {
+        "title": "Erlend Loes bibliografi",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Vigdis Hjorth": {
+    "qid": "Q2615981",
+    "works": [
+      {
+        "title": "Jørgen + Anne er sant",
+        "lang": "nb",
+        "year": 1984,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Om bare",
+        "lang": "nb",
+        "year": 2001,
+        "genre": null
+      },
+      {
+        "title": "Arv og miljø",
+        "lang": "nn",
+        "year": 2016,
+        "genre": null
+      },
+      {
+        "title": "Long Live the Post Horn!",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Hanne Ørstavik": {
+    "qid": "Q299347",
+    "works": [
+      {
+        "title": "Kjærlighet",
+        "lang": "nb",
+        "year": 1997,
+        "genre": null
+      }
+    ]
+  },
+  "Kjartan Fløgstad": {
+    "qid": "Q982892",
+    "works": [
+      {
+        "title": "Dalen Portland",
+        "lang": "nb",
+        "year": 1977,
+        "genre": null
+      },
+      {
+        "title": "Fyr og flamme",
+        "lang": "nb",
+        "year": 1980,
+        "genre": null
+      },
+      {
+        "title": "Kron og mynt",
+        "lang": "nb",
+        "year": 1998,
+        "genre": null
+      },
+      {
+        "title": "Grand Manila",
+        "lang": "nb",
+        "year": 2006,
+        "genre": null
+      }
+    ]
+  },
+  "Jan Kjærstad": {
+    "qid": "Q473196",
+    "works": [
+      {
+        "title": "Homo falsus, eller Det perfekte mord",
+        "lang": "nb",
+        "year": 1984,
+        "genre": null
+      },
+      {
+        "title": "Forføreren",
+        "lang": "nb",
+        "year": 1993,
+        "genre": null
+      },
+      {
+        "title": "Erobreren",
+        "lang": "nb",
+        "year": 1996,
+        "genre": null
+      },
+      {
+        "title": "Oppdageren",
+        "lang": "nb",
+        "year": 1999,
+        "genre": null
+      },
+      {
+        "title": "Kongen av Europa",
+        "lang": "nb",
+        "year": 2005,
+        "genre": null
+      },
+      {
+        "title": "Slekters gang",
+        "lang": "nb",
+        "year": 2015,
+        "genre": null
+      },
+      {
+        "title": "Berge",
+        "lang": "nb",
+        "year": 2017,
+        "genre": null
+      }
+    ]
+  },
+  "Jo Nesbø": {
+    "qid": "Q202693",
+    "works": [
+      {
+        "title": "Flaggermusmannen",
+        "lang": "nb",
+        "year": 1997,
+        "genre": "Krim"
+      },
+      {
+        "title": "Kakerlakkene",
+        "lang": "nb",
+        "year": 1998,
+        "genre": "Krim"
+      },
+      {
+        "title": "Stemmer fra Balkan",
+        "lang": "nb",
+        "year": 1999,
+        "genre": null
+      },
+      {
+        "title": "Rødstrupe",
+        "lang": "nb",
+        "year": 2000,
+        "genre": "Krim"
+      },
+      {
+        "title": "Karusellmusikk",
+        "lang": "nb",
+        "year": 2001,
+        "genre": null
+      },
+      {
+        "title": "Sorgenfri",
+        "lang": "nb",
+        "year": 2002,
+        "genre": "Krim"
+      },
+      {
+        "title": "Marekors",
+        "lang": "nb",
+        "year": 2003,
+        "genre": "Krim"
+      },
+      {
+        "title": "Frelseren",
+        "lang": "nb",
+        "year": 2005,
+        "genre": "Krim"
+      },
+      {
+        "title": "Doktor Proktors prompepulver",
+        "lang": "nb",
+        "year": 2007,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Snømannen",
+        "lang": "nb",
+        "year": 2007,
+        "genre": "Krim"
+      },
+      {
+        "title": "Hodejegerne",
+        "lang": "nb",
+        "year": 2008,
+        "genre": "Krim"
+      },
+      {
+        "title": "Doktor Proktors tidsbadekar",
+        "lang": "nb",
+        "year": 2008,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Panserhjerte",
+        "lang": "nb",
+        "year": 2009,
+        "genre": "Krim"
+      },
+      {
+        "title": "Doktor Proktor og verdens undergang. Kanskje",
+        "lang": "nb",
+        "year": 2010,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Gjenferd",
+        "lang": "nb",
+        "year": 2011,
+        "genre": "Krim"
+      },
+      {
+        "title": "Doktor Proktor og det store gullrøveriet",
+        "lang": "nb",
+        "year": 2012,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Politi",
+        "lang": "nb",
+        "year": 2013,
+        "genre": "Krim"
+      },
+      {
+        "title": "Sønnen",
+        "lang": "nb",
+        "year": 2014,
+        "genre": "Krim"
+      },
+      {
+        "title": "Midnight Sun",
+        "lang": "en",
+        "year": 2015,
+        "genre": null
+      },
+      {
+        "title": "Blod på snø",
+        "lang": "nb",
+        "year": 2015,
+        "genre": null
+      },
+      {
+        "title": "Kan doktor Proktor redde jula?",
+        "lang": "nb",
+        "year": 2016,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Tørst",
+        "lang": "nb",
+        "year": 2017,
+        "genre": "Krim"
+      },
+      {
+        "title": "Macbeth",
+        "lang": "nb",
+        "year": 2018,
+        "genre": null
+      },
+      {
+        "title": "Kniv",
+        "lang": "nb",
+        "year": 2019,
+        "genre": "Krim"
+      },
+      {
+        "title": "Kongeriket",
+        "lang": "nb",
+        "year": 2020,
+        "genre": "Krim"
+      },
+      {
+        "title": "Rotteøya og andre fortellinger",
+        "lang": "nb",
+        "year": 2021,
+        "genre": null
+      },
+      {
+        "title": "Sjalusimannen og andre fortellinger",
+        "lang": "nb",
+        "year": 2021,
+        "genre": null
+      },
+      {
+        "title": "Blodmåne",
+        "lang": "nb",
+        "year": 2022,
+        "genre": "Krim"
+      },
+      {
+        "title": "Kongen av Os",
+        "lang": "nb",
+        "year": 2024,
+        "genre": "Krim"
+      },
+      {
+        "title": "Minnesota",
+        "lang": "nb",
+        "year": 2025,
+        "genre": "Krim"
+      },
+      {
+        "title": "Harry Hole",
+        "lang": "nb",
+        "year": null,
+        "genre": "Krim"
+      },
+      {
+        "title": "Blood Ties",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The Night House",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Karin Fossum": {
+    "qid": "Q256789",
+    "works": [
+      {
+        "title": "Evas øye",
+        "lang": "nb",
+        "year": 1995,
+        "genre": null
+      },
+      {
+        "title": "Se deg ikke tilbake!",
+        "lang": "nb",
+        "year": 1996,
+        "genre": "Krim"
+      },
+      {
+        "title": "Den som frykter ulven",
+        "lang": "nb",
+        "year": 1997,
+        "genre": "Krim"
+      },
+      {
+        "title": "Djevelen holder lyset",
+        "lang": "nb",
+        "year": 1998,
+        "genre": "Krim"
+      },
+      {
+        "title": "De gales hus",
+        "lang": "nb",
+        "year": 1999,
+        "genre": null
+      },
+      {
+        "title": "Elskede Poona",
+        "lang": "nb",
+        "year": 2000,
+        "genre": "Krim"
+      },
+      {
+        "title": "Svarte sekunder",
+        "lang": "nb",
+        "year": 2002,
+        "genre": "Krim"
+      },
+      {
+        "title": "Drapet på Harriet Krohn",
+        "lang": "nb",
+        "year": 2004,
+        "genre": null
+      },
+      {
+        "title": "Brudd",
+        "lang": "nb",
+        "year": 2006,
+        "genre": null
+      },
+      {
+        "title": "Bad Intentions",
+        "lang": "en",
+        "year": 2008,
+        "genre": null
+      },
+      {
+        "title": "Varsleren",
+        "lang": "nb",
+        "year": 2009,
+        "genre": "Krim"
+      },
+      {
+        "title": "Helvetesilden",
+        "lang": "nb",
+        "year": 2014,
+        "genre": "Krim"
+      }
+    ]
+  },
+  "Anne Holt": {
+    "qid": "Q256763",
+    "works": [
+      {
+        "title": "Blind gudinne",
+        "lang": "nb",
+        "year": 1993,
+        "genre": "Krim"
+      },
+      {
+        "title": "Salige er de som tørster",
+        "lang": "nb",
+        "year": 1994,
+        "genre": null
+      },
+      {
+        "title": "Demonens død",
+        "lang": "nb",
+        "year": 1995,
+        "genre": null
+      },
+      {
+        "title": "Løvens gap",
+        "lang": "nb",
+        "year": 1997,
+        "genre": null
+      },
+      {
+        "title": "Død joker",
+        "lang": "nb",
+        "year": 1999,
+        "genre": null
+      },
+      {
+        "title": "Uten ekko",
+        "lang": "nb",
+        "year": 2000,
+        "genre": null
+      },
+      {
+        "title": "Det som er mitt",
+        "lang": "nb",
+        "year": 2001,
+        "genre": null
+      },
+      {
+        "title": "Sannheten bortenfor",
+        "lang": "nb",
+        "year": 2003,
+        "genre": null
+      },
+      {
+        "title": "Det som aldri skjer",
+        "lang": "nb",
+        "year": 2004,
+        "genre": null
+      },
+      {
+        "title": "1222",
+        "lang": "nb",
+        "year": 2007,
+        "genre": null
+      },
+      {
+        "title": "Offline",
+        "lang": "en",
+        "year": 2015,
+        "genre": null
+      }
+    ]
+  },
+  "Gunnar Staalesen": {
+    "qid": "Q924430",
+    "works": [
+      {
+        "title": "Rygg i rand, to i spann",
+        "lang": "nb",
+        "year": 1975,
+        "genre": null
+      },
+      {
+        "title": "Bukken til havresekken",
+        "lang": "nb",
+        "year": 1977,
+        "genre": null
+      },
+      {
+        "title": "Din til døden",
+        "lang": "nb",
+        "year": 1979,
+        "genre": null
+      },
+      {
+        "title": "Tornerose sov i hundre år",
+        "lang": "nb",
+        "year": 1980,
+        "genre": null
+      },
+      {
+        "title": "Kvinnen i kjøleskapet",
+        "lang": "nb",
+        "year": 1981,
+        "genre": null
+      },
+      {
+        "title": "I mørket er alle ulver grå",
+        "lang": "nb",
+        "year": 1983,
+        "genre": null
+      },
+      {
+        "title": "Svarte får",
+        "lang": "nb",
+        "year": 1988,
+        "genre": null
+      },
+      {
+        "title": "Falne engler",
+        "lang": "nb",
+        "year": 1989,
+        "genre": "Krim"
+      },
+      {
+        "title": "Vikingskattens hemmelighet",
+        "lang": "nb",
+        "year": 1990,
+        "genre": null
+      },
+      {
+        "title": "Bitre blomster",
+        "lang": "nb",
+        "year": 1991,
+        "genre": null
+      },
+      {
+        "title": "Vikingskattens forbannelse",
+        "lang": "nb",
+        "year": 1992,
+        "genre": null
+      },
+      {
+        "title": "Begravde hunder biter ikke",
+        "lang": "nb",
+        "year": 1993,
+        "genre": null
+      },
+      {
+        "title": "Skriften på veggen",
+        "lang": "nb",
+        "year": 1995,
+        "genre": null
+      },
+      {
+        "title": "1900",
+        "lang": "nb",
+        "year": 1997,
+        "genre": null
+      },
+      {
+        "title": "Dødens drabanter",
+        "lang": "nb",
+        "year": 2006,
+        "genre": null
+      },
+      {
+        "title": "Kalde hjerter",
+        "lang": "nb",
+        "year": 2008,
+        "genre": null
+      },
+      {
+        "title": "De døde har det godt",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Bergenstrilogien",
+        "lang": "nb",
+        "year": null,
+        "genre": "Roman"
+      },
+      {
+        "title": "Varg Veum",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Maja Lunde": {
+    "qid": "Q4616928",
+    "works": [
+      {
+        "title": "Battle",
+        "lang": "nb",
+        "year": 2014,
+        "genre": null
+      },
+      {
+        "title": "Bienes historie",
+        "lang": "nb",
+        "year": 2015,
+        "genre": null
+      },
+      {
+        "title": "Snøsøsteren",
+        "lang": "nb",
+        "year": 2018,
+        "genre": null
+      },
+      {
+        "title": "The End of the Ocean: A Novel",
+        "lang": "en",
+        "year": 2020,
+        "genre": null
+      },
+      {
+        "title": "Over grensen",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "The End of the Ocean",
+        "lang": "en",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Merethe Lindstrøm": {
+    "qid": "Q292629",
+    "works": [
+      {
+        "title": "Dager i stillhetens historie",
+        "lang": "nb",
+        "year": 2011,
+        "genre": null
+      }
+    ]
+  },
+  "Carl Frode Tiller": {
+    "qid": "Q1038200",
+    "works": [
+      {
+        "title": "Skråninga",
+        "lang": "nb",
+        "year": 2001,
+        "genre": null
+      },
+      {
+        "title": "Innsirkling",
+        "lang": "nb",
+        "year": 2007,
+        "genre": null
+      }
+    ]
+  },
+  "Zeshan Shakar": {
+    "qid": "Q54985444",
+    "works": [
+      {
+        "title": "Tante Ulrikkes vei",
+        "lang": "nb",
+        "year": 2017,
+        "genre": null
+      }
+    ]
+  },
+  "Jostein Gaarder": {
+    "qid": "Q185548",
+    "works": [
+      {
+        "title": "Diagnosen og andre noveller",
+        "lang": "nb",
+        "year": 1986,
+        "genre": null
+      },
+      {
+        "title": "Barna fra Sukhavati",
+        "lang": "nb",
+        "year": 1987,
+        "genre": null
+      },
+      {
+        "title": "Froskeslottet",
+        "lang": "nb",
+        "year": 1988,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Kabalmysteriet",
+        "lang": "nb",
+        "year": 1990,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Sofies verden",
+        "lang": "nb",
+        "year": 1991,
+        "genre": "Roman"
+      },
+      {
+        "title": "Julemysteriet",
+        "lang": "nb",
+        "year": 1992,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "I et speil, i en gåte",
+        "lang": "nb",
+        "year": 1993,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Bibbi Bokkens magiske bibliotek",
+        "lang": "nb",
+        "year": 1993,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Vita Brevis",
+        "lang": "nb",
+        "year": 1996,
+        "genre": null
+      },
+      {
+        "title": "Hallo? Er det noen her?",
+        "lang": "nb",
+        "year": 1996,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Maya",
+        "lang": "nb",
+        "year": 1999,
+        "genre": null
+      },
+      {
+        "title": "Sirkusdirektørens datter",
+        "lang": "nb",
+        "year": 2001,
+        "genre": null
+      },
+      {
+        "title": "Appelsinpiken",
+        "lang": "nb",
+        "year": 2003,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Sjakk matt",
+        "lang": "nb",
+        "year": 2006,
+        "genre": null
+      },
+      {
+        "title": "Slottet i Pyreneene",
+        "lang": "nb",
+        "year": 2008,
+        "genre": null
+      },
+      {
+        "title": "The World According to Anna",
+        "lang": "en",
+        "year": 2013,
+        "genre": null
+      },
+      {
+        "title": "An Unreliable Man",
+        "lang": "en",
+        "year": 2016,
+        "genre": null
+      },
+      {
+        "title": "The Magic Library",
+        "lang": "en",
+        "year": null,
+        "genre": "Roman"
+      }
+    ]
+  },
+  "Asbjørnsen og Moe": {
+    "qid": "Q355485",
+    "works": [
+      {
+        "title": "Norge fremstillet i Tegninger",
+        "lang": "nb",
+        "year": 1800,
+        "genre": null
+      },
+      {
+        "title": "Norske Folkeeventyr",
+        "lang": "nb",
+        "year": 1841,
+        "genre": null
+      },
+      {
+        "title": "Norske Huldre-Eventyr og Folkesagn",
+        "lang": "nb",
+        "year": 1845,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "De tre bukkene Bruse",
+        "lang": "nb",
+        "year": 2000,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Følgesvennen",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Østenfor sol og vestenfor måne",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "The Box with Something Pretty in it",
+        "lang": "en",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Kari Trestakk",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Mannen som skulle stelle hjemme",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Småguttene som traff trollene på Hedalsskogen",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Farmer Weathersky",
+        "lang": "en",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Per Gynt",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Soria Moria slott",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Grimsborken",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Kvitebjørn kong Valemon",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      }
+    ]
+  },
+  "Thorbjørn Egner": {
+    "qid": "Q721766",
+    "works": [
+      {
+        "title": "Klattiklatt drar til negerland",
+        "lang": "nb",
+        "year": 1943,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Karius og Baktus",
+        "lang": "nb",
+        "year": 1949,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Klatremus og de andre dyrene i Hakkebakkeskogen",
+        "lang": "nb",
+        "year": 1953,
+        "genre": null
+      },
+      {
+        "title": "Folk og røvere i Kardemomme by",
+        "lang": "nb",
+        "year": 1955,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Musikantene kommer til byen",
+        "lang": "nb",
+        "year": 1978,
+        "genre": null
+      },
+      {
+        "title": "Thorbjørn Egners lesebøker",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Anne-Cath. Vestly": {
+    "qid": "Q420026",
+    "works": []
+  },
+  "Alf Prøysen": {
+    "qid": "Q1323220",
+    "works": [
+      {
+        "title": "Trost i taklampa",
+        "lang": "nb",
+        "year": 1950,
+        "genre": null
+      },
+      {
+        "title": "Sirkus Mikkelikski",
+        "lang": "nb",
+        "year": 1954,
+        "genre": "Drama"
+      },
+      {
+        "title": "Teskjekjerringa",
+        "lang": "nb",
+        "year": 1956,
+        "genre": "Roman"
+      },
+      {
+        "title": "Kjerringa som ble så lita som ei teskje",
+        "lang": "nb",
+        "year": 1957,
+        "genre": null
+      },
+      {
+        "title": "Den vesle bygda som glømte at det var jul",
+        "lang": "nb",
+        "year": 1958,
+        "genre": null
+      },
+      {
+        "title": "Alle tiders gullhøne",
+        "lang": "nb",
+        "year": 1959,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Fra Hompetitten til Bakvendtland – 39 barneviser",
+        "lang": "nb",
+        "year": 1966,
+        "genre": null
+      },
+      {
+        "title": "Dørstokken heme",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Lørdagsstubber",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Matja Madonna",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Snekker Andersen og julenissen",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Geitekillingen som kunne telle til ti",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Det var da det og itte nå",
+        "lang": "nb",
+        "year": null,
+        "genre": "Sakprosa"
+      }
+    ]
+  },
+  "Maria Parr": {
+    "qid": "Q462755",
+    "works": [
+      {
+        "title": "Tonje Glimmerdal",
+        "lang": "nb",
+        "year": 2009,
+        "genre": null
+      },
+      {
+        "title": "Vaffelhjarte",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Zinken Hopp": {
+    "qid": "Q2392990",
+    "works": [
+      {
+        "title": "Trollkrittet",
+        "lang": "nb",
+        "year": 1948,
+        "genre": null
+      }
+    ]
+  },
+  "Ludvig Holberg": {
+    "qid": "Q212499",
+    "works": []
+  },
+  "Petter Dass": {
+    "qid": "Q558590",
+    "works": [
+      {
+        "title": "Nordlands Trompet",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Agnes Ravatn": {
+    "qid": "Q4568094",
+    "works": []
+  },
+  "Johan Harstad": {
+    "qid": "Q1411963",
+    "works": [
+      {
+        "title": "Herfra blir du bare eldre",
+        "lang": "nb",
+        "year": 2001,
+        "genre": null
+      },
+      {
+        "title": "Ambulanse",
+        "lang": "nb",
+        "year": 2002,
+        "genre": null
+      },
+      {
+        "title": "Buzz Aldrin, hvor ble det av deg i alt mylderet?",
+        "lang": "nb",
+        "year": 2005,
+        "genre": null
+      },
+      {
+        "title": "Hässelby",
+        "lang": "nb",
+        "year": 2007,
+        "genre": null
+      },
+      {
+        "title": "Darlah",
+        "lang": "nb",
+        "year": 2008,
+        "genre": "Roman"
+      },
+      {
+        "title": "Bsider",
+        "lang": "nb",
+        "year": 2008,
+        "genre": null
+      },
+      {
+        "title": "Max, Mischa and the Tet Offensive",
+        "lang": "en",
+        "year": 2015,
+        "genre": null
+      },
+      {
+        "title": "Brødmannens memoarer del 2: Ellis Iland",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Brødmannens memoarer del 1: Akapulco",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Grader av hvitt",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Krasnoyarsk",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Washingtin",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Osv.",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Brødmannens memoarer del 3: Matterhorn",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Gaute Heivoll": {
+    "qid": "Q11971636",
+    "works": []
+  },
+  "Simon Stranger": {
+    "qid": "Q12000542",
+    "works": []
+  },
+  "Ingvar Ambjørnsen": {
+    "qid": "Q706658",
+    "works": [
+      {
+        "title": "Pepsikyss",
+        "lang": "nb",
+        "year": 1976,
+        "genre": null
+      },
+      {
+        "title": "23-salen",
+        "lang": "nb",
+        "year": 1981,
+        "genre": null
+      },
+      {
+        "title": "Den siste revejakta",
+        "lang": "nb",
+        "year": 1983,
+        "genre": null
+      },
+      {
+        "title": "Hvite niggere",
+        "lang": "nb",
+        "year": 1986,
+        "genre": null
+      },
+      {
+        "title": "Døden på Oslo S",
+        "lang": "nb",
+        "year": 1988,
+        "genre": null
+      },
+      {
+        "title": "Jesus står i porten",
+        "lang": "nb",
+        "year": 1988,
+        "genre": null
+      },
+      {
+        "title": "Giftige løgner",
+        "lang": "nb",
+        "year": 1989,
+        "genre": null
+      },
+      {
+        "title": "De blå ulvene",
+        "lang": "nb",
+        "year": 1991,
+        "genre": null
+      },
+      {
+        "title": "Utsikt til paradiset",
+        "lang": "nb",
+        "year": 1993,
+        "genre": null
+      },
+      {
+        "title": "Sorte mor",
+        "lang": "nb",
+        "year": 1994,
+        "genre": null
+      },
+      {
+        "title": "Fugledansen",
+        "lang": "nb",
+        "year": 1995,
+        "genre": null
+      },
+      {
+        "title": "Brødre i blodet",
+        "lang": "nb",
+        "year": 1996,
+        "genre": null
+      },
+      {
+        "title": "Arven etter onkel Rin-Tin-Tei",
+        "lang": "nb",
+        "year": 1998,
+        "genre": null
+      },
+      {
+        "title": "Elsk meg i morgen",
+        "lang": "nb",
+        "year": 1999,
+        "genre": null
+      },
+      {
+        "title": "Dukken i taket",
+        "lang": "nb",
+        "year": 2001,
+        "genre": null
+      },
+      {
+        "title": "Drapene i Barkvik",
+        "lang": "nb",
+        "year": 2005,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Samson og Roberto",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Elling",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Pelle og Proffen",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Natt til mørk morgen",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Anne B. Ragde": {
+    "qid": "Q271494",
+    "works": [
+      {
+        "title": "Noen kommer, noen går",
+        "lang": "nb",
+        "year": 1992,
+        "genre": null
+      },
+      {
+        "title": "Berlinerpoplene",
+        "lang": "nb",
+        "year": 2004,
+        "genre": null
+      },
+      {
+        "title": "Eremittkrepsene",
+        "lang": "nb",
+        "year": 2005,
+        "genre": null
+      },
+      {
+        "title": "Ligge i grønne enger",
+        "lang": "nb",
+        "year": 2007,
+        "genre": null
+      }
+    ]
+  },
+  "Olaug Nilssen": {
+    "qid": "Q4373430",
+    "works": [
+      {
+        "title": "Vi har så korte armar",
+        "lang": "nb",
+        "year": 2002,
+        "genre": null
+      },
+      {
+        "title": "Få meg på, for faen!",
+        "lang": "nb",
+        "year": 2005,
+        "genre": null
+      }
+    ]
+  },
+  "Gunnhild Øyehaug": {
+    "qid": "Q4583901",
+    "works": [
+      {
+        "title": "Vente, blinke",
+        "lang": "nb",
+        "year": 2008,
+        "genre": null
+      }
+    ]
+  },
+  "Øyvind Rimbereid": {
+    "qid": "Q6514993",
+    "works": [
+      {
+        "title": "Solaris korrigert",
+        "lang": "nb",
+        "year": 2004,
+        "genre": "Drama"
+      }
+    ]
+  },
+  "Tor Ulven": {
+    "qid": "Q581204",
+    "works": []
+  },
+  "Kjersti Annesdatter Skomsvold": {
+    "qid": "Q460873",
+    "works": []
+  },
+  "Tore Renberg": {
+    "qid": "Q2031514",
+    "works": [
+      {
+        "title": "Sovende floke",
+        "lang": "nb",
+        "year": 1995,
+        "genre": null
+      },
+      {
+        "title": "Matriarkat",
+        "lang": "nb",
+        "year": 1996,
+        "genre": null
+      },
+      {
+        "title": "Mannen som elsket Yngve",
+        "lang": "nb",
+        "year": 2003,
+        "genre": "Roman"
+      },
+      {
+        "title": "Kompani Orheim",
+        "lang": "nb",
+        "year": 2005,
+        "genre": null
+      },
+      {
+        "title": "Charlotte Isabel Hansen",
+        "lang": "nb",
+        "year": 2008,
+        "genre": null
+      },
+      {
+        "title": "Pixley Mapogo",
+        "lang": "nb",
+        "year": 2009,
+        "genre": null
+      },
+      {
+        "title": "Vi ses i morgen",
+        "lang": "nb",
+        "year": 2013,
+        "genre": null
+      }
+    ]
+  },
+  "Geir Gulliksen": {
+    "qid": "Q11971685",
+    "works": []
+  },
+  "Frode Grytten": {
+    "qid": "Q1398786",
+    "works": [
+      {
+        "title": "Meir enn regn",
+        "lang": "nb",
+        "year": 1995,
+        "genre": null
+      },
+      {
+        "title": "Bikubesong",
+        "lang": "nb",
+        "year": 1999,
+        "genre": null
+      },
+      {
+        "title": "Saganatt",
+        "lang": "nb",
+        "year": 2011,
+        "genre": null
+      },
+      {
+        "title": "Sånne som oss",
+        "lang": "nb",
+        "year": 2015,
+        "genre": null
+      },
+      {
+        "title": "Fyrstikkguten",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Gert Nygårdshaug": {
+    "qid": "Q981555",
+    "works": [
+      {
+        "title": "Honningkrukken",
+        "lang": "nb",
+        "year": 1985,
+        "genre": null
+      },
+      {
+        "title": "Nullpluss",
+        "lang": "nb",
+        "year": 1986,
+        "genre": null
+      },
+      {
+        "title": "Jegerdukken",
+        "lang": "nb",
+        "year": 1987,
+        "genre": null
+      },
+      {
+        "title": "Mengele Zoo",
+        "lang": "nb",
+        "year": 1989,
+        "genre": null
+      },
+      {
+        "title": "Dødens codex",
+        "lang": "nb",
+        "year": 1990,
+        "genre": null
+      },
+      {
+        "title": "Det niende prinsipp",
+        "lang": "nb",
+        "year": 1992,
+        "genre": null
+      },
+      {
+        "title": "Cassandras finger",
+        "lang": "nb",
+        "year": 1993,
+        "genre": null
+      },
+      {
+        "title": "Himmelblomsttreets muligheter",
+        "lang": "nb",
+        "year": 1995,
+        "genre": null
+      },
+      {
+        "title": "Kiste nummer fem",
+        "lang": "nb",
+        "year": 1996,
+        "genre": null
+      },
+      {
+        "title": "Den balsamerte ulven",
+        "lang": "nb",
+        "year": 2000,
+        "genre": null
+      },
+      {
+        "title": "Liljer fra Jerusalem",
+        "lang": "nb",
+        "year": 2001,
+        "genre": null
+      },
+      {
+        "title": "Afrodites basseng",
+        "lang": "nb",
+        "year": 2003,
+        "genre": null
+      },
+      {
+        "title": "Alle orkaners mor",
+        "lang": "nb",
+        "year": 2004,
+        "genre": null
+      },
+      {
+        "title": "Rødsonen",
+        "lang": "nb",
+        "year": 2006,
+        "genre": null
+      }
+    ]
+  },
+  "Ivar Aasen": {
+    "qid": "Q106812",
+    "works": [
+      {
+        "title": "Ordbog over det norske Folkesprog",
+        "lang": "nb",
+        "year": 1850,
+        "genre": null
+      },
+      {
+        "title": "Prøver af Landsmaalet i Norge",
+        "lang": "nb",
+        "year": 1853,
+        "genre": null
+      },
+      {
+        "title": "Norske Ordsprog",
+        "lang": "nn",
+        "year": 1856,
+        "genre": null
+      },
+      {
+        "title": "Norsk Ordbog",
+        "lang": "nb",
+        "year": 1873,
+        "genre": null
+      },
+      {
+        "title": "Symra",
+        "lang": "nb",
+        "year": 1875,
+        "genre": null
+      },
+      {
+        "title": "Heimsyn",
+        "lang": "nb",
+        "year": 1875,
+        "genre": null
+      },
+      {
+        "title": "Ervingen",
+        "lang": "nb",
+        "year": 1896,
+        "genre": null
+      },
+      {
+        "title": "Dikt og Sanning",
+        "lang": "nn",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Om Dannelsen og Norskheden",
+        "lang": "nn",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Norsk Grammatik",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Det norske Folkesprogs Grammatik",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Den Sunnmørske dialekt",
+        "lang": "nn",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Søndmørsk Grammatik",
+        "lang": "nn",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Peter Christen Asbjørnsen": {
+    "qid": "Q355485",
+    "works": [
+      {
+        "title": "Norge fremstillet i Tegninger",
+        "lang": "nb",
+        "year": 1800,
+        "genre": null
+      },
+      {
+        "title": "Norske Folkeeventyr",
+        "lang": "nb",
+        "year": 1841,
+        "genre": null
+      },
+      {
+        "title": "Norske Huldre-Eventyr og Folkesagn",
+        "lang": "nb",
+        "year": 1845,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "De tre bukkene Bruse",
+        "lang": "nb",
+        "year": 2000,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Følgesvennen",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Østenfor sol og vestenfor måne",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "The Box with Something Pretty in it",
+        "lang": "en",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Kari Trestakk",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Mannen som skulle stelle hjemme",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Småguttene som traff trollene på Hedalsskogen",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Farmer Weathersky",
+        "lang": "en",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Per Gynt",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Soria Moria slott",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Grimsborken",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Kvitebjørn kong Valemon",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      }
+    ]
+  },
+  "Jørgen Moe": {
+    "qid": "Q470002",
+    "works": [
+      {
+        "title": "Norske Folkeeventyr",
+        "lang": "nb",
+        "year": 1841,
+        "genre": null
+      },
+      {
+        "title": "I brønden og i tjernet",
+        "lang": "nb",
+        "year": 1851,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Kværnen, som staaer og maler paa Havsens Bund",
+        "lang": "nb",
+        "year": 1852,
+        "genre": null
+      },
+      {
+        "title": "Mestermø",
+        "lang": "nb",
+        "year": 1852,
+        "genre": null
+      },
+      {
+        "title": "De tre bukkene Bruse",
+        "lang": "nb",
+        "year": 2000,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "De syv folene",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Bushy Bride",
+        "lang": "en",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "De tre Prindsesser i Hvidtenland",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Lillekort",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "The Box with Something Pretty in it",
+        "lang": "en",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Mannen som skulle stelle hjemme",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Per Gynt",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Soria Moria slott",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Grimsborken",
+        "lang": "nb",
+        "year": null,
+        "genre": "Eventyr"
+      },
+      {
+        "title": "Den gamle Mester",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Fanitullen",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Johan Sebastian Welhaven": {
+    "qid": "Q954720",
+    "works": [
+      {
+        "title": "Republikanerne",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Maurits Hansen": {
+    "qid": "Q1342647",
+    "works": [
+      {
+        "title": "Mordet på maskinbygger Roolfsen",
+        "lang": "nb",
+        "year": 1840,
+        "genre": "Krim"
+      }
+    ]
+  },
+  "Hans E. Kinck": {
+    "qid": "Q1579293",
+    "works": [
+      {
+        "title": "Den nye kapellanen",
+        "lang": "nb",
+        "year": 1897,
+        "genre": null
+      },
+      {
+        "title": "Driftekaren",
+        "lang": "nb",
+        "year": 1908,
+        "genre": null
+      },
+      {
+        "title": "Herman Ek",
+        "lang": "nb",
+        "year": 1923,
+        "genre": null
+      }
+    ]
+  },
+  "Gunnar Heiberg": {
+    "qid": "Q718724",
+    "works": [
+      {
+        "title": "Tante Ulrikke",
+        "lang": "nb",
+        "year": 1884,
+        "genre": null
+      },
+      {
+        "title": "Paradesengen",
+        "lang": "en",
+        "year": 1913,
+        "genre": "Drama"
+      }
+    ]
+  },
+  "Helge Krog": {
+    "qid": "Q1395112",
+    "works": []
+  },
+  "Gabriel Scott": {
+    "qid": "Q1489655",
+    "works": [
+      {
+        "title": "Tante Pose",
+        "lang": "nb",
+        "year": 1904,
+        "genre": null
+      },
+      {
+        "title": "Himmeluret",
+        "lang": "nb",
+        "year": 1905,
+        "genre": null
+      },
+      {
+        "title": "Kilden",
+        "lang": "nb",
+        "year": 1918,
+        "genre": null
+      },
+      {
+        "title": "Det gylne evangelium",
+        "lang": "nb",
+        "year": 1921,
+        "genre": null
+      },
+      {
+        "title": "Fant",
+        "lang": "nb",
+        "year": 1928,
+        "genre": null
+      },
+      {
+        "title": "De vergeløse",
+        "lang": "nb",
+        "year": 1938,
+        "genre": null
+      }
+    ]
+  },
+  "Oskar Braaten": {
+    "qid": "Q947303",
+    "works": [
+      {
+        "title": "Ungen",
+        "lang": "nb",
+        "year": 1911,
+        "genre": null
+      },
+      {
+        "title": "Bak høkerens disk",
+        "lang": "nb",
+        "year": 1918,
+        "genre": null
+      },
+      {
+        "title": "Den store barnedåpen",
+        "lang": "nb",
+        "year": 1925,
+        "genre": null
+      },
+      {
+        "title": "Godvakker-Maren",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Bra mennesker",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Olaf Bull": {
+    "qid": "Q1078143",
+    "works": [
+      {
+        "title": "Mitt navn er Knoph",
+        "lang": "nb",
+        "year": 1914,
+        "genre": null
+      },
+      {
+        "title": "Ignis ardens",
+        "lang": "nb",
+        "year": 1932,
+        "genre": null
+      }
+    ]
+  },
+  "Herman Wildenvey": {
+    "qid": "Q4178758",
+    "works": []
+  },
+  "Hulda Garborg": {
+    "qid": "Q3143008",
+    "works": [
+      {
+        "title": "Et frit Forhold",
+        "lang": "nb",
+        "year": 1892,
+        "genre": null
+      },
+      {
+        "title": "Heimestell",
+        "lang": "nn",
+        "year": 1898,
+        "genre": null
+      }
+    ]
+  },
+  "Sigurd Christiansen": {
+    "qid": "Q1861583",
+    "works": [
+      {
+        "title": "To levende og en død",
+        "lang": "nb",
+        "year": 1931,
+        "genre": null
+      },
+      {
+        "title": "Det ensomme hjerte",
+        "lang": "nb",
+        "year": 1938,
+        "genre": null
+      }
+    ]
+  },
+  "Ronald Fangen": {
+    "qid": "Q2530715",
+    "works": [
+      {
+        "title": "Nogen unge mennesker",
+        "lang": "nb",
+        "year": 1929,
+        "genre": null
+      },
+      {
+        "title": "Kvernen som maler langsomt",
+        "lang": "nb",
+        "year": 1939,
+        "genre": null
+      }
+    ]
+  },
+  "Halldis Moren Vesaas": {
+    "qid": "Q2658990",
+    "works": [
+      {
+        "title": "Ord over grind",
+        "lang": "nb",
+        "year": 1955,
+        "genre": null
+      }
+    ]
+  },
+  "Tor Jonsson": {
+    "qid": "Q562102",
+    "works": []
+  },
+  "André Bjerke": {
+    "qid": "Q517118",
+    "works": [
+      {
+        "title": "Døde menn går i land",
+        "lang": "nb",
+        "year": 1947,
+        "genre": null
+      },
+      {
+        "title": "Skjult mønster",
+        "lang": "nb",
+        "year": 1950,
+        "genre": null
+      },
+      {
+        "title": "Den bakvendte familieboken",
+        "lang": "nb",
+        "year": 1951,
+        "genre": null
+      },
+      {
+        "title": "André Bjerkes ABC",
+        "lang": "nb",
+        "year": 1959,
+        "genre": "Barnebok"
+      },
+      {
+        "title": "Enhjørningen",
+        "lang": "nb",
+        "year": 1963,
+        "genre": "Krim"
+      },
+      {
+        "title": "Djevelens omgangsfelle",
+        "lang": "nb",
+        "year": 1974,
+        "genre": "Sakprosa"
+      },
+      {
+        "title": "I Goethes kraftfelt",
+        "lang": "nb",
+        "year": 1974,
+        "genre": "Sakprosa"
+      },
+      {
+        "title": "Moro-vers",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Gunvor Hofmo": {
+    "qid": "Q455423",
+    "works": [
+      {
+        "title": "Fra en annen virkelighet",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Veisperringer",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Stein Mehren": {
+    "qid": "Q621733",
+    "works": []
+  },
+  "Jan Erik Vold": {
+    "qid": "Q621823",
+    "works": [
+      {
+        "title": "Mor Godhjertas glade versjon. Ja",
+        "lang": "nb",
+        "year": 1968,
+        "genre": null
+      },
+      {
+        "title": "Tale for loffen",
+        "lang": "nb",
+        "year": 1968,
+        "genre": null
+      },
+      {
+        "title": "En sirkel is",
+        "lang": "nb",
+        "year": 1994,
+        "genre": "Lyrikk"
+      },
+      {
+        "title": "Ruth Maiers dagbok",
+        "lang": "nn",
+        "year": null,
+        "genre": "Sakprosa"
+      }
+    ]
+  },
+  "Johan Borgen": {
+    "qid": "Q471948",
+    "works": [
+      {
+        "title": "Lillelord",
+        "lang": "nb",
+        "year": 1955,
+        "genre": null
+      },
+      {
+        "title": "Jeg",
+        "lang": "nb",
+        "year": 1959,
+        "genre": null
+      },
+      {
+        "title": "Nye noveller",
+        "lang": "en",
+        "year": 1967,
+        "genre": null
+      },
+      {
+        "title": "Far, mor og oss",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Knut Faldbakken": {
+    "qid": "Q113265",
+    "works": [
+      {
+        "title": "Sin mors hus",
+        "lang": "nb",
+        "year": 1969,
+        "genre": null
+      },
+      {
+        "title": "Insektsommer",
+        "lang": "nb",
+        "year": 1972,
+        "genre": null
+      },
+      {
+        "title": "Frøken Snehvit",
+        "lang": "nb",
+        "year": 2000,
+        "genre": null
+      },
+      {
+        "title": "Alle elsker en hodeløs kvinne",
+        "lang": "nb",
+        "year": 2002,
+        "genre": null
+      },
+      {
+        "title": "Turneren",
+        "lang": "nb",
+        "year": 2004,
+        "genre": null
+      },
+      {
+        "title": "Grensen",
+        "lang": "nb",
+        "year": 2005,
+        "genre": null
+      },
+      {
+        "title": "Nattefrost",
+        "lang": "nb",
+        "year": 2006,
+        "genre": null
+      },
+      {
+        "title": "Tyvene",
+        "lang": "nb",
+        "year": 2007,
+        "genre": null
+      },
+      {
+        "title": "Senskade",
+        "lang": "nb",
+        "year": 2008,
+        "genre": null
+      },
+      {
+        "title": "Totem",
+        "lang": "nb",
+        "year": 2009,
+        "genre": null
+      },
+      {
+        "title": "Natthagen",
+        "lang": "nb",
+        "year": 2011,
+        "genre": null
+      },
+      {
+        "title": "Turisten",
+        "lang": "nb",
+        "year": 2013,
+        "genre": null
+      },
+      {
+        "title": "Stammeren",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Gjensynet",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Bjørg Vik": {
+    "qid": "Q455323",
+    "works": []
+  },
+  "Liv Køltzow": {
+    "qid": "Q462532",
+    "works": [
+      {
+        "title": "Verden forsvinner",
+        "lang": "nb",
+        "year": 1997,
+        "genre": null
+      }
+    ]
+  },
+  "Espen Haavardsholm": {
+    "qid": "Q3058393",
+    "works": []
+  },
+  "Tor Åge Bringsværd": {
+    "qid": "Q982898",
+    "works": [
+      {
+        "title": "Rundt solen i ring",
+        "lang": "nb",
+        "year": 1967,
+        "genre": "Roman"
+      },
+      {
+        "title": "Og jorden skal beve",
+        "lang": "nb",
+        "year": 1967,
+        "genre": "Roman"
+      },
+      {
+        "title": "Sesam 71",
+        "lang": "nb",
+        "year": 1971,
+        "genre": null
+      },
+      {
+        "title": "Den som har begge beina på jorda står stille",
+        "lang": "nb",
+        "year": 1974,
+        "genre": null
+      },
+      {
+        "title": "Pinocchio-papirene",
+        "lang": "nb",
+        "year": 1978,
+        "genre": null
+      },
+      {
+        "title": "Minotauros",
+        "lang": "nb",
+        "year": 1980,
+        "genre": null
+      },
+      {
+        "title": "Ker Shus",
+        "lang": "nb",
+        "year": 1983,
+        "genre": null
+      },
+      {
+        "title": "Gobi: Barndommens måne",
+        "lang": "nb",
+        "year": 1985,
+        "genre": null
+      },
+      {
+        "title": "Gobi: Djengis Khan",
+        "lang": "nb",
+        "year": 1987,
+        "genre": null
+      },
+      {
+        "title": "Gobi: Djevelens skinn og ben",
+        "lang": "nb",
+        "year": 1989,
+        "genre": null
+      },
+      {
+        "title": "Av støv er du kommet",
+        "lang": "nb",
+        "year": 1990,
+        "genre": "Roman"
+      },
+      {
+        "title": "As You Wish",
+        "lang": "en",
+        "year": 1992,
+        "genre": null
+      },
+      {
+        "title": "Gobi: Min prins",
+        "lang": "nb",
+        "year": 1994,
+        "genre": null
+      },
+      {
+        "title": "Gobi: Baghdad",
+        "lang": "nb",
+        "year": 1997,
+        "genre": null
+      },
+      {
+        "title": "Pudder? Pudder!",
+        "lang": "nb",
+        "year": 2001,
+        "genre": null
+      },
+      {
+        "title": "Karsten og Petra",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      },
+      {
+        "title": "Gobi",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Jon Bing": {
+    "qid": "Q936783",
+    "works": [
+      {
+        "title": "Rundt solen i ring",
+        "lang": "nb",
+        "year": 1967,
+        "genre": "Roman"
+      },
+      {
+        "title": "Og jorden skal beve",
+        "lang": "nb",
+        "year": 1967,
+        "genre": "Roman"
+      },
+      {
+        "title": "Sesam 71",
+        "lang": "nb",
+        "year": 1971,
+        "genre": null
+      },
+      {
+        "title": "Ugle på Bjørnøya",
+        "lang": "nb",
+        "year": 1986,
+        "genre": "Roman"
+      },
+      {
+        "title": "Av støv er du kommet",
+        "lang": "nb",
+        "year": 1990,
+        "genre": "Roman"
+      },
+      {
+        "title": "Krøniken om stjerneskipet Alexandria",
+        "lang": "nb",
+        "year": null,
+        "genre": null
+      }
+    ]
+  },
+  "Cecilie Løveid": {
+    "qid": "Q468548",
+    "works": [
+      {
+        "title": "Sug",
+        "lang": "nb",
+        "year": 1979,
+        "genre": null
+      }
+    ]
+  },
+  "Edvard Hoem": {
+    "qid": "Q1291349",
+    "works": [
+      {
+        "title": "Kjærleikens ferjereiser",
+        "lang": "nb",
+        "year": 1974,
+        "genre": null
+      }
+    ]
+  },
+  "Thure Erik Lund": {
+    "qid": "Q1771360",
+    "works": [
+      {
+        "title": "Grøftetildragelsesmysteriet",
+        "lang": "nb",
+        "year": 1999,
+        "genre": null
+      },
+      {
+        "title": "Elvestengfolket",
+        "lang": "nb",
+        "year": 2003,
+        "genre": null
+      }
+    ]
+  },
+  "Bergljot Hobæk Haff": {
+    "qid": "Q470132",
+    "works": [
+      {
+        "title": "Renhetens pris",
+        "lang": "nb",
+        "year": 1992,
+        "genre": null
+      },
+      {
+        "title": "Skammen",
+        "lang": "nb",
+        "year": 1996,
+        "genre": null
+      }
+    ]
+  },
+  "Linn Ullmann": {
+    "qid": "Q256738",
+    "works": [
+      {
+        "title": "De urolige",
+        "lang": "nb",
+        "year": 2015,
+        "genre": null
+      }
+    ]
+  },
+  "Tomas Espedal": {
+    "qid": "Q1343199",
+    "works": []
+  },
+  "Åsne Seierstad": {
+    "qid": "Q256796",
+    "works": [
+      {
+        "title": "Med ryggen mot verden: Portretter fra Serbia",
+        "lang": "nb",
+        "year": 2000,
+        "genre": "Sakprosa"
+      },
+      {
+        "title": "Bokhandleren i Kabul",
+        "lang": "nb",
+        "year": 2002,
+        "genre": null
+      },
+      {
+        "title": "Hundre og én dag",
+        "lang": "nb",
+        "year": 2003,
+        "genre": "Sakprosa"
+      },
+      {
+        "title": "De krenkede",
+        "lang": "nb",
+        "year": 2007,
+        "genre": "Sakprosa"
+      },
+      {
+        "title": "En av oss",
+        "lang": "nn",
+        "year": 2013,
+        "genre": null
+      },
+      {
+        "title": "One of Us",
+        "lang": "en",
+        "year": 2013,
+        "genre": "Sakprosa"
+      }
+    ]
+  },
+  "Nikolaj Frobenius": {
+    "qid": "Q2981169",
+    "works": [
+      {
+        "title": "Latours katalog",
+        "lang": "nb",
+        "year": 1996,
+        "genre": null
+      },
+      {
+        "title": "Teori og praksis",
+        "lang": "nb",
+        "year": 2004,
+        "genre": null
+      }
+    ]
+  },
+  "Helene Uri": {
+    "qid": "Q455410",
+    "works": [
+      {
+        "title": "Honningtunger",
+        "lang": "nb",
+        "year": 2002,
+        "genre": null
+      },
+      {
+        "title": "De beste blant oss",
+        "lang": "nb",
+        "year": 2006,
+        "genre": null
+      },
+      {
+        "title": "Den rettferdige",
+        "lang": "nb",
+        "year": 2009,
+        "genre": null
+      }
+    ]
+  },
+  "Demian Vitanza": {
+    "qid": "Q14532337",
+    "works": []
+  }
+}

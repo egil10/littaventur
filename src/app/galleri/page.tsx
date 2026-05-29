@@ -110,7 +110,7 @@ export default function Gallery() {
               <div className="mt-auto pt-3 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-wider text-ink-muted tabular-nums">
                 <span>{b.year ?? "—"}</span>
                 <span>·</span>
-                <span className="truncate">{b.genre}</span>
+                <span className="truncate">{b.genre ?? "Verk"}</span>
               </div>
             </button>
           ))}
@@ -250,14 +250,21 @@ function DetailModal({ book, onClose }: { book: Book; onClose: () => void }) {
 
         <div className="flex flex-wrap gap-1.5 mt-4">
           {book.year != null && <Chip>{book.year}</Chip>}
-          <Chip>{book.genre}</Chip>
-          <Chip>{book.eraLabel}</Chip>
+          {book.genre && <Chip>{book.genre}</Chip>}
+          {book.eraLabel && <Chip>{book.eraLabel}</Chip>}
           {book.themes.map((t) => (
             <Chip key={t}>{t}</Chip>
           ))}
         </div>
 
-        <p className="text-ink-soft leading-relaxed mt-4">{book.blurb}</p>
+        {book.blurb ? (
+          <p className="text-ink-soft leading-relaxed mt-4">{book.blurb}</p>
+        ) : (
+          <p className="text-ink-muted leading-relaxed mt-4 italic">
+            {book.genre ? `${book.genre} av ${book.author}` : `Verk av ${book.author}`}
+            {book.year != null ? `, utgitt i ${book.year}.` : "."}
+          </p>
+        )}
       </div>
     </div>
   );
