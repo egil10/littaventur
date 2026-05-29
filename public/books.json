@@ -1,0 +1,4042 @@
+[
+  {
+    "id": "henrik-ibsen--et-dukkehjem",
+    "title": "Et dukkehjem",
+    "author": "Henrik Ibsen",
+    "year": 1879,
+    "decade": "1870-tallet",
+    "genre": "Drama",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "kvinnesak",
+      "ekteskap",
+      "frigjøring"
+    ],
+    "blurb": "Nora forlater mann og barn for å finne seg selv — sluttscenens dørsmell rystet hele Europa og gjorde stykket til et samlingspunkt for kvinnesaken.",
+    "orig": "A Doll's House",
+    "cats": [
+      "era:1800",
+      "genre:drama",
+      "theme:kvinnesak",
+      "theme:ekteskap",
+      "theme:frigjoring",
+      "tag:popular"
+    ],
+    "fame": 0
+  },
+  {
+    "id": "henrik-ibsen--peer-gynt",
+    "title": "Peer Gynt",
+    "author": "Henrik Ibsen",
+    "year": 1867,
+    "decade": "1860-tallet",
+    "genre": "Drama",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "identitet",
+      "fantasi",
+      "selvbedrag"
+    ],
+    "blurb": "Et dramatisk dikt om den skrytende drømmeren Peer, fra norsk fjellbygd via Marokko til hjemkomsten hos Solveig. Grieg skrev musikken; trollkongen og Bøygen ble myte.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:drama",
+      "theme:identitet",
+      "theme:fantasi",
+      "theme:selvbedrag",
+      "tag:popular"
+    ],
+    "fame": 1
+  },
+  {
+    "id": "henrik-ibsen--hedda-gabler",
+    "title": "Hedda Gabler",
+    "author": "Henrik Ibsen",
+    "year": 1890,
+    "decade": "1890-tallet",
+    "genre": "Drama",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "kvinnesak",
+      "makt",
+      "kjedsomhet"
+    ],
+    "blurb": "Generalens datter, fanget i et kjedelig ekteskap, manipulerer dem rundt seg mot en tragisk slutt. En av teaterhistoriens mest spilte kvinneroller.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:drama",
+      "theme:kvinnesak",
+      "theme:makt",
+      "theme:kjedsomhet",
+      "tag:popular"
+    ],
+    "fame": 2
+  },
+  {
+    "id": "henrik-ibsen--vildanden",
+    "title": "Vildanden",
+    "author": "Henrik Ibsen",
+    "year": 1884,
+    "decade": "1880-tallet",
+    "genre": "Drama",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "livsløgn",
+      "sannhet",
+      "familie"
+    ],
+    "blurb": "Idealisten Gregers river ned naboens livsløgner — med katastrofale følger. Her formulerer Ibsen tanken om at folk trenger illusjonene sine for å leve.",
+    "orig": "The Wild Duck",
+    "cats": [
+      "era:1800",
+      "genre:drama",
+      "theme:livslogn",
+      "theme:sannhet",
+      "theme:familie",
+      "tag:popular"
+    ],
+    "fame": 3
+  },
+  {
+    "id": "henrik-ibsen--gengangere",
+    "title": "Gengangere",
+    "author": "Henrik Ibsen",
+    "year": 1881,
+    "decade": "1880-tallet",
+    "genre": "Drama",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "arv",
+      "moral",
+      "sykdom"
+    ],
+    "blurb": "Fru Alving konfronteres med arven etter sin utsvevende mann mens sønnen rammes av syfilis. Skandaløst i samtiden for sin tabuberøring av sykdom og hykleri.",
+    "orig": "Ghosts",
+    "cats": [
+      "era:1800",
+      "genre:drama",
+      "theme:arv",
+      "theme:moral",
+      "theme:sykdom",
+      "tag:popular"
+    ],
+    "fame": 4
+  },
+  {
+    "id": "henrik-ibsen--en-folkefiende",
+    "title": "En folkefiende",
+    "author": "Henrik Ibsen",
+    "year": 1882,
+    "decade": "1880-tallet",
+    "genre": "Drama",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "sannhet",
+      "demokrati",
+      "individ"
+    ],
+    "blurb": "Doktor Stockmann avdekker at byens kurbad er forgiftet, men blir uglesett da sannheten truer økonomien. «Den sterkeste mann i verden, det er han som står mest alene.»",
+    "orig": "An Enemy of the People",
+    "cats": [
+      "era:1800",
+      "genre:drama",
+      "theme:sannhet",
+      "theme:demokrati",
+      "theme:individ",
+      "tag:popular"
+    ],
+    "fame": 5
+  },
+  {
+    "id": "henrik-ibsen--brand",
+    "title": "Brand",
+    "author": "Henrik Ibsen",
+    "year": 1866,
+    "decade": "1860-tallet",
+    "genre": "Drama",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "religion",
+      "vilje",
+      "offer"
+    ],
+    "blurb": "Den kompromissløse presten Brand krever «alt eller intet» av seg selv og andre. Dramatisk dikt som ga Ibsen sitt gjennombrudd og kravet «Vær den du er, fullt og helt.»",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:drama",
+      "theme:religion",
+      "theme:vilje",
+      "theme:offer",
+      "tag:popular"
+    ],
+    "fame": 6
+  },
+  {
+    "id": "henrik-ibsen--rosmersholm",
+    "title": "Rosmersholm",
+    "author": "Henrik Ibsen",
+    "year": 1886,
+    "decade": "1880-tallet",
+    "genre": "Drama",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "skyld",
+      "frigjøring",
+      "død"
+    ],
+    "blurb": "Den frittenkende Rebekka West og den tvilende godseier Rosmer trekkes mot møllefossen i et psykologisk drama Freud selv analyserte.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:drama",
+      "theme:skyld",
+      "theme:frigjoring",
+      "theme:dod",
+      "tag:popular"
+    ],
+    "fame": 7
+  },
+  {
+    "id": "henrik-ibsen--samfundets-stotter",
+    "title": "Samfundets støtter",
+    "author": "Henrik Ibsen",
+    "year": 1877,
+    "decade": "1870-tallet",
+    "genre": "Drama",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "hykleri",
+      "samfunn",
+      "sannhet"
+    ],
+    "blurb": "Konsul Bernick bygger sin anseelse på løgn og svik. Det første av Ibsens store samtidsdramaer om dobbeltmoralen i borgerskapet.",
+    "orig": "Pillars of Society",
+    "cats": [
+      "era:1800",
+      "genre:drama",
+      "theme:hykleri",
+      "theme:samfunn",
+      "theme:sannhet",
+      "tag:popular"
+    ],
+    "fame": 8
+  },
+  {
+    "id": "henrik-ibsen--fruen-fra-havet",
+    "title": "Fruen fra havet",
+    "author": "Henrik Ibsen",
+    "year": 1888,
+    "decade": "1880-tallet",
+    "genre": "Drama",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "frihet",
+      "lengsel",
+      "ekteskap"
+    ],
+    "blurb": "Ellida dras mellom trygg ektemann og en gåtefull sjømann fra fortiden — fri først når hun får velge i full frihet og under ansvar.",
+    "orig": "The Lady from the Sea",
+    "cats": [
+      "era:1800",
+      "genre:drama",
+      "theme:frihet",
+      "theme:lengsel",
+      "theme:ekteskap",
+      "tag:popular"
+    ],
+    "fame": 9
+  },
+  {
+    "id": "knut-hamsun--sult",
+    "title": "Sult",
+    "author": "Knut Hamsun",
+    "year": 1890,
+    "decade": "1890-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "fattigdom",
+      "psykologi",
+      "Kristiania"
+    ],
+    "blurb": "En navnløs ung forfatter sulter seg gjennom Kristiania mens sinnet glir mot vanvidd. Banebrytende for sin indre monolog — en grunnstein i moderne litteratur.",
+    "orig": "Hunger",
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:fattigdom",
+      "theme:psykologi",
+      "theme:kristiania",
+      "tag:popular"
+    ],
+    "fame": 10
+  },
+  {
+    "id": "knut-hamsun--markens-grode",
+    "title": "Markens grøde",
+    "author": "Knut Hamsun",
+    "year": 1917,
+    "decade": "1910-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "natur",
+      "nybygger",
+      "jordbruk"
+    ],
+    "blurb": "Nybyggeren Isak rydder gård i ødemarka og bygger et liv av jorda. Verket som ga Hamsun Nobelprisen i 1920 — en hyllest til det enkle bondelivet.",
+    "orig": "Growth of the Soil",
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:natur",
+      "theme:nybygger",
+      "theme:jordbruk",
+      "tag:popular"
+    ],
+    "fame": 11
+  },
+  {
+    "id": "knut-hamsun--pan",
+    "title": "Pan",
+    "author": "Knut Hamsun",
+    "year": 1894,
+    "decade": "1890-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "natur",
+      "kjærlighet",
+      "lengsel"
+    ],
+    "blurb": "Løytnant Glahn lever ett med naturen i Nordland og forelsker seg ulykkelig i Edvarda. Lyrisk og rusende om mennesket, drift og den nordnorske sommernatten.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:natur",
+      "theme:kjaerlighet",
+      "theme:lengsel",
+      "tag:popular"
+    ],
+    "fame": 12
+  },
+  {
+    "id": "knut-hamsun--victoria",
+    "title": "Victoria",
+    "author": "Knut Hamsun",
+    "year": 1898,
+    "decade": "1890-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "kjærlighet",
+      "klasse",
+      "lengsel"
+    ],
+    "blurb": "Møllersønnen Johannes og slottsfrøkenen Victoria elsker hverandre på tvers av stand, men finner aldri sammen. En av norsk litteraturs ømmeste kjærlighetshistorier.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:kjaerlighet",
+      "theme:klasse",
+      "theme:lengsel",
+      "tag:popular"
+    ],
+    "fame": 13
+  },
+  {
+    "id": "knut-hamsun--mysterier",
+    "title": "Mysterier",
+    "author": "Knut Hamsun",
+    "year": 1892,
+    "decade": "1890-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "psykologi",
+      "fremmedhet",
+      "småby"
+    ],
+    "blurb": "Den gåtefulle Johan Nagel dukker opp i en småby i gul dress og snur opp ned på alt. Et urolig portrett av et splittet og uberegnelig sinn.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:psykologi",
+      "theme:fremmedhet",
+      "theme:smaby",
+      "tag:popular"
+    ],
+    "fame": 14
+  },
+  {
+    "id": "knut-hamsun--landstrykere",
+    "title": "Landstrykere",
+    "author": "Knut Hamsun",
+    "year": 1927,
+    "decade": "1920-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "vandring",
+      "Nordland",
+      "lengsel"
+    ],
+    "blurb": "Første bok om vandreren August, eventyreren og skrytehalsen som drar gjennom nordnorske bygder med store planer. Folkelig og humoristisk.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:vandring",
+      "theme:nordland",
+      "theme:lengsel",
+      "tag:popular"
+    ],
+    "fame": 15
+  },
+  {
+    "id": "knut-hamsun--pa-gjengrodde-stier",
+    "title": "På gjengrodde stier",
+    "author": "Knut Hamsun",
+    "year": 1949,
+    "decade": "1940-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "alderdom",
+      "rettssak",
+      "forsvar"
+    ],
+    "blurb": "Hamsuns siste bok, skrevet under landssvikforhørene etter krigen. Et stolt, selvironisk selvforsvar fra den aldrende, landsforræteranklagde dikteren.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:alderdom",
+      "theme:rettssak",
+      "theme:forsvar",
+      "tag:popular"
+    ],
+    "fame": 16
+  },
+  {
+    "id": "sigrid-undset--kristin-lavransdatter",
+    "title": "Kristin Lavransdatter",
+    "author": "Sigrid Undset",
+    "year": 1920,
+    "decade": "1920-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "middelalder",
+      "kjærlighet",
+      "religion"
+    ],
+    "blurb": "Trilogien (Kransen, Husfrue, Korset) følger Kristin gjennom lidenskap, ekteskap og bot i 1300-tallets Norge. Verket bak Nobelprisen 1928 og en folkekjær klassiker.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:middelalder",
+      "theme:kjaerlighet",
+      "theme:religion",
+      "tag:popular"
+    ],
+    "fame": 17
+  },
+  {
+    "id": "sigrid-undset--olav-audunsson",
+    "title": "Olav Audunssøn",
+    "author": "Sigrid Undset",
+    "year": 1925,
+    "decade": "1920-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "middelalder",
+      "skyld",
+      "religion"
+    ],
+    "blurb": "Et bredt middelalderepos om Olav og Ingunn, om hemmelig skyld og soning. Undsets andre store historiske romanverk etter Kristin.",
+    "orig": "The Master of Hestviken",
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:middelalder",
+      "theme:skyld",
+      "theme:religion",
+      "tag:popular"
+    ],
+    "fame": 18
+  },
+  {
+    "id": "sigrid-undset--jenny",
+    "title": "Jenny",
+    "author": "Sigrid Undset",
+    "year": 1911,
+    "decade": "1910-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "kunst",
+      "kvinneliv",
+      "kjærlighet"
+    ],
+    "blurb": "Malerinnen Jenny i Roma strever mellom kunstnerkall og lengselen etter kjærlighet og barn. En moderne, kompromissløs samtidsroman om kvinnens valg.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:kunst",
+      "theme:kvinneliv",
+      "theme:kjaerlighet",
+      "tag:popular"
+    ],
+    "fame": 19
+  },
+  {
+    "id": "sigrid-undset--fru-marta-oulie",
+    "title": "Fru Marta Oulie",
+    "author": "Sigrid Undset",
+    "year": 1907,
+    "decade": "1900-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "utroskap",
+      "ekteskap",
+      "skyld"
+    ],
+    "blurb": "«Jeg har vært min mann utro» — Undsets debut åpner med en av litteraturens mest berømte førstesetninger, en utro kvinnes dagbok.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:utroskap",
+      "theme:ekteskap",
+      "theme:skyld",
+      "tag:popular"
+    ],
+    "fame": 20
+  },
+  {
+    "id": "bjornstjerne-bjornson--synnove-solbakken",
+    "title": "Synnøve Solbakken",
+    "author": "Bjørnstjerne Bjørnson",
+    "year": 1857,
+    "decade": "1850-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "bygd",
+      "kjærlighet",
+      "religion"
+    ],
+    "blurb": "Bjørnsons gjennombrudd og den første store bondefortellingen: kjærligheten mellom fromme Synnøve og villstyringen Torbjørn. Grunnla en hel sjanger.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:bygd",
+      "theme:kjaerlighet",
+      "theme:religion",
+      "tag:popular"
+    ],
+    "fame": 21
+  },
+  {
+    "id": "bjornstjerne-bjornson--en-glad-gut",
+    "title": "En glad gut",
+    "author": "Bjørnstjerne Bjørnson",
+    "year": 1860,
+    "decade": "1860-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "bygd",
+      "oppvekst",
+      "klasse"
+    ],
+    "blurb": "Gjeterguttens Øyvinds vei fra fattigdom til skole og kjærligheten til Marit. En lys, optimistisk bondefortelling i nasjonalromantikkens ånd.",
+    "orig": "A Happy Boy",
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:bygd",
+      "theme:oppvekst",
+      "theme:klasse",
+      "tag:popular"
+    ],
+    "fame": 22
+  },
+  {
+    "id": "bjornstjerne-bjornson--ja-vi-elsker-dette-landet",
+    "title": "Ja, vi elsker dette landet",
+    "author": "Bjørnstjerne Bjørnson",
+    "year": 1859,
+    "decade": "1850-tallet",
+    "genre": "Lyrikk",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "fedreland",
+      "nasjon",
+      "hymne"
+    ],
+    "blurb": "Diktet som ble Norges nasjonalsang, tonesatt av fetteren Rikard Nordraak. Skrevet i nasjonsbyggingens tiår.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:lyrikk",
+      "theme:fedreland",
+      "theme:nasjon",
+      "theme:hymne",
+      "tag:popular"
+    ],
+    "fame": 23
+  },
+  {
+    "id": "camilla-collett--amtmandens-dotre",
+    "title": "Amtmandens Døtre",
+    "author": "Camilla Collett",
+    "year": 1854,
+    "decade": "1850-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "kvinnesak",
+      "kjærlighet",
+      "samfunn"
+    ],
+    "blurb": "Norges første tendensroman og et tidlig feministisk verk: et flammende oppgjør med tidens fornuftsekteskap og kvinnens manglende valgfrihet.",
+    "orig": "The District Governor's Daughters",
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:kvinnesak",
+      "theme:kjaerlighet",
+      "theme:samfunn",
+      "tag:popular"
+    ],
+    "fame": 24
+  },
+  {
+    "id": "alexander-kielland--garman-worse",
+    "title": "Garman & Worse",
+    "author": "Alexander Kielland",
+    "year": 1880,
+    "decade": "1880-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "klasse",
+      "samfunn",
+      "kystby"
+    ],
+    "blurb": "Kiellands debut tegner et bredt, ironisk bilde av handelsborgerskapet i en sørlandsk kystby. Elegant samfunnssatire fra det moderne gjennombruddet.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:klasse",
+      "theme:samfunn",
+      "theme:kystby",
+      "tag:popular"
+    ],
+    "fame": 25
+  },
+  {
+    "id": "alexander-kielland--gift",
+    "title": "Gift",
+    "author": "Alexander Kielland",
+    "year": 1883,
+    "decade": "1880-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "skole",
+      "hykleri",
+      "religion"
+    ],
+    "blurb": "Et bitende oppgjør med latinskolen og pugget av døde språk. «Gift» rammer den livsfjerne dannelsen som forgifter de unge.",
+    "orig": "Poison",
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:skole",
+      "theme:hykleri",
+      "theme:religion",
+      "tag:popular"
+    ],
+    "fame": 26
+  },
+  {
+    "id": "alexander-kielland--skipper-worse",
+    "title": "Skipper Worse",
+    "author": "Alexander Kielland",
+    "year": 1882,
+    "decade": "1880-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "religion",
+      "vekkelse",
+      "handel"
+    ],
+    "blurb": "Den haugianske lekmannsbevegelsens inntog i Stavanger-borgerskapet, sett gjennom den godslige skipperen. Kiellands varmeste roman.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:religion",
+      "theme:vekkelse",
+      "theme:handel",
+      "tag:popular"
+    ],
+    "fame": 27
+  },
+  {
+    "id": "amalie-skram--hellemyrsfolket",
+    "title": "Hellemyrsfolket",
+    "author": "Amalie Skram",
+    "year": 1887,
+    "decade": "1880-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "arv",
+      "fattigdom",
+      "alkohol"
+    ],
+    "blurb": "Naturalismens hovedverk i Norge: et firebindsepos om en slekt som synker gjennom generasjoner av fattigdom og fyll i Bergen. Nådeløst og medfølende.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:arv",
+      "theme:fattigdom",
+      "theme:alkohol",
+      "tag:popular"
+    ],
+    "fame": 28
+  },
+  {
+    "id": "amalie-skram--constance-ring",
+    "title": "Constance Ring",
+    "author": "Amalie Skram",
+    "year": 1885,
+    "decade": "1880-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "ekteskap",
+      "kvinnesak",
+      "moral"
+    ],
+    "blurb": "En kvinnes desillusjon i et ekteskap bygget på dobbeltmoral. Skrams debut og et sentralt innlegg i sedelighetsdebatten.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:ekteskap",
+      "theme:kvinnesak",
+      "theme:moral",
+      "tag:popular"
+    ],
+    "fame": 29
+  },
+  {
+    "id": "jonas-lie--familien-paa-gilje",
+    "title": "Familien paa Gilje",
+    "author": "Jonas Lie",
+    "year": 1883,
+    "decade": "1880-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "familie",
+      "kvinnesak",
+      "embetsmann"
+    ],
+    "blurb": "Et embetsmannshjem på 1840-tallet der døtrene giftes bort av økonomisk nødvendighet. Lies fineste skildring av kvinnens trange kår.",
+    "orig": "The Family at Gilje",
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:familie",
+      "theme:kvinnesak",
+      "theme:embetsmann",
+      "tag:popular"
+    ],
+    "fame": 30
+  },
+  {
+    "id": "arne-garborg--bondestudentar",
+    "title": "Bondestudentar",
+    "author": "Arne Garborg",
+    "year": 1883,
+    "decade": "1880-tallet",
+    "genre": "Roman",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "klasse",
+      "oppvekst",
+      "språk"
+    ],
+    "blurb": "Daniel Braut strever seg opp fra bygda til byen og fornekter sin egen bakgrunn. En knusende skildring av streberen, skrevet på landsmål.",
+    "orig": "Peasant Students",
+    "cats": [
+      "era:1800",
+      "genre:roman",
+      "theme:klasse",
+      "theme:oppvekst",
+      "theme:sprak",
+      "tag:popular"
+    ],
+    "fame": 31
+  },
+  {
+    "id": "arne-garborg--haugtussa",
+    "title": "Haugtussa",
+    "author": "Arne Garborg",
+    "year": 1895,
+    "decade": "1890-tallet",
+    "genre": "Lyrikk",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "natur",
+      "folketro",
+      "kjærlighet"
+    ],
+    "blurb": "En diktsyklus på nynorsk om gjeterjenta Veslemøy som ser inn i de underjordiskes verden. Grieg tonesatte flere av diktene.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:lyrikk",
+      "theme:natur",
+      "theme:folketro",
+      "theme:kjaerlighet",
+      "tag:popular"
+    ],
+    "fame": 32
+  },
+  {
+    "id": "sigbjorn-obstfelder--jeg-ser",
+    "title": "Jeg ser",
+    "author": "Sigbjørn Obstfelder",
+    "year": 1893,
+    "decade": "1890-tallet",
+    "genre": "Lyrikk",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "fremmedhet",
+      "modernisme",
+      "eksistens"
+    ],
+    "blurb": "«Jeg er vist kommet paa en feil klode!» — det mest siterte enkeltdiktet i norsk modernisme, en fremmedgjort betraktning av en underlig verden.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:lyrikk",
+      "theme:fremmedhet",
+      "theme:modernisme",
+      "theme:eksistens",
+      "tag:popular"
+    ],
+    "fame": 33
+  },
+  {
+    "id": "henrik-wergeland--digte",
+    "title": "Digte",
+    "author": "Henrik Wergeland",
+    "year": 1829,
+    "decade": "1820-tallet",
+    "genre": "Lyrikk",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "frihet",
+      "natur",
+      "kjærlighet"
+    ],
+    "blurb": "Wergelands første samling, full av ungdommelig livskraft. Selve symbolet på 17. mai-ånden og kampen for det frie Norge.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:lyrikk",
+      "theme:frihet",
+      "theme:natur",
+      "theme:kjaerlighet",
+      "tag:popular"
+    ],
+    "fame": 34
+  },
+  {
+    "id": "aasmund-olavsson-vinje--ferdaminni-fraa-sumaren-1860",
+    "title": "Ferdaminni fraa Sumaren 1860",
+    "author": "Aasmund Olavsson Vinje",
+    "year": 1861,
+    "decade": "1860-tallet",
+    "genre": "Sakprosa",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "reise",
+      "natur",
+      "språk"
+    ],
+    "blurb": "En reiseskildring fra Kristiania til Trondheim, skrevet på et nyskapende landsmål. Inneholder det udødelige diktet «Ved Rondane».",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:sakprosa",
+      "theme:reise",
+      "theme:natur",
+      "theme:sprak",
+      "tag:popular"
+    ],
+    "fame": 35
+  },
+  {
+    "id": "aksel-sandemose--en-flyktning-krysser-sitt-spor",
+    "title": "En flyktning krysser sitt spor",
+    "author": "Aksel Sandemose",
+    "year": 1933,
+    "decade": "1930-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "jante",
+      "skyld",
+      "oppvekst"
+    ],
+    "blurb": "Romanen som ga oss Janteloven: «Du skal ikke tro at du er noe.» Espen Arnakkes oppgjør med småbyens kvelende sosiale kontroll.",
+    "orig": "A Fugitive Crosses His Tracks",
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:jante",
+      "theme:skyld",
+      "theme:oppvekst",
+      "tag:popular"
+    ],
+    "fame": 36
+  },
+  {
+    "id": "cora-sandel--alberte-og-jakob",
+    "title": "Alberte og Jakob",
+    "author": "Cora Sandel",
+    "year": 1926,
+    "decade": "1920-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "kvinneliv",
+      "kunst",
+      "frigjøring"
+    ],
+    "blurb": "Første bind av Alberte-trilogien: en sky ung kvinne kveles av kulde og konvensjoner i en nordnorsk småby og drømmer om et friere liv.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:kvinneliv",
+      "theme:kunst",
+      "theme:frigjoring",
+      "tag:popular"
+    ],
+    "fame": 37
+  },
+  {
+    "id": "olav-duun--juvikfolke",
+    "title": "Juvikfolke",
+    "author": "Olav Duun",
+    "year": 1918,
+    "decade": "1910-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "slekt",
+      "natur",
+      "moral"
+    ],
+    "blurb": "Et seksbinds slektsepos på nynorsk om en trøndersk kystslekts vei fra hedensk villskap til moralsk modning. Duuns hovedverk.",
+    "orig": "The People of Juvik",
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:slekt",
+      "theme:natur",
+      "theme:moral",
+      "tag:popular"
+    ],
+    "fame": 38
+  },
+  {
+    "id": "johan-falkberget--den-fjerde-nattevakt",
+    "title": "Den fjerde nattevakt",
+    "author": "Johan Falkberget",
+    "year": 1923,
+    "decade": "1920-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "gruvedrift",
+      "kjærlighet",
+      "skyld"
+    ],
+    "blurb": "Presten Benjamin Sigismund og hans forbudte kjærlighet i bergstaden Røros på 1800-tallet. Falkbergets mest leste roman fra kobberverkets verden.",
+    "orig": "The Fourth Night Watch",
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:gruvedrift",
+      "theme:kjaerlighet",
+      "theme:skyld",
+      "tag:popular"
+    ],
+    "fame": 39
+  },
+  {
+    "id": "kristofer-uppdal--dansen-gjennom-skuggeheimen",
+    "title": "Dansen gjennom skuggeheimen",
+    "author": "Kristofer Uppdal",
+    "year": 1911,
+    "decade": "1910-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "arbeider",
+      "rallar",
+      "klassekamp"
+    ],
+    "blurb": "Uppdals tibinds romanverk skildrer rallarenes og anleggsarbeidernes liv — den norske arbeiderklassens store epos, skrevet på nynorsk.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:arbeider",
+      "theme:rallar",
+      "theme:klassekamp"
+    ],
+    "fame": 40
+  },
+  {
+    "id": "sigurd-hoel--mote-ved-milepelen",
+    "title": "Møte ved milepelen",
+    "author": "Sigurd Hoel",
+    "year": 1947,
+    "decade": "1940-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "krig",
+      "svik",
+      "ansvar"
+    ],
+    "blurb": "En motstandsmann spør hvorfor noen ble nazister — og finner svaret farlig nær seg selv. Et av de skarpeste oppgjørene med okkupasjonen.",
+    "orig": "Meeting at the Milestone",
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:krig",
+      "theme:svik",
+      "theme:ansvar"
+    ],
+    "fame": 41
+  },
+  {
+    "id": "arnulf-overland--du-ma-ikke-sove",
+    "title": "Du må ikke sove",
+    "author": "Arnulf Øverland",
+    "year": 1937,
+    "decade": "1930-tallet",
+    "genre": "Lyrikk",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "krig",
+      "ansvar",
+      "advarsel"
+    ],
+    "blurb": "«Du må ikke tåle så inderlig vel den urett som ikke rammer dig selv!» — det mektige varselsdiktet mot nazismen, lest opp igjen og igjen.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:lyrikk",
+      "theme:krig",
+      "theme:ansvar",
+      "theme:advarsel"
+    ],
+    "fame": 42
+  },
+  {
+    "id": "nordahl-grieg--til-ungdommen",
+    "title": "Til ungdommen",
+    "author": "Nordahl Grieg",
+    "year": 1936,
+    "decade": "1930-tallet",
+    "genre": "Lyrikk",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "fred",
+      "ansvar",
+      "ungdom"
+    ],
+    "blurb": "«Kringsatt av fiender, gå inn i din tid» — Griegs appell om fred og menneskeverd, tonesatt av Otto Mortensen og sunget etter 22. juli 2011.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:lyrikk",
+      "theme:fred",
+      "theme:ansvar",
+      "theme:ungdom"
+    ],
+    "fame": 43
+  },
+  {
+    "id": "rolf-jacobsen--jord-og-jern",
+    "title": "Jord og jern",
+    "author": "Rolf Jacobsen",
+    "year": 1933,
+    "decade": "1930-tallet",
+    "genre": "Lyrikk",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "modernitet",
+      "teknologi",
+      "natur"
+    ],
+    "blurb": "Debutsamlingen som først brakte storbyens maskiner, kraner og telefonstolper inn i norsk poesi. Jacobsen ble vår fremste modernistiske lyriker.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:lyrikk",
+      "theme:modernitet",
+      "theme:teknologi",
+      "theme:natur"
+    ],
+    "fame": 44
+  },
+  {
+    "id": "olav-h-hauge--dropar-i-austavind",
+    "title": "Dropar i austavind",
+    "author": "Olav H. Hauge",
+    "year": 1966,
+    "decade": "1960-tallet",
+    "genre": "Lyrikk",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "natur",
+      "hverdag",
+      "ettertanke"
+    ],
+    "blurb": "Fra fruktbonden og dikteren i Ulvik: knappe, klare dikt om epletre, vær og det å leve. Her står «Det er den draumen» som folket kåret til tidenes dikt.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:lyrikk",
+      "theme:natur",
+      "theme:hverdag",
+      "theme:ettertanke"
+    ],
+    "fame": 45
+  },
+  {
+    "id": "inger-hagerup--aust-vagoy",
+    "title": "Aust-Vågøy",
+    "author": "Inger Hagerup",
+    "year": 1941,
+    "decade": "1940-tallet",
+    "genre": "Lyrikk",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "krig",
+      "motstand",
+      "sorg"
+    ],
+    "blurb": "«Mars 1941» — Hagerups gripende dikt om tyskernes herjinger i Lofoten ble et illegalt samlingsmerke under okkupasjonen.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:lyrikk",
+      "theme:krig",
+      "theme:motstand",
+      "theme:sorg"
+    ],
+    "fame": 46
+  },
+  {
+    "id": "agnar-mykle--sangen-om-den-rode-rubin",
+    "title": "Sangen om den røde rubin",
+    "author": "Agnar Mykle",
+    "year": 1956,
+    "decade": "1950-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "seksualitet",
+      "ungdom",
+      "frihet"
+    ],
+    "blurb": "Ask Burlefots erotiske dannelsesreise utløste Norges mest berømte sedelighetssak — boka ble beslaglagt, og Mykle frikjent i Høyesterett i 1958.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:seksualitet",
+      "theme:ungdom",
+      "theme:frihet"
+    ],
+    "fame": 47
+  },
+  {
+    "id": "agnar-mykle--lasso-rundt-fru-luna",
+    "title": "Lasso rundt fru Luna",
+    "author": "Agnar Mykle",
+    "year": 1954,
+    "decade": "1950-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "oppvekst",
+      "klasse",
+      "drøm"
+    ],
+    "blurb": "Ask Burlefots oppvekst og veien mot voksenlivet, full av lengsel og opprør. Forløperen til den langt mer beryktede «Rubin».",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:oppvekst",
+      "theme:klasse",
+      "theme:drom"
+    ],
+    "fame": 48
+  },
+  {
+    "id": "jens-bjorneboe--bestialitetens-historie",
+    "title": "Bestialitetens historie",
+    "author": "Jens Bjørneboe",
+    "year": 1966,
+    "decade": "1960-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "ondskap",
+      "historie",
+      "vold"
+    ],
+    "blurb": "Første bind av en trilogi som gransker menneskets grusomhet gjennom historien — fra heksebrenning til Auschwitz. Bjørneboes rasende moralfilosofi.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:ondskap",
+      "theme:historie",
+      "theme:vold"
+    ],
+    "fame": 49
+  },
+  {
+    "id": "jens-bjorneboe--jonas",
+    "title": "Jonas",
+    "author": "Jens Bjørneboe",
+    "year": 1955,
+    "decade": "1950-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "skole",
+      "barn",
+      "system"
+    ],
+    "blurb": "Et oppgjør med en autoritær og knugende skole som svikter de ordblinde og annerledes barna. Boka satte fart i etterkrigstidens skoledebatt.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:skole",
+      "theme:barn",
+      "theme:system"
+    ],
+    "fame": 50
+  },
+  {
+    "id": "kjell-askildsen--thomas-f-s-siste-nedtegnelser-til-almenheten",
+    "title": "Thomas F's siste nedtegnelser til almenheten",
+    "author": "Kjell Askildsen",
+    "year": 1983,
+    "decade": "1980-tallet",
+    "genre": "Noveller",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "alderdom",
+      "ensomhet",
+      "død"
+    ],
+    "blurb": "Den gamle, bitre Thomas F. betrakter livet med iskald presisjon. Askildsen er Norges store novellist — minimalistisk, tørrvittig og avkledd.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:noveller",
+      "theme:alderdom",
+      "theme:ensomhet",
+      "theme:dod"
+    ],
+    "fame": 51
+  },
+  {
+    "id": "dag-solstad--genanse-og-verdighet",
+    "title": "Genanse og verdighet",
+    "author": "Dag Solstad",
+    "year": 1994,
+    "decade": "1990-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "nederlag",
+      "intellektuell",
+      "Oslo"
+    ],
+    "blurb": "Lektor Elias Rukla får et sammenbrudd over en ødelagt paraply utenfor skolen. Solstads finslipte studie av en manns stille fallitt.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:nederlag",
+      "theme:intellektuell",
+      "theme:oslo"
+    ],
+    "fame": 52
+  },
+  {
+    "id": "dag-solstad--gymnaslaerer-pedersens-beretning",
+    "title": "Gymnaslærer Pedersens beretning",
+    "author": "Dag Solstad",
+    "year": 1982,
+    "decade": "1980-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "politikk",
+      "AKP",
+      "idealisme"
+    ],
+    "blurb": "En ironisk og selvransakende beretning om m-l-bevegelsens glødende år sett fra innsiden. Solstads oppgjør med sin egen radikale fortid.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:politikk",
+      "theme:akp",
+      "theme:idealisme"
+    ],
+    "fame": 53
+  },
+  {
+    "id": "dag-solstad--roman-1987",
+    "title": "Roman 1987",
+    "author": "Dag Solstad",
+    "year": 1987,
+    "decade": "1980-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "politikk",
+      "idealisme",
+      "tilbakeblikk"
+    ],
+    "blurb": "Fjord ser tilbake på sitt liv som revolusjonær i en roman om håp og desillusjon. Et hovedverk i Solstads forfatterskap.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:politikk",
+      "theme:idealisme",
+      "theme:tilbakeblikk"
+    ],
+    "fame": 54
+  },
+  {
+    "id": "tarjei-vesaas--is-slottet",
+    "title": "Is-slottet",
+    "author": "Tarjei Vesaas",
+    "year": 1963,
+    "decade": "1960-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "vennskap",
+      "død",
+      "natur"
+    ],
+    "blurb": "To jenter knytter et skjørt vennskap før den ene forsvinner i den frosne fossen. Vesaas' mest elskede roman, vinner av Nordisk råds litteraturpris.",
+    "orig": "The Ice Palace",
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:vennskap",
+      "theme:dod",
+      "theme:natur"
+    ],
+    "fame": 55
+  },
+  {
+    "id": "tarjei-vesaas--fuglane",
+    "title": "Fuglane",
+    "author": "Tarjei Vesaas",
+    "year": 1957,
+    "decade": "1950-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "utenforskap",
+      "natur",
+      "søsken"
+    ],
+    "blurb": "Den enkle Mattis tyder fugletegn og naturens språk mens søsteren lengter etter et eget liv. En øm roman om den som ikke passer inn.",
+    "orig": "The Birds",
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:utenforskap",
+      "theme:natur",
+      "theme:sosken"
+    ],
+    "fame": 56
+  },
+  {
+    "id": "tarjei-vesaas--kimen",
+    "title": "Kimen",
+    "author": "Tarjei Vesaas",
+    "year": 1940,
+    "decade": "1940-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "vold",
+      "skyld",
+      "fellesskap"
+    ],
+    "blurb": "Et drap utløser flokkens blinde hevn på en liten øy. En tett allegori om vold og forsoning, skrevet i krigens skygge.",
+    "orig": "The Seed",
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:vold",
+      "theme:skyld",
+      "theme:fellesskap"
+    ],
+    "fame": 57
+  },
+  {
+    "id": "jon-fosse--morgon-og-kveld",
+    "title": "Morgon og kveld",
+    "author": "Jon Fosse",
+    "year": 2000,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "fødsel",
+      "død",
+      "liv"
+    ],
+    "blurb": "Fiskeren Johannes' første dag i livet og hans siste, fortalt i Fosses hypnotiske, repeterende prosa. En vakker meditasjon over en hel menneskealder.",
+    "orig": "Morning and Evening",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:fodsel",
+      "theme:dod",
+      "theme:liv"
+    ],
+    "fame": 58
+  },
+  {
+    "id": "jon-fosse--det-er-ales",
+    "title": "Det er Ales",
+    "author": "Jon Fosse",
+    "year": 2004,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "sorg",
+      "minne",
+      "fjord"
+    ],
+    "blurb": "Signe ser tilbake på mannen som forsvant på fjorden, mens generasjoner glir over i hverandre. Konsentrert sorgmusikk i prosaform.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:sorg",
+      "theme:minne",
+      "theme:fjord"
+    ],
+    "fame": 59
+  },
+  {
+    "id": "jon-fosse--det-andre-namnet",
+    "title": "Det andre namnet",
+    "author": "Jon Fosse",
+    "year": 2019,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "kunst",
+      "tro",
+      "dobbeltgjenger"
+    ],
+    "blurb": "Åpningen på «Septologien» — maleren Asle og hans navnebror, skrevet som én eneste flytende setning. Hovedverket bak Nobelprisen 2023.",
+    "orig": "The Other Name",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:kunst",
+      "theme:tro",
+      "theme:dobbeltgjenger"
+    ],
+    "fame": 60
+  },
+  {
+    "id": "jon-fosse--nokon-kjem-til-a-komme",
+    "title": "Nokon kjem til å komme",
+    "author": "Jon Fosse",
+    "year": 1996,
+    "decade": "1990-tallet",
+    "genre": "Drama",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "sjalusi",
+      "ensomhet",
+      "angst"
+    ],
+    "blurb": "Et par flykter til et øde hus ved havet for å være alene, men frykten for en fremmed tærer på dem. Fosses gjennombrudd som dramatiker.",
+    "orig": "Someone Is Going to Come",
+    "cats": [
+      "era:samtid",
+      "genre:drama",
+      "theme:sjalusi",
+      "theme:ensomhet",
+      "theme:angst"
+    ],
+    "fame": 61
+  },
+  {
+    "id": "karl-ove-knausgard--min-kamp",
+    "title": "Min kamp",
+    "author": "Karl Ove Knausgård",
+    "year": 2009,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "selvbiografi",
+      "far",
+      "hverdag"
+    ],
+    "blurb": "Det 3500 sider lange selvbiografiske romanverket i seks bind som rystet norsk offentlighet og gjorde Knausgård til verdensnavn. Bind 1 åpner ved farens død.",
+    "orig": "My Struggle",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:selvbiografi",
+      "theme:far",
+      "theme:hverdag"
+    ],
+    "fame": 62
+  },
+  {
+    "id": "karl-ove-knausgard--ute-av-verden",
+    "title": "Ute av verden",
+    "author": "Karl Ove Knausgård",
+    "year": 1998,
+    "decade": "1990-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "forelskelse",
+      "tabu",
+      "skyld"
+    ],
+    "blurb": "Debuten om en ung lærer som forelsker seg i en 13-årig elev. Knausgård ble første debutant til å vinne Kritikerprisen.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:forelskelse",
+      "theme:tabu",
+      "theme:skyld"
+    ],
+    "fame": 63
+  },
+  {
+    "id": "karl-ove-knausgard--om-hausten",
+    "title": "Om hausten",
+    "author": "Karl Ove Knausgård",
+    "year": 2015,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "natur",
+      "ting",
+      "far"
+    ],
+    "blurb": "Korte betraktninger om alt fra epler til veps, skrevet som brev til et ufødt barn. Første bok i årstidskvartetten.",
+    "orig": "Autumn",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:natur",
+      "theme:ting",
+      "theme:far"
+    ],
+    "fame": 64
+  },
+  {
+    "id": "per-petterson--ut-og-stjaele-hester",
+    "title": "Ut og stjæle hester",
+    "author": "Per Petterson",
+    "year": 2003,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "far",
+      "minne",
+      "krig"
+    ],
+    "blurb": "En aldrende mann i ensomhet ved en innsjø graver i en skjebnesvanger sommer i ungdommen. Internasjonal suksess, oversatt til femti språk.",
+    "orig": "Out Stealing Horses",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:far",
+      "theme:minne",
+      "theme:krig"
+    ],
+    "fame": 65
+  },
+  {
+    "id": "per-petterson--jeg-forbanner-tidens-elv",
+    "title": "Jeg forbanner tidens elv",
+    "author": "Per Petterson",
+    "year": 2008,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "mor",
+      "kommunisme",
+      "samliv"
+    ],
+    "blurb": "En mann i krise reiser etter sin døende mor til Danmark mens ekteskapet rakner og idealene falmer. Vinner av Nordisk råds litteraturpris.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:mor",
+      "theme:kommunisme",
+      "theme:samliv"
+    ],
+    "fame": 66
+  },
+  {
+    "id": "herbjorg-wassmo--dinas-bok",
+    "title": "Dinas bok",
+    "author": "Herbjørg Wassmo",
+    "year": 1989,
+    "decade": "1980-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "skyld",
+      "kvinne",
+      "Nordland"
+    ],
+    "blurb": "Den vilskremte og mektige Dina styrer gård og handelssted på 1800-tallet, tynget av en barndomsskyld. Wassmos internasjonale gjennombrudd.",
+    "orig": "Dina's Book",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:skyld",
+      "theme:kvinne",
+      "theme:nordland"
+    ],
+    "fame": 67
+  },
+  {
+    "id": "herbjorg-wassmo--huset-med-den-blinde-glassveranda",
+    "title": "Huset med den blinde glassveranda",
+    "author": "Herbjørg Wassmo",
+    "year": 1981,
+    "decade": "1980-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "oppvekst",
+      "overgrep",
+      "krig"
+    ],
+    "blurb": "Tora vokser opp som «tyskerunge» i et nordnorsk fiskevær, mishandlet hjemme. Første bind av den sterke Tora-trilogien.",
+    "orig": "The House with the Blind Glass Windows",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:oppvekst",
+      "theme:overgrep",
+      "theme:krig"
+    ],
+    "fame": 68
+  },
+  {
+    "id": "herbjorg-wassmo--hundrearshistorien",
+    "title": "Hundreårshistorien",
+    "author": "Herbjørg Wassmo",
+    "year": 2009,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "slekt",
+      "kvinne",
+      "historie"
+    ],
+    "blurb": "Wassmos episke slektsroman som følger kvinnene i hennes egen familie over hundre år i Nord-Norge.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:slekt",
+      "theme:kvinne",
+      "theme:historie"
+    ],
+    "fame": 69
+  },
+  {
+    "id": "lars-saabye-christensen--halvbroren",
+    "title": "Halvbroren",
+    "author": "Lars Saabye Christensen",
+    "year": 2001,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "familie",
+      "Oslo",
+      "etterkrig"
+    ],
+    "blurb": "Et bredt familieepos over fire generasjoner i Oslo, fortalt av den lille Barnum. Vinner av Nordisk råds litteraturpris og en moderne klassiker.",
+    "orig": "The Half Brother",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:familie",
+      "theme:oslo",
+      "theme:etterkrig"
+    ],
+    "fame": 70
+  },
+  {
+    "id": "lars-saabye-christensen--beatles",
+    "title": "Beatles",
+    "author": "Lars Saabye Christensen",
+    "year": 1984,
+    "decade": "1980-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "ungdom",
+      "vennskap",
+      "60-tallet"
+    ],
+    "blurb": "Fire Oslo-gutter som kaller seg John, Paul, George og Ringo vokser opp på 60-tallet. En av Norges mest leste og elskede ungdomsromaner.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:ungdom",
+      "theme:vennskap",
+      "theme:60-tallet"
+    ],
+    "fame": 71
+  },
+  {
+    "id": "lars-saabye-christensen--herman",
+    "title": "Herman",
+    "author": "Lars Saabye Christensen",
+    "year": 1988,
+    "decade": "1980-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "barn",
+      "sykdom",
+      "mot"
+    ],
+    "blurb": "Elleve år gamle Herman mister håret og må finne mot i en verden som plutselig ser annerledes på ham. Hjertevarm og sårt morsom.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:barn",
+      "theme:sykdom",
+      "theme:mot"
+    ],
+    "fame": 72
+  },
+  {
+    "id": "roy-jacobsen--de-usynlige",
+    "title": "De usynlige",
+    "author": "Roy Jacobsen",
+    "year": 2013,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "øyliv",
+      "natur",
+      "familie"
+    ],
+    "blurb": "Livet til familien Barrøy på en knøttliten nordnorsk øy tidlig på 1900-tallet. Nominert til den internasjonale Booker-prisen, første bok i Barrøy-serien.",
+    "orig": "The Unseen",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:oyliv",
+      "theme:natur",
+      "theme:familie"
+    ],
+    "fame": 73
+  },
+  {
+    "id": "roy-jacobsen--vidunderbarn",
+    "title": "Vidunderbarn",
+    "author": "Roy Jacobsen",
+    "year": 2009,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "oppvekst",
+      "Oslo",
+      "60-tallet"
+    ],
+    "blurb": "En gutt og hans mor på Årvoll i 1960-årene får livet snudd da en halvsøster flytter inn. Stillferdig og presis oppvekstskildring.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:oppvekst",
+      "theme:oslo",
+      "theme:60-tallet"
+    ],
+    "fame": 74
+  },
+  {
+    "id": "erlend-loe--naiv-super",
+    "title": "Naiv. Super.",
+    "author": "Erlend Loe",
+    "year": 1996,
+    "decade": "1990-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "livskrise",
+      "naivisme",
+      "mening"
+    ],
+    "blurb": "En ung mann mister meningen med alt og begynner å kaste ball og lage lister. Naivismens norske hovedverk — lavmælt morsom og uventet dyp.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:livskrise",
+      "theme:naivisme",
+      "theme:mening"
+    ],
+    "fame": 75
+  },
+  {
+    "id": "erlend-loe--doppler",
+    "title": "Doppler",
+    "author": "Erlend Loe",
+    "year": 2004,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "sivilisasjonskritikk",
+      "natur",
+      "satire"
+    ],
+    "blurb": "En mann forlater familie og samfunn for å bo i skogen med en elgkalv ved navn Bongo. Frisk satire over det vellykkede norske livet.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:sivilisasjonskritikk",
+      "theme:natur",
+      "theme:satire"
+    ],
+    "fame": 76
+  },
+  {
+    "id": "vigdis-hjorth--arv-og-miljo",
+    "title": "Arv og miljø",
+    "author": "Vigdis Hjorth",
+    "year": 2016,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "overgrep",
+      "familie",
+      "arv"
+    ],
+    "blurb": "En arvestrid blottlegger et knust familieforhold og fortrengte overgrep. Utløste en heftig «virkelighetslitteratur»-debatt om grensen mot eget liv.",
+    "orig": "Will and Testament",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:overgrep",
+      "theme:familie",
+      "theme:arv"
+    ],
+    "fame": 77
+  },
+  {
+    "id": "hanne-orstavik--kjaerlighet",
+    "title": "Kjærlighet",
+    "author": "Hanne Ørstavik",
+    "year": 1997,
+    "decade": "1990-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "mor og sønn",
+      "ensomhet",
+      "natur"
+    ],
+    "blurb": "En mor og sønn i en vinternatt nordpå, så nær hverandre og likevel fatalt fjerne. Kåret til en av de beste norske bøkene de siste 25 år.",
+    "orig": "Love",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:mor-og-sonn",
+      "theme:ensomhet",
+      "theme:natur"
+    ],
+    "fame": 78
+  },
+  {
+    "id": "kjartan-flogstad--dalen-portland",
+    "title": "Dalen Portland",
+    "author": "Kjartan Fløgstad",
+    "year": 1977,
+    "decade": "1970-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "industri",
+      "klasse",
+      "språk"
+    ],
+    "blurb": "Industristedets framvekst og fall, fortalt med fabulerende språkglede og folkelig kraft. Vinner av Nordisk råds litteraturpris.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:industri",
+      "theme:klasse",
+      "theme:sprak"
+    ],
+    "fame": 79
+  },
+  {
+    "id": "kjartan-flogstad--grand-manila",
+    "title": "Grand Manila",
+    "author": "Kjartan Fløgstad",
+    "year": 2006,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "industri",
+      "historie",
+      "arbeider"
+    ],
+    "blurb": "Et bredt anlagt portrett av en industribygd og dens mennesker gjennom et helt århundre. Fløgstads myldrende historieroman.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:industri",
+      "theme:historie",
+      "theme:arbeider"
+    ],
+    "fame": 80
+  },
+  {
+    "id": "jan-kjaerstad--forforeren",
+    "title": "Forføreren",
+    "author": "Jan Kjærstad",
+    "year": 1993,
+    "decade": "1990-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "identitet",
+      "TV",
+      "fortelling"
+    ],
+    "blurb": "Første bind om TV-mannen Jonas Wergeland, fortalt i sprakende, ikke-kronologiske glimt. Wergeland-trilogien er et høydepunkt i 90-tallsromanen.",
+    "orig": "The Seducer",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:identitet",
+      "theme:tv",
+      "theme:fortelling"
+    ],
+    "fame": 81
+  },
+  {
+    "id": "jan-kjaerstad--erobreren",
+    "title": "Erobreren",
+    "author": "Jan Kjærstad",
+    "year": 1996,
+    "decade": "1990-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "identitet",
+      "skyld",
+      "fortelling"
+    ],
+    "blurb": "Samme liv som i «Forføreren», men nå i et mørkere lys: var Jonas Wergeland en morder? Kjærstads lek med sannhet og perspektiv.",
+    "orig": "The Conqueror",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:identitet",
+      "theme:skyld",
+      "theme:fortelling"
+    ],
+    "fame": 82
+  },
+  {
+    "id": "jo-nesbo--snomannen",
+    "title": "Snømannen",
+    "author": "Jo Nesbø",
+    "year": 2007,
+    "decade": "2000-tallet",
+    "genre": "Krim",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "seriemorder",
+      "Oslo",
+      "Harry Hole"
+    ],
+    "blurb": "Etterforsker Harry Hole jakter en seriemorder som etterlater snømenn ved åstedene. Den mest kjente boka i Norges bestselgende krimserie.",
+    "orig": "The Snowman",
+    "cats": [
+      "era:samtid",
+      "genre:krim",
+      "theme:seriemorder",
+      "theme:oslo",
+      "theme:harry-hole"
+    ],
+    "fame": 83
+  },
+  {
+    "id": "jo-nesbo--rodstrupe",
+    "title": "Rødstrupe",
+    "author": "Jo Nesbø",
+    "year": 2000,
+    "decade": "2000-tallet",
+    "genre": "Krim",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "krig",
+      "landssvik",
+      "Harry Hole"
+    ],
+    "blurb": "Harry Hole nøster opp en sak med røtter i norske frontkjempere på østfronten. Ofte regnet som det beste i Hole-serien.",
+    "orig": "The Redbreast",
+    "cats": [
+      "era:samtid",
+      "genre:krim",
+      "theme:krig",
+      "theme:landssvik",
+      "theme:harry-hole"
+    ],
+    "fame": 84
+  },
+  {
+    "id": "jo-nesbo--flaggermusmannen",
+    "title": "Flaggermusmannen",
+    "author": "Jo Nesbø",
+    "year": 1997,
+    "decade": "1990-tallet",
+    "genre": "Krim",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "Harry Hole",
+      "Australia",
+      "debut"
+    ],
+    "blurb": "Harry Hole sendes til Sydney for å løse drapet på en norsk kvinne. Nesbøs debut og starten på det internasjonale krimeventyret.",
+    "orig": "The Bat",
+    "cats": [
+      "era:samtid",
+      "genre:krim",
+      "theme:harry-hole",
+      "theme:australia",
+      "theme:debut"
+    ],
+    "fame": 85
+  },
+  {
+    "id": "karin-fossum--se-deg-ikke-tilbake",
+    "title": "Se deg ikke tilbake",
+    "author": "Karin Fossum",
+    "year": 1996,
+    "decade": "1990-tallet",
+    "genre": "Krim",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "bygd",
+      "Sejer",
+      "psykologi"
+    ],
+    "blurb": "Etterforsker Konrad Sejer gransker drapet på en ung jente i et lite bygdesamfunn. Fossum, «den norske krimdronningen», dyrker det psykologiske.",
+    "orig": "Don't Look Back",
+    "cats": [
+      "era:samtid",
+      "genre:krim",
+      "theme:bygd",
+      "theme:sejer",
+      "theme:psykologi"
+    ],
+    "fame": 86
+  },
+  {
+    "id": "anne-holt--din-til-doden",
+    "title": "Din til døden",
+    "author": "Anne Holt",
+    "year": 1998,
+    "decade": "1990-tallet",
+    "genre": "Krim",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "Oslo",
+      "politi",
+      "Hanne Wilhelmsen"
+    ],
+    "blurb": "Politietterforsker Hanne Wilhelmsen i en innfløkt drapssak. Holt, tidligere justisminister, er en av pionerene i moderne norsk krim.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:krim",
+      "theme:oslo",
+      "theme:politi",
+      "theme:hanne-wilhelmsen"
+    ],
+    "fame": 87
+  },
+  {
+    "id": "gunnar-staalesen--begravde-hunder-biter-ikke",
+    "title": "Begravde hunder biter ikke",
+    "author": "Gunnar Staalesen",
+    "year": 1993,
+    "decade": "1990-tallet",
+    "genre": "Krim",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "Bergen",
+      "privatdetektiv",
+      "Varg Veum"
+    ],
+    "blurb": "Privatetterforskeren Varg Veum løser saker i regntunge Bergen. Staalesens Veum er den norske hardkokte krimmens nestor.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:krim",
+      "theme:bergen",
+      "theme:privatdetektiv",
+      "theme:varg-veum"
+    ],
+    "fame": 88
+  },
+  {
+    "id": "maja-lunde--bienes-historie",
+    "title": "Bienes historie",
+    "author": "Maja Lunde",
+    "year": 2015,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "klima",
+      "natur",
+      "fremtid"
+    ],
+    "blurb": "Tre tidsplan — fortid, nåtid og en biløs fremtid — vevd sammen om menneskets forhold til biene. Klimaromanen ble en internasjonal bestselger.",
+    "orig": "The History of Bees",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:klima",
+      "theme:natur",
+      "theme:fremtid"
+    ],
+    "fame": 89
+  },
+  {
+    "id": "merethe-lindstrom--dager-i-stillhetens-historie",
+    "title": "Dager i stillhetens historie",
+    "author": "Merethe Lindstrøm",
+    "year": 2011,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "minne",
+      "fortielse",
+      "ekteskap"
+    ],
+    "blurb": "Et eldre ektepars fortielser — om jødisk fortid og et bortadoptert barn — siger frem. Vinner av Nordisk råds litteraturpris.",
+    "orig": "Days in the History of Silence",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:minne",
+      "theme:fortielse",
+      "theme:ekteskap"
+    ],
+    "fame": 90
+  },
+  {
+    "id": "carl-frode-tiller--innsirkling",
+    "title": "Innsirkling",
+    "author": "Carl Frode Tiller",
+    "year": 2007,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "minne",
+      "identitet",
+      "Trøndelag"
+    ],
+    "blurb": "David har mistet hukommelsen, og tre mennesker forteller hver sin versjon av hvem han var. En formsterk trilogi om hvor upålitelig minnet er.",
+    "orig": "Encircling",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:minne",
+      "theme:identitet",
+      "theme:trondelag"
+    ],
+    "fame": 91
+  },
+  {
+    "id": "zeshan-shakar--tante-ulrikkes-vei",
+    "title": "Tante Ulrikkes vei",
+    "author": "Zeshan Shakar",
+    "year": 2017,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "innvandring",
+      "klasse",
+      "Oslo øst"
+    ],
+    "blurb": "To gutter fra Stovner-borettslaget velger ulike veier ut av drabantbyen. En frisk og viktig stemme om det flerkulturelle Norge.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:innvandring",
+      "theme:klasse",
+      "theme:oslo-ost"
+    ],
+    "fame": 92
+  },
+  {
+    "id": "jostein-gaarder--sofies-verden",
+    "title": "Sofies verden",
+    "author": "Jostein Gaarder",
+    "year": 1991,
+    "decade": "1990-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "filosofi",
+      "dannelse",
+      "ungdom"
+    ],
+    "blurb": "Femten år gamle Sofie får mystiske brev som leder henne gjennom hele filosofihistorien. Tidenes mest oversatte norske bok, lest verden over.",
+    "orig": "Sophie's World",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:filosofi",
+      "theme:dannelse",
+      "theme:ungdom"
+    ],
+    "fame": 93
+  },
+  {
+    "id": "asbjornsen-og-moe--norske-folkeeventyr",
+    "title": "Norske folkeeventyr",
+    "author": "Asbjørnsen og Moe",
+    "year": 1841,
+    "decade": "1840-tallet",
+    "genre": "Eventyr",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "folketro",
+      "troll",
+      "Askeladden"
+    ],
+    "blurb": "Samlingen som ga oss Askeladden, de tre bukkene Bruse og Soria Moria slott. Asbjørnsen og Moes innsamling formet det norske språket og selvbildet.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:eventyr",
+      "theme:folketro",
+      "theme:troll",
+      "theme:askeladden"
+    ],
+    "fame": 94
+  },
+  {
+    "id": "thorbjorn-egner--folk-og-rovere-i-kardemomme-by",
+    "title": "Folk og røvere i Kardemomme by",
+    "author": "Thorbjørn Egner",
+    "year": 1955,
+    "decade": "1950-tallet",
+    "genre": "Barnebok",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "barn",
+      "snillhet",
+      "samfunn"
+    ],
+    "blurb": "Den fredelige byen med Kasper, Jesper og Jonatan og «Kardemommeloven». Egners syngende univers er innprentet i hver norsk barndom.",
+    "orig": "When the Robbers Came to Cardamom Town",
+    "cats": [
+      "era:etterkrig",
+      "genre:barnebok",
+      "theme:barn",
+      "theme:snillhet",
+      "theme:samfunn"
+    ],
+    "fame": 95
+  },
+  {
+    "id": "thorbjorn-egner--klatremus-og-de-andre-dyrene-i-hakkebakkeskogen",
+    "title": "Klatremus og de andre dyrene i Hakkebakkeskogen",
+    "author": "Thorbjørn Egner",
+    "year": 1953,
+    "decade": "1950-tallet",
+    "genre": "Barnebok",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "dyr",
+      "barn",
+      "sang"
+    ],
+    "blurb": "Mikkel Rev, Klatremus og Bestemor Skogmus i skogen der dyrene lover å ikke spise hverandre. Egners andre store barneklassiker, full av sanger.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:barnebok",
+      "theme:dyr",
+      "theme:barn",
+      "theme:sang"
+    ],
+    "fame": 96
+  },
+  {
+    "id": "anne-cath-vestly--mormor-og-de-atte-ungene-i-skogen",
+    "title": "Mormor og de åtte ungene i skogen",
+    "author": "Anne-Cath. Vestly",
+    "year": 1957,
+    "decade": "1950-tallet",
+    "genre": "Barnebok",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "familie",
+      "barn",
+      "hverdag"
+    ],
+    "blurb": "En storfamilie som lever enkelt og varmt i skogkanten. Vestly skrev hverdagslivet inn i barnelitteraturen og snakket rett til barna.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:barnebok",
+      "theme:familie",
+      "theme:barn",
+      "theme:hverdag"
+    ],
+    "fame": 97
+  },
+  {
+    "id": "alf-proysen--teskjekjerringa",
+    "title": "Teskjekjerringa",
+    "author": "Alf Prøysen",
+    "year": 1957,
+    "decade": "1950-tallet",
+    "genre": "Barnebok",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "forvandling",
+      "hverdag",
+      "humor"
+    ],
+    "blurb": "Kjerringa som plutselig krymper til størrelsen av en teskje og må klare seg likevel. Prøysens lune figur ble elsket langt utenfor Norge.",
+    "orig": "Mrs Pepperpot",
+    "cats": [
+      "era:etterkrig",
+      "genre:barnebok",
+      "theme:forvandling",
+      "theme:hverdag",
+      "theme:humor"
+    ],
+    "fame": 98
+  },
+  {
+    "id": "maria-parr--vaffelhjarte",
+    "title": "Vaffelhjarte",
+    "author": "Maria Parr",
+    "year": 2005,
+    "decade": "2000-tallet",
+    "genre": "Barnebok",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "vennskap",
+      "bygd",
+      "barn"
+    ],
+    "blurb": "Trille og Lena og deres ville påfunn i ei lita vestlandsbygd. Parr er kalt «den nye Astrid Lindgren» — varm, vill og rørende på nynorsk.",
+    "orig": "Waffle Hearts",
+    "cats": [
+      "era:samtid",
+      "genre:barnebok",
+      "theme:vennskap",
+      "theme:bygd",
+      "theme:barn"
+    ],
+    "fame": 99
+  },
+  {
+    "id": "zinken-hopp--trollkrittet",
+    "title": "Trollkrittet",
+    "author": "Zinken Hopp",
+    "year": 1948,
+    "decade": "1940-tallet",
+    "genre": "Barnebok",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "fantasi",
+      "magi",
+      "språk"
+    ],
+    "blurb": "Jon finner et kritt som gjør tegninger levende, blant annet den frekke Sofus. En oppfinnsom og språklekende klassiker i norsk barnelitteratur.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:barnebok",
+      "theme:fantasi",
+      "theme:magi",
+      "theme:sprak"
+    ],
+    "fame": 100
+  },
+  {
+    "id": "ludvig-holberg--jeppe-pa-bjerget",
+    "title": "Jeppe på Bjerget",
+    "author": "Ludvig Holberg",
+    "year": 1722,
+    "decade": "1720-tallet",
+    "genre": "Drama",
+    "era": "1700",
+    "eraLabel": "1700-tallet",
+    "themes": [
+      "komedie",
+      "klasse",
+      "drukkenskap"
+    ],
+    "blurb": "Den drukne bonden Jeppe vekkes i baronens seng og tror han er blitt herre. Holbergs udødelige komedie om makt, fyll og «hvem er egentlig herre?».",
+    "orig": "Jeppe of the Hill",
+    "cats": [
+      "era:1700",
+      "genre:drama",
+      "theme:komedie",
+      "theme:klasse",
+      "theme:drukkenskap"
+    ],
+    "fame": 101
+  },
+  {
+    "id": "ludvig-holberg--erasmus-montanus",
+    "title": "Erasmus Montanus",
+    "author": "Ludvig Holberg",
+    "year": 1731,
+    "decade": "1730-tallet",
+    "genre": "Drama",
+    "era": "1700",
+    "eraLabel": "1700-tallet",
+    "themes": [
+      "komedie",
+      "lærdom",
+      "hovmod"
+    ],
+    "blurb": "Den hjemvendte studenten Rasmus Berg blender bygda med latin og «beviser» at mor er en sten. En skarp satire over tom lærdom og hovmod.",
+    "orig": null,
+    "cats": [
+      "era:1700",
+      "genre:drama",
+      "theme:komedie",
+      "theme:laerdom",
+      "theme:hovmod"
+    ],
+    "fame": 102
+  },
+  {
+    "id": "ludvig-holberg--niels-klims-underjordiske-reise",
+    "title": "Niels Klims underjordiske reise",
+    "author": "Ludvig Holberg",
+    "year": 1741,
+    "decade": "1740-tallet",
+    "genre": "Roman",
+    "era": "1700",
+    "eraLabel": "1700-tallet",
+    "themes": [
+      "satire",
+      "utopi",
+      "reise"
+    ],
+    "blurb": "Niels Klim faller ned i jordens indre og finner samfunn som speiler vårt eget. En lærd og morsom utopisk satire, opprinnelig skrevet på latin.",
+    "orig": "Niels Klim's Underground Travels",
+    "cats": [
+      "era:1700",
+      "genre:roman",
+      "theme:satire",
+      "theme:utopi",
+      "theme:reise"
+    ],
+    "fame": 103
+  },
+  {
+    "id": "petter-dass--nordlands-trompet",
+    "title": "Nordlands Trompet",
+    "author": "Petter Dass",
+    "year": 1739,
+    "decade": "1730-tallet",
+    "genre": "Lyrikk",
+    "era": "1700",
+    "eraLabel": "1700-tallet",
+    "themes": [
+      "Nordland",
+      "natur",
+      "topografi"
+    ],
+    "blurb": "En levende skildring på vers av Nordlands natur, folk og fiske, skrevet av presten på Alstahaug rundt 1700. Norsk barokks fremste verk.",
+    "orig": null,
+    "cats": [
+      "era:1700",
+      "genre:lyrikk",
+      "theme:nordland",
+      "theme:natur",
+      "theme:topografi"
+    ],
+    "fame": 104
+  },
+  {
+    "id": "agnes-ravatn--fugletribunalet",
+    "title": "Fugletribunalet",
+    "author": "Agnes Ravatn",
+    "year": 2013,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "skam",
+      "isolasjon",
+      "spenning"
+    ],
+    "blurb": "En vanæret tv-kvinne søker tilflukt som hushjelp hos en gåtefull mann ved fjorden. En sugende, urovekkende kammerroman på nynorsk.",
+    "orig": "The Bird Tribunal",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:skam",
+      "theme:isolasjon",
+      "theme:spenning"
+    ],
+    "fame": 105
+  },
+  {
+    "id": "lars-mytting--svom-med-dem-som-drukner",
+    "title": "Svøm med dem som drukner",
+    "author": "Lars Mytting",
+    "year": 2014,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "slekt",
+      "krig",
+      "mysterium"
+    ],
+    "blurb": "Edvard nøster opp en familiegåte som strekker seg fra Gudbrandsdalen til slagmarkene ved Somme. En av tiårets store norske leserfavoritter.",
+    "orig": "The Sixteen Trees of the Somme",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:slekt",
+      "theme:krig",
+      "theme:mysterium"
+    ],
+    "fame": 106
+  },
+  {
+    "id": "johan-harstad--buzz-aldrin-hvor-ble-det-av-deg-i-alt-mylderet",
+    "title": "Buzz Aldrin, hvor ble det av deg i alt mylderet?",
+    "author": "Johan Harstad",
+    "year": 2005,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "utenforskap",
+      "Færøyene",
+      "tilhørighet"
+    ],
+    "blurb": "En gartner som helst vil være usynlig, havner på en psykiatrisk kollektiv på Færøyene. En mild, melankolsk roman om å ville være nummer to.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:utenforskap",
+      "theme:faeroyene",
+      "theme:tilhorighet"
+    ],
+    "fame": 107
+  },
+  {
+    "id": "gaute-heivoll--for-jeg-brenner-ned",
+    "title": "Før jeg brenner ned",
+    "author": "Gaute Heivoll",
+    "year": 2010,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "pyroman",
+      "bygd",
+      "selvbiografi"
+    ],
+    "blurb": "En pyromanbølge herjer ei sørlandsbygd samme vår som forfatteren blir født. Heivoll fletter den sanne brannhistorien sammen med sitt eget liv.",
+    "orig": "Before I Burn",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:pyroman",
+      "theme:bygd",
+      "theme:selvbiografi"
+    ],
+    "fame": 108
+  },
+  {
+    "id": "simon-stranger--leksikon-om-lys-og-morke",
+    "title": "Leksikon om lys og mørke",
+    "author": "Simon Stranger",
+    "year": 2018,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "Holocaust",
+      "minne",
+      "ondskap"
+    ],
+    "blurb": "Historien om en jødisk familie og deres bøddel, fortalt fra A til Å. En sterk roman om snublesteiner, skyld og hvordan navn holder de døde i live.",
+    "orig": "Keep Saying Their Names",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:holocaust",
+      "theme:minne",
+      "theme:ondskap"
+    ],
+    "fame": 109
+  },
+  {
+    "id": "ingvar-ambjornsen--elling-brodre-i-blodet",
+    "title": "Elling: Brødre i blodet",
+    "author": "Ingvar Ambjørnsen",
+    "year": 1996,
+    "decade": "1990-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "psykiatri",
+      "vennskap",
+      "Oslo"
+    ],
+    "blurb": "Den engstelige Elling og storvokste Kjell Bjarne skal mestre livet utenfor institusjonen i en Oslo-leilighet. Ble en folkekjær Oscar-nominert film.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:psykiatri",
+      "theme:vennskap",
+      "theme:oslo"
+    ],
+    "fame": 110
+  },
+  {
+    "id": "maria-parr--tonje-glimmerdal",
+    "title": "Tonje Glimmerdal",
+    "author": "Maria Parr",
+    "year": 2009,
+    "decade": "2000-tallet",
+    "genre": "Barnebok",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "barn",
+      "vennskap",
+      "natur"
+    ],
+    "blurb": "Den fartsfylte Tonje med «fart og sjølvtillit» som motto, alene-barn i ei lita fjellbygd. Parrs varme, eventyrlige andre barnebok.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:barnebok",
+      "theme:barn",
+      "theme:vennskap",
+      "theme:natur"
+    ],
+    "fame": 111
+  },
+  {
+    "id": "anne-b-ragde--berlinerpoplene",
+    "title": "Berlinerpoplene",
+    "author": "Anne B. Ragde",
+    "year": 2004,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "familie",
+      "slekt",
+      "hemmeligheter"
+    ],
+    "blurb": "Tre brødre samles på slektsgården Neshov når moren ligger for døden, og familiehemmeligheter velter frem. Første bind i den enormt populære Neshov-serien.",
+    "orig": "Berlin Poplars",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:familie",
+      "theme:slekt",
+      "theme:hemmeligheter"
+    ],
+    "fame": 112
+  },
+  {
+    "id": "olaug-nilssen--tung-tids-tale",
+    "title": "Tung tids tale",
+    "author": "Olaug Nilssen",
+    "year": 2017,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "autisme",
+      "morskap",
+      "system"
+    ],
+    "blurb": "En utmattet mors kamp for sin autistiske sønn og mot et tungrodd hjelpeapparat. Rå og rørende selvbiografisk roman, vinner av Brageprisen.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:autisme",
+      "theme:morskap",
+      "theme:system"
+    ],
+    "fame": 113
+  },
+  {
+    "id": "gunnhild-oyehaug--vente-blinke",
+    "title": "Vente, blinke",
+    "author": "Gunnhild Øyehaug",
+    "year": 2008,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "tilfeldigheter",
+      "kjærlighet",
+      "ironi"
+    ],
+    "blurb": "Et mylder av menneskeskjebner som krysser hverandre i en lekende, essayistisk roman. Filmatisert som «Women in Oversized Men's Shirts».",
+    "orig": "Wait, Blink",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:tilfeldigheter",
+      "theme:kjaerlighet",
+      "theme:ironi"
+    ],
+    "fame": 114
+  },
+  {
+    "id": "oyvind-rimbereid--solaris-korrigert",
+    "title": "Solaris korrigert",
+    "author": "Øyvind Rimbereid",
+    "year": 2004,
+    "decade": "2000-tallet",
+    "genre": "Lyrikk",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "fremtid",
+      "språk",
+      "Stavanger"
+    ],
+    "blurb": "Et langdikt fra et oljefritt Stavanger i 2480, skrevet på et oppdiktet fremtidsspråk av norsk, engelsk og skotsk. Norsk samtidslyrikks vågaleste verk.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:lyrikk",
+      "theme:fremtid",
+      "theme:sprak",
+      "theme:stavanger"
+    ],
+    "fame": 115
+  },
+  {
+    "id": "tor-ulven--avlosning",
+    "title": "Avløsning",
+    "author": "Tor Ulven",
+    "year": 1993,
+    "decade": "1990-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "tid",
+      "død",
+      "bevissthet"
+    ],
+    "blurb": "Tette prosastykker der ulike liv og tidsplan glir over i hverandre. Ulven er kultforfatteren hvis knappe, mørke prosa stadig får nye lesere.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:tid",
+      "theme:dod",
+      "theme:bevissthet"
+    ],
+    "fame": 116
+  },
+  {
+    "id": "kjersti-annesdatter-skomsvold--jo-fortere-jeg-gar-jo-mindre-er-jeg",
+    "title": "Jo fortere jeg går, jo mindre er jeg",
+    "author": "Kjersti Annesdatter Skomsvold",
+    "year": 2009,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "alderdom",
+      "ensomhet",
+      "død"
+    ],
+    "blurb": "Gamle Mathea Martinsen har levd et nesten usynlig liv og vil bli husket før hun dør. En sær, vittig og vemodig debut.",
+    "orig": "The Faster I Walk, the Smaller I Am",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:alderdom",
+      "theme:ensomhet",
+      "theme:dod"
+    ],
+    "fame": 117
+  },
+  {
+    "id": "tore-renberg--mannen-som-elsket-yngve",
+    "title": "Mannen som elsket Yngve",
+    "author": "Tore Renberg",
+    "year": 2003,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "ungdom",
+      "kjærlighet",
+      "Stavanger"
+    ],
+    "blurb": "Jarle Klepp i Stavanger 1989: punk, kjæreste — og en forvirrende forelskelse i den nye gutten Yngve. Folkekjær oppvekstroman, første bok om Jarle.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:ungdom",
+      "theme:kjaerlighet",
+      "theme:stavanger"
+    ],
+    "fame": 118
+  },
+  {
+    "id": "geir-gulliksen--historie-om-et-ekteskap",
+    "title": "Historie om et ekteskap",
+    "author": "Geir Gulliksen",
+    "year": 2015,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "ekteskap",
+      "utroskap",
+      "kjærlighet"
+    ],
+    "blurb": "En mann forsøker å forstå hvordan kjærligheten og ekteskapet hans gikk i oppløsning, fortalt fra konas perspektiv. Naken og presis samlivsroman.",
+    "orig": "The Story of a Marriage",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:ekteskap",
+      "theme:utroskap",
+      "theme:kjaerlighet"
+    ],
+    "fame": 119
+  },
+  {
+    "id": "frode-grytten--bikubesong",
+    "title": "Bikubesong",
+    "author": "Frode Grytten",
+    "year": 1999,
+    "decade": "1990-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "industri",
+      "fellesskap",
+      "bygd"
+    ],
+    "blurb": "Sammenvevde fortellinger fra beboerne i en arbeiderblokk i en vestlandsk industribygd. Gryttens myldrende «bikube» av menneskeskjebner på nynorsk.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:industri",
+      "theme:fellesskap",
+      "theme:bygd"
+    ],
+    "fame": 120
+  },
+  {
+    "id": "gert-nygardshaug--mengele-zoo",
+    "title": "Mengele Zoo",
+    "author": "Gert Nygårdshaug",
+    "year": 1989,
+    "decade": "1980-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "regnskog",
+      "økologi",
+      "opprør"
+    ],
+    "blurb": "Mino vokser opp i regnskogen og blir økoterrorist når storselskapene ødelegger hans verden. Kåret til tidenes beste norske roman av leserne i 2007.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:regnskog",
+      "theme:okologi",
+      "theme:oppror"
+    ],
+    "fame": 121
+  },
+  {
+    "id": "ivar-aasen--symra",
+    "title": "Symra",
+    "author": "Ivar Aasen",
+    "year": 1863,
+    "decade": "1860-tallet",
+    "genre": "Lyrikk",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "språk",
+      "nasjon",
+      "natur"
+    ],
+    "blurb": "Diktsamlingen der mannen bak nynorsken viser at det nye skriftspråket også kunne synge — her står «Nordmannen» («Millom bakkar og berg»).",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:lyrikk",
+      "theme:sprak",
+      "theme:nasjon",
+      "theme:natur"
+    ],
+    "fame": 122
+  },
+  {
+    "id": "peter-christen-asbjornsen--norske-huldreeventyr-og-folkesagn",
+    "title": "Norske huldreeventyr og folkesagn",
+    "author": "Peter Christen Asbjørnsen",
+    "year": 1845,
+    "decade": "1840-tallet",
+    "genre": "Eventyr",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "folketro",
+      "natur",
+      "sagn"
+    ],
+    "blurb": "Asbjørnsens egne sagn og huldreeventyr, rammet inn av levende naturskildringer fra skog og sæter. Folkeminnegranskeren bak de berømte eventyrene.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:eventyr",
+      "theme:folketro",
+      "theme:natur",
+      "theme:sagn"
+    ],
+    "fame": 123
+  },
+  {
+    "id": "jorgen-moe--i-bronden-og-i-kjernet",
+    "title": "I Brønden og i Kjernet",
+    "author": "Jørgen Moe",
+    "year": 1851,
+    "decade": "1850-tallet",
+    "genre": "Barnebok",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "barn",
+      "natur",
+      "oppvekst"
+    ],
+    "blurb": "Moes varme barnefortellinger — den ene halvdelen av eventyrduoen, også en fin lyriker og senere biskop.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:barnebok",
+      "theme:barn",
+      "theme:natur",
+      "theme:oppvekst"
+    ],
+    "fame": 124
+  },
+  {
+    "id": "johan-sebastian-welhaven--norges-daemring",
+    "title": "Norges Dæmring",
+    "author": "Johan Sebastian Welhaven",
+    "year": 1834,
+    "decade": "1830-tallet",
+    "genre": "Lyrikk",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "dannelse",
+      "polemikk",
+      "nasjon"
+    ],
+    "blurb": "En sonettsyklus som refser den umodne norske kulturen og tenner den legendariske feiden mot Wergeland om hva slags nasjon Norge skulle bli.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:lyrikk",
+      "theme:dannelse",
+      "theme:polemikk",
+      "theme:nasjon"
+    ],
+    "fame": 125
+  },
+  {
+    "id": "maurits-hansen--mordet-paa-maskinbygger-roolfsen",
+    "title": "Mordet paa Maskinbygger Roolfsen",
+    "author": "Maurits Hansen",
+    "year": 1840,
+    "decade": "1840-tallet",
+    "genre": "Krim",
+    "era": "1800",
+    "eraLabel": "1800-tallet",
+    "themes": [
+      "mord",
+      "etterforskning",
+      "gåte"
+    ],
+    "blurb": "Regnet blant verdens aller første kriminalromaner — en mordgåte med systematisk etterforskning, skrevet flere år før Poe og Doyle.",
+    "orig": null,
+    "cats": [
+      "era:1800",
+      "genre:krim",
+      "theme:mord",
+      "theme:etterforskning",
+      "theme:gate"
+    ],
+    "fame": 126
+  },
+  {
+    "id": "hans-e-kinck--sneskavlen-brast",
+    "title": "Sneskavlen brast",
+    "author": "Hans E. Kinck",
+    "year": 1918,
+    "decade": "1910-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "bygd",
+      "psykologi",
+      "natur"
+    ],
+    "blurb": "Kincks brede romanverk om bygdesamfunnet og menneskesinnets mørke, av en av våre mest særpregede og språkmektige fortellere.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:bygd",
+      "theme:psykologi",
+      "theme:natur"
+    ],
+    "fame": 127
+  },
+  {
+    "id": "gunnar-heiberg--kjaerlighedens-tragedie",
+    "title": "Kjærlighedens tragedie",
+    "author": "Gunnar Heiberg",
+    "year": 1904,
+    "decade": "1900-tallet",
+    "genre": "Drama",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "kjærlighet",
+      "kvinne",
+      "lidenskap"
+    ],
+    "blurb": "Heibergs intense drama om kjærlighetens krav og kvinnens frihet — sammen med «Balkonen» kjernen i hans erotiske dramatikk.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:drama",
+      "theme:kjaerlighet",
+      "theme:kvinne",
+      "theme:lidenskap"
+    ],
+    "fame": 128
+  },
+  {
+    "id": "helge-krog--oppbrudd",
+    "title": "Oppbrudd",
+    "author": "Helge Krog",
+    "year": 1936,
+    "decade": "1930-tallet",
+    "genre": "Drama",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "kvinne",
+      "frigjøring",
+      "ekteskap"
+    ],
+    "blurb": "Et samfunnskritisk drama om en kvinne som bryter ut for å leve fritt. Krog var en skarp dramatiker og essayist i Ibsens og kvinnesakens ånd.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:drama",
+      "theme:kvinne",
+      "theme:frigjoring",
+      "theme:ekteskap"
+    ],
+    "fame": 129
+  },
+  {
+    "id": "gabriel-scott--kilden",
+    "title": "Kilden",
+    "author": "Gabriel Scott",
+    "year": 1918,
+    "decade": "1910-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "natur",
+      "tro",
+      "enkelhet"
+    ],
+    "blurb": "Den fattige fiskeren Markus lever i barnlig samklang med Gud og naturen ved sjøen. Scotts stillferdige perle om det enkle, fromme liv.",
+    "orig": "The Wellspring",
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:natur",
+      "theme:tro",
+      "theme:enkelhet"
+    ],
+    "fame": 130
+  },
+  {
+    "id": "oskar-braaten--ungen",
+    "title": "Ungen",
+    "author": "Oskar Braaten",
+    "year": 1911,
+    "decade": "1910-tallet",
+    "genre": "Drama",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "arbeider",
+      "kvinne",
+      "Kristiania"
+    ],
+    "blurb": "Et folkelivsbilde fra fabrikkstrøkene langs Akerselva, der ugifte mødre og arbeidsfolk får liv. Braaten ga arbeiderklassen en scene.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:drama",
+      "theme:arbeider",
+      "theme:kvinne",
+      "theme:kristiania"
+    ],
+    "fame": 131
+  },
+  {
+    "id": "olaf-bull--metope",
+    "title": "Metope",
+    "author": "Olaf Bull",
+    "year": 1927,
+    "decade": "1920-tallet",
+    "genre": "Lyrikk",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "tid",
+      "kjærlighet",
+      "forgjengelighet"
+    ],
+    "blurb": "Tittelen på samlingen med Bulls mest berømte dikt — et forsøk på å meisle øyeblikket og den elskede fast i tiden. Vår fremste nyromantiske lyriker.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:lyrikk",
+      "theme:tid",
+      "theme:kjaerlighet",
+      "theme:forgjengelighet"
+    ],
+    "fame": 132
+  },
+  {
+    "id": "herman-wildenvey--nyinger",
+    "title": "Nyinger",
+    "author": "Herman Wildenvey",
+    "year": 1907,
+    "decade": "1900-tallet",
+    "genre": "Lyrikk",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "kjærlighet",
+      "natur",
+      "livsglede"
+    ],
+    "blurb": "Gjennombruddssamlingen med lett, leende og musikalsk vers. Wildenvey ble folkekjær for sin sorgløse erotiske livsglede.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:lyrikk",
+      "theme:kjaerlighet",
+      "theme:natur",
+      "theme:livsglede"
+    ],
+    "fame": 133
+  },
+  {
+    "id": "hulda-garborg--edderkoppen",
+    "title": "Edderkoppen",
+    "author": "Hulda Garborg",
+    "year": 1904,
+    "decade": "1900-tallet",
+    "genre": "Drama",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "kvinne",
+      "ekteskap",
+      "samfunn"
+    ],
+    "blurb": "Et skuespill om kvinnens stilling av en sentral kulturpersonlighet — forfatter, dramatiker og forkjemper for folkedans og bunad.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:drama",
+      "theme:kvinne",
+      "theme:ekteskap",
+      "theme:samfunn"
+    ],
+    "fame": 134
+  },
+  {
+    "id": "sigurd-christiansen--to-levende-og-en-dod",
+    "title": "To levende og en død",
+    "author": "Sigurd Christiansen",
+    "year": 1931,
+    "decade": "1930-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "mot",
+      "skyld",
+      "moral"
+    ],
+    "blurb": "Et postran der én tjenestemann gjør motstand og dør, mens to overlever — og må leve med spørsmålet om feighet og heltemot. Christiansens hovedverk.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:mot",
+      "theme:skyld",
+      "theme:moral"
+    ],
+    "fame": 135
+  },
+  {
+    "id": "ronald-fangen--mannen-som-elsket-rettferdigheten",
+    "title": "Mannen som elsket rettferdigheten",
+    "author": "Ronald Fangen",
+    "year": 1934,
+    "decade": "1930-tallet",
+    "genre": "Roman",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "moral",
+      "rettferd",
+      "tro"
+    ],
+    "blurb": "En psykologisk-etisk roman om idealisme som slår om i fanatisme. Fangen var en ledende kristen humanist i mellomkrigstidens debatt.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:roman",
+      "theme:moral",
+      "theme:rettferd",
+      "theme:tro"
+    ],
+    "fame": 136
+  },
+  {
+    "id": "halldis-moren-vesaas--harpe-og-dolk",
+    "title": "Harpe og dolk",
+    "author": "Halldis Moren Vesaas",
+    "year": 1929,
+    "decade": "1920-tallet",
+    "genre": "Lyrikk",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "kvinne",
+      "livskraft",
+      "kjærlighet"
+    ],
+    "blurb": "En frisk og frimodig debut som ga en ung kvinnestemme plass i nynorsk lyrikk. Hun ble en av landets mest folkekjære poeter.",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:lyrikk",
+      "theme:kvinne",
+      "theme:livskraft",
+      "theme:kjaerlighet"
+    ],
+    "fame": 137
+  },
+  {
+    "id": "tor-jonsson--mogning-i-morkret",
+    "title": "Mogning i mørkret",
+    "author": "Tor Jonsson",
+    "year": 1943,
+    "decade": "1940-tallet",
+    "genre": "Lyrikk",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "bygd",
+      "ensomhet",
+      "kjærlighet"
+    ],
+    "blurb": "Husmannssønnen Jonssons gjennombrudd, full av bittert alvor og lengsel. Her finnes kimen til den udødelige «Norsk kjærleikssong».",
+    "orig": null,
+    "cats": [
+      "era:1900",
+      "genre:lyrikk",
+      "theme:bygd",
+      "theme:ensomhet",
+      "theme:kjaerlighet"
+    ],
+    "fame": 138
+  },
+  {
+    "id": "andre-bjerke--de-dodes-tjern",
+    "title": "De dødes tjern",
+    "author": "André Bjerke",
+    "year": 1942,
+    "decade": "1940-tallet",
+    "genre": "Krim",
+    "era": "1900",
+    "eraLabel": "Tidlig 1900-tall",
+    "themes": [
+      "mystikk",
+      "spenning",
+      "psykologi"
+    ],
+    "blurb": "En grøsser-krim om et forhekset skogstjern, skrevet under pseudonymet Bernhard Borge. Filmatiseringen ble en norsk klassiker.",
+    "orig": "Lake of the Dead",
+    "cats": [
+      "era:1900",
+      "genre:krim",
+      "theme:mystikk",
+      "theme:spenning",
+      "theme:psykologi"
+    ],
+    "fame": 139
+  },
+  {
+    "id": "gunvor-hofmo--jeg-vil-hjem-til-menneskene",
+    "title": "Jeg vil hjem til menneskene",
+    "author": "Gunvor Hofmo",
+    "year": 1946,
+    "decade": "1940-tallet",
+    "genre": "Lyrikk",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "sorg",
+      "ensomhet",
+      "krig"
+    ],
+    "blurb": "Etterkrigsmodernismens mørke, eksistensielle stemme. Diktene bærer tapet av venninnen Ruth Maier, som ble drept i Auschwitz.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:lyrikk",
+      "theme:sorg",
+      "theme:ensomhet",
+      "theme:krig"
+    ],
+    "fame": 140
+  },
+  {
+    "id": "stein-mehren--gjennom-stillheten-en-natt",
+    "title": "Gjennom stillheten en natt",
+    "author": "Stein Mehren",
+    "year": 1960,
+    "decade": "1960-tallet",
+    "genre": "Lyrikk",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "bevissthet",
+      "natur",
+      "filosofi"
+    ],
+    "blurb": "Debuten til en av etterkrigstidens mest tankefulle og produktive lyrikere, opptatt av språk, erkjennelse og naturens store sammenhenger.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:lyrikk",
+      "theme:bevissthet",
+      "theme:natur",
+      "theme:filosofi"
+    ],
+    "fame": 141
+  },
+  {
+    "id": "jan-erik-vold--mor-godhjertas-glade-versjon-ja",
+    "title": "Mor Godhjertas glade versjon. Ja",
+    "author": "Jan Erik Vold",
+    "year": 1968,
+    "decade": "1960-tallet",
+    "genre": "Lyrikk",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "hverdag",
+      "modernisme",
+      "lek"
+    ],
+    "blurb": "En lekende, talespråklig diktsamling som fornyet norsk poesi på 60-tallet. Vold gjorde lyrikken muntlig, jazzet og folkelig.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:lyrikk",
+      "theme:hverdag",
+      "theme:modernisme",
+      "theme:lek"
+    ],
+    "fame": 142
+  },
+  {
+    "id": "johan-borgen--lillelord",
+    "title": "Lillelord",
+    "author": "Johan Borgen",
+    "year": 1955,
+    "decade": "1950-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "oppvekst",
+      "borgerskap",
+      "dobbeltliv"
+    ],
+    "blurb": "Wilfred «Lillelord» Sagen vokser opp i Kristianias velstående vestkant, splittet mellom finhet og en farlig dobbelthet. Borgens hovedverk, en trilogi.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:oppvekst",
+      "theme:borgerskap",
+      "theme:dobbeltliv"
+    ],
+    "fame": 143
+  },
+  {
+    "id": "knut-faldbakken--insektsommer",
+    "title": "Insektsommer",
+    "author": "Knut Faldbakken",
+    "year": 1972,
+    "decade": "1970-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "oppvekst",
+      "seksualitet",
+      "sommer"
+    ],
+    "blurb": "En ung gutts sanselige og forvirrende sommer på familiehytta. Faldbakkens gjennombrudd, et høydepunkt i 70-tallets oppvekstroman.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:oppvekst",
+      "theme:seksualitet",
+      "theme:sommer"
+    ],
+    "fame": 144
+  },
+  {
+    "id": "bjorg-vik--kvinneakvariet",
+    "title": "Kvinneakvariet",
+    "author": "Bjørg Vik",
+    "year": 1972,
+    "decade": "1970-tallet",
+    "genre": "Noveller",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "kvinne",
+      "frigjøring",
+      "samliv"
+    ],
+    "blurb": "Novellesamlingen som ble et samlingsmerke for den nye kvinnebevegelsen. Vik var en mester i å skildre kvinneliv og hverdag.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:noveller",
+      "theme:kvinne",
+      "theme:frigjoring",
+      "theme:samliv"
+    ],
+    "fame": 145
+  },
+  {
+    "id": "liv-koltzow--hvem-bestemmer-over-bjorg-og-unni",
+    "title": "Hvem bestemmer over Bjørg og Unni?",
+    "author": "Liv Køltzow",
+    "year": 1972,
+    "decade": "1970-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "kvinne",
+      "frigjøring",
+      "bevissthet"
+    ],
+    "blurb": "En tidlig og sentral roman fra den nyfeministiske bølgen om kvinners oppvåkning og krav på et eget liv.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:kvinne",
+      "theme:frigjoring",
+      "theme:bevissthet"
+    ],
+    "fame": 146
+  },
+  {
+    "id": "espen-haavardsholm--zink",
+    "title": "Zink",
+    "author": "Espen Haavardsholm",
+    "year": 1971,
+    "decade": "1970-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "politikk",
+      "ungdom",
+      "radikalisme"
+    ],
+    "blurb": "En formbevisst og politisk roman fra den radikale 70-tallsgenerasjonen, av en sentral skikkelse i tidens venstreorienterte litteratur.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:politikk",
+      "theme:ungdom",
+      "theme:radikalisme"
+    ],
+    "fame": 147
+  },
+  {
+    "id": "tor-age-bringsvaerd--probok",
+    "title": "Probok",
+    "author": "Tor Åge Bringsværd",
+    "year": 1968,
+    "decade": "1960-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "science fiction",
+      "fantasi",
+      "samfunn"
+    ],
+    "blurb": "Tidlig, sjangersprengende prosa fra pioneren som gjorde science fiction stuerent i Norge — siden også en elsket barnebokforfatter.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:science-fiction",
+      "theme:fantasi",
+      "theme:samfunn"
+    ],
+    "fame": 148
+  },
+  {
+    "id": "jon-bing--azur-kapteinenes-planet",
+    "title": "Azur, Kapteinenes planet",
+    "author": "Jon Bing",
+    "year": 1975,
+    "decade": "1970-tallet",
+    "genre": "Roman",
+    "era": "etterkrig",
+    "eraLabel": "Etterkrigstid",
+    "themes": [
+      "science fiction",
+      "fremtid",
+      "rom"
+    ],
+    "blurb": "Norsk science fiction fra forfatteren og jusprofessoren som sammen med Bringsværd formet sjangeren her til lands.",
+    "orig": null,
+    "cats": [
+      "era:etterkrig",
+      "genre:roman",
+      "theme:science-fiction",
+      "theme:fremtid",
+      "theme:rom"
+    ],
+    "fame": 149
+  },
+  {
+    "id": "cecilie-loveid--makespisere",
+    "title": "Måkespisere",
+    "author": "Cecilie Løveid",
+    "year": 1983,
+    "decade": "1980-tallet",
+    "genre": "Drama",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "kvinne",
+      "krig",
+      "språk"
+    ],
+    "blurb": "Et språklig nyskapende radiodrama om en ung kvinne under krigen, prisbelønt internasjonalt. Løveid utvider stadig grensene for dramatikken.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:drama",
+      "theme:kvinne",
+      "theme:krig",
+      "theme:sprak"
+    ],
+    "fame": 150
+  },
+  {
+    "id": "edvard-hoem--slattekar-i-himmelen",
+    "title": "Slåttekar i himmelen",
+    "author": "Edvard Hoem",
+    "year": 2014,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "slekt",
+      "utvandring",
+      "1800-tallet"
+    ],
+    "blurb": "Hoem følger sin egen tippoldefars liv i et bredt slektsepos om strev, tro og utvandring på 1800-tallet. Folkekjær dokumentarisk romankunst.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:slekt",
+      "theme:utvandring",
+      "theme:1800-tallet"
+    ],
+    "fame": 151
+  },
+  {
+    "id": "thure-erik-lund--groftetildragelsesmysteriet",
+    "title": "Grøftetildragelsesmysteriet",
+    "author": "Thure Erik Lund",
+    "year": 1995,
+    "decade": "1990-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "språk",
+      "sivilisasjon",
+      "essay"
+    ],
+    "blurb": "En vill, språkrik og tankesprengende roman av en kompromissløs stilist. Lund er en kultforfatter for de som elsker krevende prosa.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:sprak",
+      "theme:sivilisasjon",
+      "theme:essay"
+    ],
+    "fame": 152
+  },
+  {
+    "id": "bergljot-hobaek-haff--skammen",
+    "title": "Skammen",
+    "author": "Bergljot Hobæk Haff",
+    "year": 1996,
+    "decade": "1990-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "skyld",
+      "utstøtelse",
+      "religion"
+    ],
+    "blurb": "En gammel kvinnes oppgjør med et liv preget av fordømmelse og utstøting. Haffs mørke, bibelsk ladede fortellerkunst på sitt sterkeste.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:skyld",
+      "theme:utstotelse",
+      "theme:religion"
+    ],
+    "fame": 153
+  },
+  {
+    "id": "linn-ullmann--de-urolige",
+    "title": "De urolige",
+    "author": "Linn Ullmann",
+    "year": 2015,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "far",
+      "minne",
+      "familie"
+    ],
+    "blurb": "En datter mimrer om foreldrene — filmskaperen og skuespillerinnen — og om en fars aldring. Ullmanns mest personlige roman.",
+    "orig": "Unquiet",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:far",
+      "theme:minne",
+      "theme:familie"
+    ],
+    "fame": 154
+  },
+  {
+    "id": "tomas-espedal--ga-eller-kunsten-a-leve-et-vilt-og-poetisk-liv",
+    "title": "Gå. Eller kunsten å leve et vilt og poetisk liv",
+    "author": "Tomas Espedal",
+    "year": 2006,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "vandring",
+      "frihet",
+      "litteratur"
+    ],
+    "blurb": "En sjangeroverskridende bok om å gå til fots gjennom liv og landskap. Espedal blander essay, selvbiografi og diktning.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:vandring",
+      "theme:frihet",
+      "theme:litteratur"
+    ],
+    "fame": 155
+  },
+  {
+    "id": "asne-seierstad--bokhandleren-i-kabul",
+    "title": "Bokhandleren i Kabul",
+    "author": "Åsne Seierstad",
+    "year": 2002,
+    "decade": "2000-tallet",
+    "genre": "Sakprosa",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "Afghanistan",
+      "familie",
+      "reportasje"
+    ],
+    "blurb": "En litterær reportasje fra en afghansk families hverdag etter Taliban. En internasjonal bestselger — og en omstridt rettssak om privatliv.",
+    "orig": "The Bookseller of Kabul",
+    "cats": [
+      "era:samtid",
+      "genre:sakprosa",
+      "theme:afghanistan",
+      "theme:familie",
+      "theme:reportasje"
+    ],
+    "fame": 156
+  },
+  {
+    "id": "nikolaj-frobenius--latours-katalog",
+    "title": "Latours katalog",
+    "author": "Nikolaj Frobenius",
+    "year": 1996,
+    "decade": "1990-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "ondskap",
+      "1700-tallet",
+      "smerte"
+    ],
+    "blurb": "En mørk historisk roman om en bøddelsønn i opplysningstidens Paris, besatt av smerte og død. Stemningsfull og uhyggelig.",
+    "orig": "The Subtle Art of Murder",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:ondskap",
+      "theme:1700-tallet",
+      "theme:smerte"
+    ],
+    "fame": 157
+  },
+  {
+    "id": "helene-uri--de-beste-blant-oss",
+    "title": "De beste blant oss",
+    "author": "Helene Uri",
+    "year": 2006,
+    "decade": "2000-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "akademia",
+      "ærgjerrighet",
+      "satire"
+    ],
+    "blurb": "En skarp og morsom satire over intrigene ved et universitetsinstitutt, skrevet av en språkforsker med innsideblikk.",
+    "orig": null,
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:akademia",
+      "theme:aergjerrighet",
+      "theme:satire"
+    ],
+    "fame": 158
+  },
+  {
+    "id": "demian-vitanza--dette-livet-eller-det-neste",
+    "title": "Dette livet eller det neste",
+    "author": "Demian Vitanza",
+    "year": 2017,
+    "decade": "2010-tallet",
+    "genre": "Roman",
+    "era": "samtid",
+    "eraLabel": "Samtid",
+    "themes": [
+      "radikalisering",
+      "Syria",
+      "identitet"
+    ],
+    "blurb": "Basert på samtaler med en dømt fremmedkriger: en ung norsk-pakistansk manns vei mot Syria. En av samtidens mest dagsaktuelle romaner.",
+    "orig": "This Life or the Next",
+    "cats": [
+      "era:samtid",
+      "genre:roman",
+      "theme:radikalisering",
+      "theme:syria",
+      "theme:identitet"
+    ],
+    "fame": 159
+  }
+]

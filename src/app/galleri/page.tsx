@@ -1,0 +1,250 @@
+"use client";
+
+import { useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
+import { ArrowLeft, Search, X } from "lucide-react";
+import { useBooks } from "@/lib/useBooks";
+import { CATEGORIES, type Book } from "@/lib/books";
+
+const PAGE = 24;
+
+// Filters worth surfacing in the strip (skip the "all"/popular meta-rows).
+const FILTERS = CATEGORIES.filter((c) => c.group === "epoke" || c.group === "sjanger");
+
+export default function Gallery() {
+  const { books } = useBooks();
+  const [q, setQ] = useState("");
+  const [filter, setFilter] = useState("");
+  const [limit, setLimit] = useState(PAGE);
+  const [detail, setDetail] = useState<Book | null>(null);
+
+  const filtered = useMemo(() => {
+    if (!books) return [];
+    const needle = q.trim().toLowerCase();
+    return books.filter((b) => {
+      if (filter && !b.cats.includes(filter)) return false;
+      if (!needle) return true;
+      return (
+        b.title.toLowerCase().includes(needle) ||
+        b.author.toLowerCase().includes(needle) ||
+        (b.orig?.toLowerCase().includes(needle) ?? false) ||
+        b.themes.some((t) => t.toLowerCase().includes(needle))
+      );
+    });
+  }, [books, q, filter]);
+
+  useEffect(() => setLimit(PAGE), [q, filter]);
+
+  // infinite scroll via IntersectionObserver
+  const sentinel = useRef<HTMLDivElement | null>(null);
+  useEffect(() => {
+    const el = sentinel.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) setLimit((l) => Math.min(l + PAGE, filtered.length));
+      },
+      { rootMargin: "600px" },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [filtered.length]);
+
+  const shown = filtered.slice(0, limit);
+
+  return (
+    <main className="mx-auto max-w-6xl px-4 pb-24">
+      {/* sticky pill toolbar */}
+      <div className="sticky top-0 z-30 py-3 space-y-3">
+        <div className="flex items-center gap-2">
+          <Link href="/" className="pill-glass focus-ring" aria-label="Tilbake til quiz">
+            <ArrowLeft size={16} />
+            Quiz
+          </Link>
+          <div className="pill-glass flex-1 max-w-md !px-3">
+            <Search size={16} className="opacity-60 shrink-0" />
+            <input
+              value={q}
+              onChange={(e) => setQ(e.target.value)}
+              placeholder="Søk tittel, forfatter, tema …"
+              className="bg-transparent outline-none w-full placeholder:text-ink-muted"
+            />
+            {q && (
+              <button onClick={() => setQ("")} aria-label="Tøm søk" className="shrink-0">
+                <X size={15} className="opacity-60 hover:opacity-100" />
+              </button>
+            )}
+          </div>
+          <span className="pill-glass tabular-nums text-ink-muted hidden sm:flex">{filtered.length} verk</span>
+        </div>
+
+        <FilterStrip filter={filter} onPick={setFilter} books={books ?? []} />
+      </div>
+
+      {!books ? (
+        <div className="grid place-items-center min-h-[40vh] text-ink-muted animate-fade-in">Laster …</div>
+      ) : shown.length === 0 ? (
+        <div className="grid place-items-center min-h-[40vh] text-ink-muted">Ingen treff.</div>
+      ) : (
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 mt-2">
+          {shown.map((b) => (
+            <button
+              key={b.id}
+              onClick={() => setDetail(b)}
+              className="glass rounded-3xl p-4 text-left focus-ring hover:bg-white/70 transition flex flex-col h-full animate-fade-in"
+            >
+              <SpineDecor seed={b.fame} />
+              <div className="font-semibold leading-snug mt-3 line-clamp-3">{b.title}</div>
+              <div className="text-sm text-ink-muted mt-1">{b.author}</div>
+              <div className="mt-auto pt-3 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-wider text-ink-muted tabular-nums">
+                <span>{b.year ?? "—"}</span>
+                <span>·</span>
+                <span className="truncate">{b.genre}</span>
+              </div>
+            </button>
+          ))}
+        </div>
+      )}
+
+      <div ref={sentinel} className="h-10" />
+
+      {detail && <DetailModal book={detail} onClose={() => setDetail(null)} />}
+    </main>
+  );
+}
+
+// little decorative "book spine" band so cards aren't just text
+function SpineDecor({ seed }: { seed: number }) {
+  const hues = [28, 150, 220, 280, 0, 200];
+  const h = hues[seed % hues.length];
+  return (
+    <div
+      className="h-20 rounded-2xl w-full"
+      style={{
+        background: `linear-gradient(135deg, hsl(${h} 45% 88%), hsl(${(h + 40) % 360} 40% 80%))`,
+        boxShadow: "inset 0 1px 0 rgba(255,255,255,.6)",
+      }}
+    />
+  );
+}
+
+// ── drag-to-scroll filter strip (see BLUEPRINT §8 gotcha) ───────────────────
+
+function FilterStrip({
+  filter,
+  onPick,
+  books,
+}: {
+  filter: string;
+  onPick: (k: string) => void;
+  books: Book[];
+}) {
+  const ref = useRef<HTMLDivElement | null>(null);
+  const drag = useRef({ active: false, startX: 0, startScroll: 0, moved: false, captured: false });
+
+  const count = (key: string) => (key === "" ? books.length : books.filter((b) => b.cats.includes(key)).length);
+
+  const onPointerDown = (e: React.PointerEvent) => {
+    if (e.pointerType !== "mouse") return;
+    const el = ref.current!;
+    drag.current = { active: true, startX: e.clientX, startScroll: el.scrollLeft, moved: false, captured: false };
+  };
+  const onPointerMove = (e: React.PointerEvent) => {
+    if (!drag.current.active) return;
+    const el = ref.current!;
+    const dx = e.clientX - drag.current.startX;
+    if (Math.abs(dx) > 4) {
+      drag.current.moved = true;
+      if (!drag.current.captured) {
+        el.setPointerCapture(e.pointerId);
+        drag.current.captured = true;
+      }
+      el.scrollLeft = drag.current.startScroll - dx;
+    }
+  };
+  const onPointerUp = (e: React.PointerEvent) => {
+    if (!drag.current.active) return;
+    drag.current.active = false;
+    if (drag.current.captured) {
+      ref.current!.releasePointerCapture(e.pointerId);
+      drag.current.captured = false;
+    }
+  };
+
+  const select = (k: string) => {
+    if (drag.current.moved) return;
+    onPick(k === filter ? "" : k);
+  };
+
+  return (
+    <div
+      ref={ref}
+      onPointerDown={onPointerDown}
+      onPointerMove={onPointerMove}
+      onPointerUp={onPointerUp}
+      className="flex gap-2 overflow-x-auto no-scrollbar cursor-grab active:cursor-grabbing"
+    >
+      <button onClick={() => select("")} className={`${filter === "" ? "pill-solid" : "pill-glass"} focus-ring shrink-0`}>
+        Alt <span className="tabular-nums text-xs opacity-70">{count("")}</span>
+      </button>
+      {FILTERS.map((c) => {
+        const n = count(c.key);
+        if (n < 3) return null;
+        const active = filter === c.key;
+        return (
+          <button
+            key={c.key}
+            onClick={() => select(c.key)}
+            className={`${active ? "pill-solid" : "pill-glass"} focus-ring shrink-0`}
+          >
+            {c.label} <span className={`tabular-nums text-xs ${active ? "opacity-70" : "text-ink-muted"}`}>{n}</span>
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+function DetailModal({ book, onClose }: { book: Book; onClose: () => void }) {
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
+  return (
+    <div className="fixed inset-0 z-50 grid place-items-center p-4 frost-backdrop animate-fade-in" onClick={onClose}>
+      <div className="glass-strong rounded-[28px] w-full max-w-lg p-7 animate-pop" onClick={(e) => e.stopPropagation()}>
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <h2 className="text-2xl font-bold leading-tight">{book.title}</h2>
+            {book.orig && <div className="text-ink-muted">{book.orig}</div>}
+            <div className="text-lg mt-1">{book.author}</div>
+          </div>
+          <button onClick={onClose} className="pill-ghost focus-ring -mr-2 -mt-1" aria-label="Lukk">
+            <X size={18} />
+          </button>
+        </div>
+
+        <div className="flex flex-wrap gap-1.5 mt-4">
+          {book.year != null && <Chip>{book.year}</Chip>}
+          <Chip>{book.genre}</Chip>
+          <Chip>{book.eraLabel}</Chip>
+          {book.themes.map((t) => (
+            <Chip key={t}>{t}</Chip>
+          ))}
+        </div>
+
+        <p className="text-ink-soft leading-relaxed mt-4">{book.blurb}</p>
+      </div>
+    </div>
+  );
+}
+
+function Chip({ children }: { children: React.ReactNode }) {
+  return (
+    <span className="inline-flex items-center rounded-full bg-black/[0.05] px-2.5 py-1 text-xs font-medium text-ink-soft">
+      {children}
+    </span>
+  );
+}
