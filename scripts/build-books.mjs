@@ -13,12 +13,24 @@
 //   era    — saga | 1700 | 1800 | 1900 | etterkrig | samtid
 //   orig   — English title where there's a well-known one (shown in reveal)
 
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
+
+// Author portraits (from `npm run images`, via Wikidata). Optional — if the
+// file is absent, books simply have no portrait.
+let AUTHOR_IMAGES = {};
+const imgPath = join(root, "public", "author-images.json");
+if (existsSync(imgPath)) {
+  try {
+    AUTHOR_IMAGES = JSON.parse(readFileSync(imgPath, "utf8"));
+  } catch {
+    /* ignore malformed */
+  }
+}
 
 /** @type {{title:string,author:string,year:number|null,genre:string,era:string,themes:string[],blurb:string,orig?:string}[]} */
 const BOOKS = [
@@ -152,7 +164,7 @@ const BOOKS = [
   { title: "Rødstrupe", author: "Jo Nesbø", year: 2000, genre: "Krim", era: "samtid", themes: ["krig", "landssvik", "Harry Hole"], orig: "The Redbreast", blurb: "Harry Hole nøster opp en sak med røtter i norske frontkjempere på østfronten. Ofte regnet som det beste i Hole-serien." },
   { title: "Flaggermusmannen", author: "Jo Nesbø", year: 1997, genre: "Krim", era: "samtid", themes: ["Harry Hole", "Australia", "debut"], orig: "The Bat", blurb: "Harry Hole sendes til Sydney for å løse drapet på en norsk kvinne. Nesbøs debut og starten på det internasjonale krimeventyret." },
   { title: "Se deg ikke tilbake", author: "Karin Fossum", year: 1996, genre: "Krim", era: "samtid", themes: ["bygd", "Sejer", "psykologi"], orig: "Don't Look Back", blurb: "Etterforsker Konrad Sejer gransker drapet på en ung jente i et lite bygdesamfunn. Fossum, «den norske krimdronningen», dyrker det psykologiske." },
-  { title: "Din til døden", author: "Anne Holt", year: 1998, genre: "Krim", era: "samtid", themes: ["Oslo", "politi", "Hanne Wilhelmsen"], blurb: "Politietterforsker Hanne Wilhelmsen i en innfløkt drapssak. Holt, tidligere justisminister, er en av pionerene i moderne norsk krim." },
+  { title: "Blind gudinne", author: "Anne Holt", year: 1993, genre: "Krim", era: "samtid", themes: ["Oslo", "politi", "Hanne Wilhelmsen"], blurb: "Debuten som introduserte politietterforsker Hanne Wilhelmsen. Holt, tidligere justisminister, er en av pionerene i moderne norsk krim." },
   { title: "Begravde hunder biter ikke", author: "Gunnar Staalesen", year: 1993, genre: "Krim", era: "samtid", themes: ["Bergen", "privatdetektiv", "Varg Veum"], blurb: "Privatetterforskeren Varg Veum løser saker i regntunge Bergen. Staalesens Veum er den norske hardkokte krimmens nestor." },
 
   // ── Samtidens kvinnestemmer ──────────────────────────────────────────────
@@ -246,6 +258,88 @@ const BOOKS = [
   { title: "Latours katalog", author: "Nikolaj Frobenius", year: 1996, genre: "Roman", era: "samtid", themes: ["ondskap", "1700-tallet", "smerte"], orig: "The Subtle Art of Murder", blurb: "En mørk historisk roman om en bøddelsønn i opplysningstidens Paris, besatt av smerte og død. Stemningsfull og uhyggelig." },
   { title: "De beste blant oss", author: "Helene Uri", year: 2006, genre: "Roman", era: "samtid", themes: ["akademia", "ærgjerrighet", "satire"], blurb: "En skarp og morsom satire over intrigene ved et universitetsinstitutt, skrevet av en språkforsker med innsideblikk." },
   { title: "Dette livet eller det neste", author: "Demian Vitanza", year: 2017, genre: "Roman", era: "samtid", themes: ["radikalisering", "Syria", "identitet"], orig: "This Life or the Next", blurb: "Basert på samtaler med en dømt fremmedkriger: en ung norsk-pakistansk manns vei mot Syria. En av samtidens mest dagsaktuelle romaner." },
+
+  // ══ Dypere katalog: flere sentrale verk per forfatter ════════════════════
+
+  // Ibsen — resten av kanon
+  { title: "Catilina", author: "Henrik Ibsen", year: 1850, genre: "Drama", era: "1800", themes: ["opprør", "antikken", "ungdom"], blurb: "Ibsens aller første skuespill, skrevet som ung apoteklærling, om den romerske opprøreren Catilina. Spiren til opprørstrangen som går gjennom hele forfatterskapet." },
+  { title: "Kjærlighedens komedie", author: "Henrik Ibsen", year: 1862, genre: "Drama", era: "1800", themes: ["kjærlighet", "ekteskap", "satire"], blurb: "En verskomedie som spotter forlovelse og ekteskap som kjærlighetens død. Vakte forargelse, men varslet den skarpe samfunnsrefseren Ibsen ble." },
+  { title: "Kongsemnerne", author: "Henrik Ibsen", year: 1863, genre: "Drama", era: "1800", themes: ["historie", "makt", "tvil"], blurb: "Et historisk drama om kampen om kongsmakten i middelalderens Norge, mellom den selvsikre Håkon og den tvilende Skule. Ibsens nasjonale gjennombrudd på scenen." },
+  { title: "De unges forbund", author: "Henrik Ibsen", year: 1869, genre: "Drama", era: "1800", themes: ["politikk", "ærgjerrighet", "satire"], blurb: "En politisk komedie om den tomme, ærgjerrige folketaleren Stensgård. Ibsens første samtidsskuespill i prosa." },
+  { title: "Keiser og galilæer", author: "Henrik Ibsen", year: 1873, genre: "Drama", era: "1800", themes: ["religion", "historie", "skjebne"], blurb: "Et monumentalt «verdenshistorisk skuespill» om keiser Julian den frafalne og kampen mellom hedenskap og kristendom. Ibsen kalte det selv sitt hovedverk." },
+  { title: "Byggmester Solness", author: "Henrik Ibsen", year: 1892, genre: "Drama", era: "1800", themes: ["alderdom", "ungdom", "ærgjerrighet"], orig: "The Master Builder", blurb: "Den aldrende mesteren Solness, redd for den unge slekten som banker på, lokkes opp i tårnet av unge Hilde. Et symbolladet drama om kall og fall." },
+  { title: "John Gabriel Borkman", author: "Henrik Ibsen", year: 1896, genre: "Drama", era: "1800", themes: ["grådighet", "svik", "ensomhet"], blurb: "En falt bankmann vandrer rastløs i annen etasje mens to søstre kjemper om hans sønn. Et iskaldt drama om ærgjerrighet som ofret kjærligheten." },
+  { title: "Når vi døde vågner", author: "Henrik Ibsen", year: 1899, genre: "Drama", era: "1800", themes: ["kunst", "anger", "død"], orig: "When We Dead Awaken", blurb: "Ibsens siste skuespill, en «dramatisk epilog»: en gammel billedhugger møter modellen han ofret for kunsten. Et oppgjør med å ha levd for verket fremfor livet." },
+  { title: "Lille Eyolf", author: "Henrik Ibsen", year: 1894, genre: "Drama", era: "1800", themes: ["skyld", "ekteskap", "barn"], blurb: "Et ektepars skyld og sorg etter at den lamme sønnen drukner. Et tett kammerdrama om begjær, ansvar og forsoning." },
+
+  // Hamsun — videre forfatterskap
+  { title: "Konerne ved vandposten", author: "Knut Hamsun", year: 1920, genre: "Roman", era: "1900", themes: ["småby", "sladder", "forfall"], blurb: "Et bittert, satirisk gruppeportrett av en liten kystby og dens menneskelige smålighet. Skrevet rett etter Nobelprisen." },
+  { title: "Siste kapitel", author: "Knut Hamsun", year: 1923, genre: "Roman", era: "1900", themes: ["sanatorium", "død", "sivilisasjonskritikk"], blurb: "Et høyfjellssanatorium fylt av syke og selvopptatte mennesker blir et bilde på en dekadent samtid. Mørk og ironisk Hamsun." },
+  { title: "August", author: "Knut Hamsun", year: 1930, genre: "Roman", era: "1900", themes: ["vandring", "drøm", "Nordland"], blurb: "Andre bok om eventyreren og luftslottsbyggeren August, som setter en hel bygd i bevegelse med sine planer. Folkelig og tragikomisk." },
+  { title: "Ringen sluttet", author: "Knut Hamsun", year: 1936, genre: "Roman", era: "1900", themes: ["utenforskap", "likegyldighet", "drift"], blurb: "Hamsuns siste roman før krigen, om den viljeløse Abel som lar livet skure. Et kjølig portrett av en moderne dagdriver." },
+  { title: "Segelfoss by", author: "Knut Hamsun", year: 1915, genre: "Roman", era: "1900", themes: ["modernitet", "handel", "klasse"], blurb: "Et bredt bilde av en nordnorsk småby i forvandling, der gammel storhet viker for ny pengemakt. Samfunnsroman med Hamsuns skarpe blikk." },
+
+  // Undset — flere verk
+  { title: "Vaaren", author: "Sigrid Undset", year: 1914, genre: "Roman", era: "1900", themes: ["ekteskap", "kjærlighet", "kvinneliv"], blurb: "En samtidsroman om en kvinnes vei gjennom forelskelse, krise og forsoning i ekteskapet. Undsets varme realisme før de historiske storverkene." },
+  { title: "Gymnadenia", author: "Sigrid Undset", year: 1929, genre: "Roman", era: "1900", themes: ["religion", "omvendelse", "Oslo"], blurb: "En samtidsroman om Paul Selmer og hans vei mot katolsk tro. Speiler Undsets egen religiøse omvendelse." },
+
+  // Bjørnson — flere verk
+  { title: "Arne", author: "Bjørnstjerne Bjørnson", year: 1859, genre: "Roman", era: "1800", themes: ["bygd", "oppvekst", "lengsel"], blurb: "En lyrisk bondefortelling om den drømmende Arne som lengter bort over fjellet. Inneholder den kjente sangen «Undrer mig på hvad jeg får at se»." },
+  { title: "Over Ævne", author: "Bjørnstjerne Bjørnson", year: 1883, genre: "Drama", era: "1800", themes: ["religion", "mirakel", "tvil"], orig: "Beyond Human Power", blurb: "Et drama om en prest hvis sterke tro fører til et tvetydig «mirakel». Bjørnsons skarpe granskning av religiøs overspenthet." },
+
+  // Vesaas — flere verk
+  { title: "Vårnatt", author: "Tarjei Vesaas", year: 1954, genre: "Roman", era: "etterkrig", themes: ["ungdom", "natt", "fremmede"], blurb: "To søsken alene hjemme en vårnatt får uventet besøk av en flokk fremmede. En stemningsmettet roman om grensen mellom barndom og voksenliv." },
+  { title: "Bleikeplassen", author: "Tarjei Vesaas", year: 1946, genre: "Roman", era: "etterkrig", themes: ["besettelse", "skyld", "begjær"], blurb: "En vaskerieier fanges i en stadig mer truende besettelse. Tett, klaustrofobisk psykologisk roman fra Vesaas' modne periode." },
+  { title: "Båten om kvelden", author: "Tarjei Vesaas", year: 1968, genre: "Roman", era: "etterkrig", themes: ["minne", "natur", "død"], blurb: "Vesaas' siste bok, en serie poetiske, selvbiografiske prosastykker på grensen mot lyrikk. Et stillferdig farvel fra en mester." },
+
+  // Fosse — flere verk
+  { title: "Andvake", author: "Jon Fosse", year: 2007, genre: "Roman", era: "samtid", themes: ["fødsel", "fattigdom", "vandring"], orig: "Wakefulness", blurb: "Unge Asle og gravide Alida vandrer hjemløse gjennom Bjørgvin og leter etter ly. Åpningen på «Trilogien», som vant Nordisk råds litteraturpris." },
+  { title: "Melancholia", author: "Jon Fosse", year: 1995, genre: "Roman", era: "samtid", themes: ["kunst", "galskap", "besettelse"], blurb: "Et intenst portrett av den virkelige landskapsmaleren Lars Hertervig, fanget i sjalusi og sinnssykdom. En av Fosses mest hyllede romaner." },
+  { title: "Naustet", author: "Jon Fosse", year: 1989, genre: "Roman", era: "samtid", themes: ["vennskap", "angst", "gjentakelse"], orig: "Boathouse", blurb: "«Eg går ikkje ut lenger» — en mann gjenopplever en skjebnesvanger sommer med en barndomsvenn. Fosses gjennombruddsroman med sin hypnotiske gjentakelse." },
+
+  // Knausgård — flere verk
+  { title: "En tid for alt", author: "Karl Ove Knausgård", year: 2004, genre: "Roman", era: "samtid", themes: ["engler", "bibel", "natur"], orig: "A Time for Everything", blurb: "En fabulerende roman om englenes vesen og historie, fra Kain og Abel til Noah. Knausgårds ambisiøse andre bok før «Min kamp»." },
+  { title: "Morgenstjernen", author: "Karl Ove Knausgård", year: 2020, genre: "Roman", era: "samtid", themes: ["varsel", "død", "kor"], orig: "The Morning Star", blurb: "En ny stjerne tennes på himmelen mens ni menneskers liv flettes sammen i uhygge. Starten på Knausgårds store romanserie etter «Min kamp»." },
+
+  // Solstad — flere verk
+  { title: "Arild Asnes, 1970", author: "Dag Solstad", year: 1971, genre: "Roman", era: "etterkrig", themes: ["politikk", "intellektuell", "omvendelse"], blurb: "En forfatters vei mot den marxist-leninistiske bevegelsen. Solstads sentrale roman om engasjementets tiltrekning og pris." },
+  { title: "Professor Andersens natt", author: "Dag Solstad", year: 1996, genre: "Roman", era: "samtid", themes: ["skyld", "passivitet", "moral"], blurb: "En professor ser et drap gjennom vinduet julaften, men melder det aldri. En urovekkende roman om handlingslammelse og moralsk feighet." },
+  { title: "T. Singer", author: "Dag Solstad", year: 1999, genre: "Roman", era: "samtid", themes: ["identitet", "ensomhet", "tilfeldighet"], blurb: "En mann som vil være anonym blir uventet alenefar i Notodden. Solstads kjølige, presise studie av et liv som bare blir til." },
+
+  // Krim — utvidet
+  { title: "Hodejegerne", author: "Jo Nesbø", year: 2008, genre: "Krim", era: "samtid", themes: ["kunsttyveri", "thriller", "svik"], orig: "Headhunters", blurb: "En rekrutteringsekspert og kunsttyv møter sin overmann. En frittstående, filmatisert thriller utenom Harry Hole-serien." },
+  { title: "Doktor Proktors prompepulver", author: "Jo Nesbø", year: 2007, genre: "Barnebok", era: "samtid", themes: ["humor", "oppfinnelse", "vennskap"], orig: "Doctor Proctor's Fart Powder", blurb: "Den gærne professoren og barna Lise og Bulle med et pulver som lager verdens kraftigste fjert. Nesbøs ellevilt populære barnebokserie." },
+  { title: "Elskede Poona", author: "Karin Fossum", year: 2000, genre: "Krim", era: "samtid", themes: ["Sejer", "drap", "fremmedfrykt"], orig: "The Indian Bride", blurb: "En enslig mann henter en brud fra India, men hun drepes før de møtes. Et av Fossums sterkeste psykologiske kriminaldramaer." },
+  { title: "Din til døden", author: "Gunnar Staalesen", year: 1979, genre: "Krim", era: "etterkrig", themes: ["Bergen", "Varg Veum", "privatdetektiv"], blurb: "En tidlig sak for privatetterforskeren Varg Veum i Bergen. Staalesen grunnla den norske hardkokte detektivromanen." },
+
+  // Saabye Christensen, Loe, Roy Jacobsen, Petterson, Mytting — flere
+  { title: "Maskeblomstfamilien", author: "Lars Saabye Christensen", year: 2003, genre: "Roman", era: "samtid", themes: ["oppvekst", "ondskap", "Oslo"], blurb: "Et mørkt portrett av en enslig gutt og hans gryende ondskap i etterkrigstidens Oslo. En av Saabye Christensens mest urovekkende romaner." },
+  { title: "Byens spor", author: "Lars Saabye Christensen", year: 2017, genre: "Roman", era: "samtid", themes: ["Oslo", "etterkrig", "nabolag"], blurb: "Et bredt anlagt romanverk om Fagerborg-strøket i Oslo etter krigen, fortalt gjennom et nabolags mange stemmer." },
+  { title: "Tatt av kvinnen", author: "Erlend Loe", year: 1993, genre: "Roman", era: "samtid", themes: ["kjærlighet", "passivitet", "humor"], blurb: "En passiv ung mann blir overtatt av en bestemt kvinne i et forhold han knapt forstår. Loes lavmælt komiske debut." },
+  { title: "Fakta om Finland", author: "Erlend Loe", year: 2001, genre: "Roman", era: "samtid", themes: ["prokrastinering", "satire", "ansvar"], blurb: "En mann skal skrive en brosjyre om Finland, men gjør alt annet. Loe i full naivistisk blomst om unnvikelse og dårlig samvittighet." },
+  { title: "Seierherrene", author: "Roy Jacobsen", year: 1991, genre: "Roman", era: "samtid", themes: ["familie", "etterkrig", "klasse"], blurb: "Et bredt slekts- og samfunnsportrett av etterkrigs-Norge sett gjennom en arbeiderfamilie. Jacobsens gjennombruddsroman." },
+  { title: "Til Sibir", author: "Per Petterson", year: 1996, genre: "Roman", era: "samtid", themes: ["søsken", "krig", "lengsel"], orig: "To Siberia", blurb: "En jente i Danmark under krigen drømmer seg bort til Sibir, knyttet til sin eldre bror. Stillferdig og vakker om søskenkjærlighet og tap." },
+  { title: "Hel ved", author: "Lars Mytting", year: 2011, genre: "Sakprosa", era: "samtid", themes: ["ved", "natur", "håndverk"], orig: "Norwegian Wood", blurb: "Alt om å hogge, tørke og fyre med ved — en uventet internasjonal bestselger som gjorde norsk vedfyring til verdenslitteratur." },
+  { title: "Søsterklokkene", author: "Lars Mytting", year: 2018, genre: "Roman", era: "samtid", themes: ["bygd", "tro", "1800-tallet"], orig: "The Bell in the Lake", blurb: "En gammel stavkirke og to sammenstøpte kirkeklokker står i sentrum av et drama i Gudbrandsdalen på 1880-tallet. Første bok i Hekne-trilogien." },
+
+  // Garborg, Skram, Kielland, Holberg, Gaarder, Egner — flere klassikere
+  { title: "Fred", author: "Arne Garborg", year: 1892, genre: "Roman", era: "1800", themes: ["religion", "angst", "tungsinn"], blurb: "Bonden Enok plages til døde av religiøs angst og grublerier. Garborgs mørke mesterverk om pietismens knugende skyggeside." },
+  { title: "Professor Hieronimus", author: "Amalie Skram", year: 1895, genre: "Roman", era: "1800", themes: ["psykiatri", "kvinne", "system"], blurb: "En kunstners knusende møte med et nedlatende psykiatrisk system. Bygd på Skrams egne erfaringer, et tidlig oppgjør med tvangsinnleggelse." },
+  { title: "Arbeidsfolk", author: "Alexander Kielland", year: 1881, genre: "Roman", era: "1800", themes: ["embetsverk", "korrupsjon", "satire"], blurb: "En satirisk roman om dovne, korrupte embetsmenn i hovedstaden. Kiellands skarpe penn rettet mot byråkratiet." },
+  { title: "Peder Paars", author: "Ludvig Holberg", year: 1720, genre: "Lyrikk", era: "1700", themes: ["parodi", "reise", "satire"], blurb: "Et komisk heltedikt som parodierer Vergils «Æneiden» med en kjøpmanns strandede sjøreise. Det første store verket i dansk-norsk litteratur." },
+  { title: "Den politiske kandestøber", author: "Ludvig Holberg", year: 1722, genre: "Drama", era: "1700", themes: ["komedie", "politikk", "hovmod"], blurb: "En tinnstøper er sikker på at han kan styre byen bedre enn rådet — til han får sjansen. Holbergs aller første komedie, en tidløs politisk satire." },
+  { title: "Kabalmysteriet", author: "Jostein Gaarder", year: 1990, genre: "Roman", era: "samtid", themes: ["filosofi", "skjebne", "reise"], blurb: "På biltur til Hellas får en gutt en lupe og et lite bok-i-boken som nøster opp en magisk slektsgåte. Gaarders gjennombrudd før «Sofies verden»." },
+  { title: "Appelsinpiken", author: "Jostein Gaarder", year: 2003, genre: "Roman", era: "samtid", themes: ["kjærlighet", "død", "univers"], orig: "The Orange Girl", blurb: "En gutt får et brev fra sin avdøde far om en gåtefull «appelsinpike» og om livets store spørsmål. Rørende og filosofisk." },
+  { title: "Karius og Baktus", author: "Thorbjørn Egner", year: 1949, genre: "Barnebok", era: "etterkrig", themes: ["tenner", "barn", "lærdom"], blurb: "De to små karene som bor i Jens' tenner og fester når han ikke pusser. Egners tannpuss-klassiker kan hver norsk unge utenat." },
+
+  // Bjørneboe, Kjærstad, Fløgstad, Wassmo, Ambjørnsen, Renberg, Harstad — flere
+  { title: "Haiene", author: "Jens Bjørneboe", year: 1974, genre: "Roman", era: "etterkrig", themes: ["sjøliv", "skjebne", "eventyr"], orig: "The Sharks", blurb: "Et dramatisk skipsforlis på en seilskute i 1899, fortalt som et mektig sjøeventyr. Bjørneboes mest medrivende og folkelige roman." },
+  { title: "Oppdageren", author: "Jan Kjærstad", year: 1999, genre: "Roman", era: "samtid", themes: ["identitet", "skyld", "fortelling"], orig: "The Discoverer", blurb: "Avslutningen på Wergeland-trilogien, der Jonas Wergeland selv forteller. Kjærstads storslåtte lek med ett livs uendelige fortellermuligheter." },
+  { title: "U3", author: "Kjartan Fløgstad", year: 1983, genre: "Roman", era: "samtid", themes: ["kald krig", "spionasje", "historie"], blurb: "En sjangersprengende roman som vever U2-flystyrten og etterkrigshistorien inn i hverandre. Fløgstad i full fabulerende kraft." },
+  { title: "Det stumme rommet", author: "Herbjørg Wassmo", year: 1983, genre: "Roman", era: "samtid", themes: ["oppvekst", "overgrep", "Nordland"], blurb: "Andre bind av Tora-trilogien, der den unge Tora bærer på en knugende hemmelighet. Wassmos sterke skildring av et barns indre liv." },
+  { title: "Hvite niggere", author: "Ingvar Ambjørnsen", year: 1986, genre: "Roman", era: "samtid", themes: ["rus", "ungdom", "utenforskap"], blurb: "Et rått og medrivende portrett av unge på siden av samfunnet, narkotika og vennskap. Ambjørnsens gjennombrudd som ungdommens forfatter." },
+  { title: "Kompani Orheim", author: "Tore Renberg", year: 2005, genre: "Roman", era: "samtid", themes: ["far og sønn", "alkohol", "oppvekst"], blurb: "Jarle Klepp ser tilbake på en oppvekst med en alkoholisert far. En sterk, smertefull og varm bok i Jarle-serien." },
+  { title: "Max, Mischa & Tetoffensiven", author: "Johan Harstad", year: 2015, genre: "Roman", era: "samtid", themes: ["kunst", "eksil", "vennskap"], blurb: "Et 1100 sider langt epos om en norsk gutt som vokser opp i New York, om kunst, krig og tilhørighet. Harstads enorme ambisjonsroman." },
 ];
 
 // ── derive id, fame rank, and category tags ─────────────────────────────────
@@ -294,6 +388,7 @@ const items = BOOKS.map((b, i) => {
     themes: b.themes,
     blurb: b.blurb,
     orig: b.orig ?? null,
+    authorImg: AUTHOR_IMAGES[b.author] ?? null, // portrait for recall (reveal only)
     cats,
     fame: i, // array order == notability rank (most famous first)
   };
@@ -307,5 +402,7 @@ writeFileSync(out, JSON.stringify(items, null, 2) + "\n", "utf8");
 // quick sanity stats
 const authors = new Set(items.map((i) => i.author));
 const byGenre = items.reduce((m, i) => ((m[i.genre] = (m[i.genre] || 0) + 1), m), {});
+const withImg = items.filter((i) => i.authorImg).length;
 console.log(`Wrote ${items.length} books by ${authors.size} authors → ${out}`);
 console.log("By genre:", byGenre);
+console.log(`Portraits attached: ${withImg}/${items.length} books (${[...authors].filter((a) => AUTHOR_IMAGES[a]).length}/${authors.size} authors)`);

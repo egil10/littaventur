@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "data": "node scripts/build-books.mjs"
+    "data": "node scripts/build-books.mjs",
+    "images": "node scripts/fetch-author-images.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.456.0",

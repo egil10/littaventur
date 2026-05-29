@@ -293,8 +293,16 @@ export default function Quiz({
     [state.phase],
   );
 
-  // ── image-style preloading is N/A (text prompts); but warm the next item ──
-  // (kept as a no-op hook point per blueprint's look-ahead idea)
+  // ── preload upcoming portraits so advancing never waits on the network ───
+  useEffect(() => {
+    const urls = [state.current, ...state.queue]
+      .map((r) => r?.item.authorImg)
+      .filter((u): u is string => !!u);
+    for (const u of urls) {
+      const img = new Image();
+      img.src = u;
+    }
+  }, [state.current, state.queue]);
 
   // ── auto-advance timer ────────────────────────────────────────────────────
   useEffect(() => {
@@ -501,13 +509,26 @@ export default function Quiz({
 
                 <div className="mt-4 h-px bg-[var(--hairline)]" />
 
-                <div className="mt-4 text-lg font-semibold leading-snug">
-                  {item.title}
-                  {item.orig && <span className="text-ink-muted font-normal"> · {item.orig}</span>}
-                </div>
-                <div className="text-sm text-ink-muted">
-                  {item.author}
-                  {item.year != null && ` · ${item.year}`}
+                <div className="mt-4 flex gap-3">
+                  {item.authorImg && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={item.authorImg}
+                      alt={item.author}
+                      className="w-16 h-16 object-cover rounded-2xl glass shrink-0"
+                      draggable={false}
+                    />
+                  )}
+                  <div>
+                    <div className="text-lg font-semibold leading-snug">
+                      {item.title}
+                      {item.orig && <span className="text-ink-muted font-normal"> · {item.orig}</span>}
+                    </div>
+                    <div className="text-sm text-ink-muted">
+                      {item.author}
+                      {item.year != null && ` · ${item.year}`}
+                    </div>
+                  </div>
                 </div>
                 <div className="flex flex-wrap gap-1.5 mt-3">
                   <Tag>{item.genre}</Tag>
@@ -555,6 +576,27 @@ export default function Quiz({
 }
 
 function PromptBody({ mode, item }: { mode: ModeKey; item: Book }) {
+  if (mode === "portrait") {
+    // the portrait is the prompt — no title/author text (that would give it away)
+    return (
+      <div className="flex flex-col items-center text-center">
+        {item.authorImg ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={item.authorImg}
+            alt="Forfatterportrett"
+            className="w-48 h-48 sm:w-60 sm:h-60 object-cover rounded-[28px] glass"
+            draggable={false}
+          />
+        ) : (
+          <div className="w-48 h-48 grid place-items-center rounded-[28px] glass text-ink-muted">
+            (mangler bilde)
+          </div>
+        )}
+        <div className="text-sm text-ink-muted mt-4">Hvilken norske forfatter er dette?</div>
+      </div>
+    );
+  }
   if (mode === "title") {
     // hide the title; the blurb is the prompt
     return (

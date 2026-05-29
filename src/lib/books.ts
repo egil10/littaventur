@@ -13,6 +13,7 @@ export type Book = {
   themes: string[];
   blurb: string;
   orig: string | null; // English title, if any
+  authorImg: string | null; // author portrait URL (recall; shown on reveal + in portrait mode)
   cats: string[]; // category tags this item belongs to ("era:samtid", "genre:roman", "theme:natur", "tag:popular")
   fame: number; // 0 == most famous; used for Elo difficulty + "popular" tagging
 };
@@ -61,7 +62,7 @@ export const CATEGORY_GROUPS: { key: string; label: string }[] = [
 
 // ── Game modes: each turns a field into the answer string ───────────────────
 
-export type ModeKey = "author" | "decade" | "genre" | "era" | "title";
+export type ModeKey = "author" | "portrait" | "decade" | "genre" | "era" | "title";
 
 export type Mode = {
   key: ModeKey;
@@ -71,6 +72,8 @@ export type Mode = {
   question: string;
   // Map an item to its answer for this mode (null => excluded from the pool).
   target: (b: Book) => string | null;
+  // True if the prompt is an image (portrait) rather than text.
+  image?: boolean;
 };
 
 export const MODES: Mode[] = [
@@ -80,6 +83,14 @@ export const MODES: Mode[] = [
     hint: "Gjett forfatteren ut fra tittelen",
     question: "Hvem skrev",
     target: (b) => b.author,
+  },
+  {
+    key: "portrait",
+    label: "Hvem er forfatteren?",
+    hint: "Kjenn igjen forfatteren på bildet",
+    question: "Hvem er dette",
+    target: (b) => (b.authorImg ? b.author : null),
+    image: true,
   },
   {
     key: "decade",

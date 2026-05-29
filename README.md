@@ -13,8 +13,9 @@ malerier.
 - Et verk vises (tittel + kontekst). Velg blant **4 svar**.
 - **Tastatur:** `1`–`4` for å svare, `Enter` / `Space` / `→` for neste.
 - Umiddelbar fasit med en liten omtale av verket — du lærer mens du spiller.
-- **Spillmodus:** Hvem skrev den? · Hvilket tiår? · Hvilken sjanger? · Hvilken
-  epoke? · Hvilket verk? (gjett tittelen ut fra omtalen)
+- **Spillmodus:** Hvem skrev den? · **Hvem er forfatteren?** (gjett ut fra
+  portrettet) · Hvilket tiår? · Hvilken sjanger? · Hvilken epoke? · Hvilket
+  verk? (gjett tittelen ut fra omtalen)
 - **Utvalg:** spill på hele biblioteket, de mest kjente, en epoke, en sjanger
   eller et tema.
 - **Rating:** en personlig Elo-rating (lagret lokalt) følger framgangen din.
@@ -24,15 +25,23 @@ malerier.
 
 ## Datagrunnlag
 
-`public/books.json` inneholder **160 verk av 110 forfattere** — minst ett verk
+`public/books.json` inneholder **216 verk av 110 forfattere** — minst ett verk
 fra hver av de 100 mest innflytelsesrike norske forfatterne (se
-[`docs/norwegian_authors_100.md`](docs/norwegian_authors_100.md)). Hvert verk har
+[`docs/norwegian_authors_100.md`](docs/norwegian_authors_100.md)), med dyp
+katalog for de store (12 Ibsen-stykker, 13 Hamsun-romaner osv.). Hvert verk har
 tittel, forfatter, år, sjanger, epoke, temaer og en kort omtale.
 
-Datasettet bygges fra en kuratert kilde i `scripts/build-books.mjs`:
+**Forfatterportretter** hentes fra Wikidata (98/110 forfattere — resten mangler
+fritt lisensiert bilde) og brukes til «Hvem er forfatteren?»-modusen og til
+gjenkjenning i fasit og galleri.
+
+Datasettet bygges fra en kuratert kilde i `scripts/build-books.mjs`. Wikidatas
+data per *verk* (engelske titler, manglende år) er for støyete til å brukes
+direkte; derfor er verkene håndkuratert, og Wikidata brukes kun til portretter:
 
 ```bash
-npm run data     # regenererer public/books.json
+npm run images   # henter forfatterportretter → public/author-images.json
+npm run data     # regenererer public/books.json (med portretter)
 ```
 
 Fant du en feil? Trykk flagg-ikonet på et verk — det kopieres til utklippstavlen

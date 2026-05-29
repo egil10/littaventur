@@ -93,7 +93,18 @@ export default function Gallery() {
               onClick={() => setDetail(b)}
               className="glass rounded-3xl p-4 text-left focus-ring hover:bg-white/70 transition flex flex-col h-full animate-fade-in"
             >
-              <SpineDecor seed={b.fame} />
+              {b.authorImg ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={b.authorImg}
+                  alt={b.author}
+                  loading="lazy"
+                  className="h-28 w-full object-cover rounded-2xl"
+                  draggable={false}
+                />
+              ) : (
+                <SpineDecor seed={b.fame} />
+              )}
               <div className="font-semibold leading-snug mt-3 line-clamp-3">{b.title}</div>
               <div className="text-sm text-ink-muted mt-1">{b.author}</div>
               <div className="mt-auto pt-3 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-wider text-ink-muted tabular-nums">
@@ -119,7 +130,7 @@ function SpineDecor({ seed }: { seed: number }) {
   const h = hues[seed % hues.length];
   return (
     <div
-      className="h-20 rounded-2xl w-full"
+      className="h-28 rounded-2xl w-full"
       style={{
         background: `linear-gradient(135deg, hsl(${h} 45% 88%), hsl(${(h + 40) % 360} 40% 80%))`,
         boxShadow: "inset 0 1px 0 rgba(255,255,255,.6)",
@@ -216,10 +227,21 @@ function DetailModal({ book, onClose }: { book: Book; onClose: () => void }) {
     <div className="fixed inset-0 z-50 grid place-items-center p-4 frost-backdrop animate-fade-in" onClick={onClose}>
       <div className="glass-strong rounded-[28px] w-full max-w-lg p-7 animate-pop" onClick={(e) => e.stopPropagation()}>
         <div className="flex items-start justify-between gap-4">
-          <div>
-            <h2 className="text-2xl font-bold leading-tight">{book.title}</h2>
-            {book.orig && <div className="text-ink-muted">{book.orig}</div>}
-            <div className="text-lg mt-1">{book.author}</div>
+          <div className="flex gap-4">
+            {book.authorImg && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={book.authorImg}
+                alt={book.author}
+                className="w-20 h-20 object-cover rounded-2xl glass shrink-0"
+                draggable={false}
+              />
+            )}
+            <div>
+              <h2 className="text-2xl font-bold leading-tight">{book.title}</h2>
+              {book.orig && <div className="text-ink-muted">{book.orig}</div>}
+              <div className="text-lg mt-1">{book.author}</div>
+            </div>
           </div>
           <button onClick={onClose} className="pill-ghost focus-ring -mr-2 -mt-1" aria-label="Lukk">
             <X size={18} />
