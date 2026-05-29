@@ -50,13 +50,14 @@ export default function ModePicker({
                   key={m.key}
                   disabled={!ok}
                   onClick={() => onPick(m.key)}
+                  style={active ? { background: "linear-gradient(180deg,#2f86ff,#0a6cff)" } : undefined}
                   className={`flex items-center justify-between text-left rounded-2xl px-4 py-3 transition focus-ring ${
-                    active ? "bg-black text-white" : "glass hover:text-ink"
+                    active ? "text-white shadow-[0_8px_22px_-8px_rgba(10,108,255,0.7)]" : "glass hover:brightness-[1.03]"
                   } ${!ok ? "opacity-40 cursor-not-allowed" : ""}`}
                 >
                   <div>
                     <div className="font-semibold">{m.label}</div>
-                    <div className={`text-sm ${active ? "text-white/70" : "text-ink-muted"}`}>{m.hint}</div>
+                    <div className={`text-sm ${active ? "text-white/75" : "text-ink-muted"}`}>{m.hint}</div>
                   </div>
                   {active && <Check size={18} />}
                 </button>

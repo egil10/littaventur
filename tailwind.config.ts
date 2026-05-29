@@ -20,14 +20,16 @@ const config: Config = {
         serif: ["Iowan Old Style", "Palatino Linotype", "Georgia", "ui-serif", "serif"],
       },
       colors: {
-        ink: { DEFAULT: "#0a0a0a", soft: "#1c1c1e", muted: "#6b7280" },
-        canvas: { DEFAULT: "#fafaf7", warm: "#f3efe7" },
+        ink: { DEFAULT: "#0b1220", soft: "#1c2533", muted: "#647084" },
+        canvas: { DEFAULT: "#f4f7fc", warm: "#e9eef9" },
+        accent: { DEFAULT: "#0a6cff", soft: "#3b86ff", deep: "#0a4fd0" },
       },
       backdropBlur: { xs: "2px" },
       animation: {
-        "fade-in": "fadeIn 220ms ease-out both",
-        "fade-up": "fadeUp 260ms cubic-bezier(.2,.7,.2,1) both",
-        pop: "pop 260ms cubic-bezier(.2,.9,.3,1.2) both",
+        "fade-in": "fadeIn 200ms ease-out both",
+        "fade-up": "fadeUp 240ms cubic-bezier(.2,.7,.2,1) both",
+        pop: "pop 240ms cubic-bezier(.2,.9,.3,1.2) both",
+        "scale-in": "scaleIn 180ms cubic-bezier(.2,.8,.2,1) both",
       },
       keyframes: {
         fadeIn: { "0%": { opacity: "0" }, "100%": { opacity: "1" } },
@@ -37,6 +39,10 @@ const config: Config = {
         },
         pop: {
           "0%": { transform: "scale(.98)", opacity: "0" },
+          "100%": { transform: "scale(1)", opacity: "1" },
+        },
+        scaleIn: {
+          "0%": { transform: "scale(.9)", opacity: "0" },
           "100%": { transform: "scale(1)", opacity: "1" },
         },
       },

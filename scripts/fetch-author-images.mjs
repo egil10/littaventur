@@ -17,7 +17,7 @@ const root = join(__dirname, "..");
 const UA = "Littaventyr/1.0 (Norwegian-literature quiz; egilfure@gmail.com)";
 const ENDPOINT = "https://query.wikidata.org/sparql";
 
-function fileUrl(commonsName, width = 400) {
+function fileUrl(commonsName, width = 640) {
   return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(commonsName)}?width=${width}`;
 }
 

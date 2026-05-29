@@ -472,7 +472,8 @@ items.forEach((it, i) => {
 const outDir = join(root, "public");
 mkdirSync(outDir, { recursive: true });
 const out = join(outDir, "books.json");
-writeFileSync(out, JSON.stringify(items, null, 2) + "\n", "utf8");
+// minified — this is the only payload shipped to the browser
+writeFileSync(out, JSON.stringify(items), "utf8");
 
 // quick sanity stats
 const authors = new Set(items.map((i) => i.author));

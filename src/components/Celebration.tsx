@@ -11,7 +11,7 @@ export default function Celebration({ streak, onClose }: { streak: number; onClo
   }, [onClose]);
 
   const confetti = useMemo(() => {
-    const colors = ["#d97706", "#16a34a", "#0a0a0a", "#e7eaff", "#ffeed8"];
+    const colors = ["#0a6cff", "#3b86ff", "#16a34a", "#9ec5ff", "#0b1220"];
     return Array.from({ length: 70 }, (_, i) => ({
       left: Math.random() * 100,
       delay: Math.random() * 0.5,
@@ -44,8 +44,8 @@ export default function Celebration({ streak, onClose }: { streak: number; onClo
         ))}
       </div>
       <div className="frost rounded-[28px] p-8 text-center max-w-sm animate-pop" onClick={(e) => e.stopPropagation()}>
-        <div className="mx-auto mb-4 grid place-items-center w-16 h-16 rounded-full" style={{ background: "rgba(217,119,6,0.14)" }}>
-          <Award size={32} style={{ color: "var(--amber)" }} />
+        <div className="mx-auto mb-4 grid place-items-center w-16 h-16 rounded-full" style={{ background: "var(--accent-soft)" }}>
+          <Award size={32} style={{ color: "var(--accent)" }} />
         </div>
         <div className="text-[11px] font-semibold uppercase tracking-wider text-ink-muted">Rekke på</div>
         <div className="text-6xl font-bold tabular-nums leading-none my-1">{streak}</div>

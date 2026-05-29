@@ -3,31 +3,38 @@
 @tailwind utilities;
 
 :root {
-  --canvas: #fafaf7;
-  --canvas-warm: #f3efe7;
-  --ink: #0a0a0a;
-  --ink-soft: #1c1c1e;
-  --ink-muted: #6b7280;
-  --hairline: rgba(10, 10, 10, 0.08);
-  --glass-bg: rgba(255, 255, 255, 0.55);
-  --glass-bg-strong: rgba(255, 255, 255, 0.78);
+  --canvas: #f4f7fc;
+  --canvas-warm: #e9eef9;
+  --ink: #0b1220;
+  --ink-soft: #1c2533;
+  --ink-muted: #647084;
+  --hairline: rgba(11, 18, 32, 0.08);
+
+  /* liquid-glass surfaces — translucent, glossy, cool */
+  --glass-bg: linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.4));
+  --glass-bg-strong: linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.62));
   --glass-stroke: rgba(255, 255, 255, 0.7);
-  --accent: #0a0a0a;
+  --glass-shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 16px 40px -16px rgba(20, 50, 130, 0.28);
+
+  --accent: #0a6cff;
+  --accent-soft: rgba(10, 108, 255, 0.12);
   --good: #16a34a;
-  --bad: #dc2626;
-  --amber: #d97706;
+  --bad: #e5484d;
+  --streak: #0a6cff;
 }
 
-/* The signature backdrop: warm + cool radial glows over near-white paper. */
+/* The signature backdrop: cool blue glows over a near-white cool paper. */
 html,
 body {
   background:
-    radial-gradient(1200px 600px at 80% -10%, #ffeed8 0%, transparent 60%),
-    radial-gradient(900px 500px at 10% 100%, #e7eaff 0%, transparent 55%),
+    radial-gradient(1100px 620px at 84% -12%, #cfe0ff 0%, transparent 60%),
+    radial-gradient(900px 540px at 6% 108%, #dde7ff 0%, transparent 58%),
+    radial-gradient(760px 760px at 50% 46%, #ecf2ff 0%, transparent 72%),
     var(--canvas);
   background-attachment: fixed;
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   font-feature-settings: "ss01", "cv11";
 }
 * {
@@ -40,56 +47,100 @@ button {
 @layer components {
   /* Translucent floating surfaces. `glass` for pills/cards, `glass-strong`
      for the main content card, `frost` for modals (near-opaque so text reads). */
+  /* The specular sheen is baked into the background (top layer) so it always
+     sits over the frosted fill but behind content — no stacking pitfalls. */
   .glass {
-    background: var(--glass-bg);
+    background:
+      radial-gradient(120% 80% at 50% -28%, rgba(255, 255, 255, 0.4), transparent 60%),
+      var(--glass-bg);
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     border: 1px solid var(--glass-stroke);
     box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.7),
-      0 1px 2px rgba(10, 10, 10, 0.04),
-      0 12px 32px -12px rgba(10, 10, 10, 0.18);
+      inset 0 1px 0 rgba(255, 255, 255, 0.85),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.2),
+      var(--glass-shadow);
   }
   .glass-strong {
-    background: var(--glass-bg-strong);
-    backdrop-filter: saturate(180%) blur(24px);
-    -webkit-backdrop-filter: saturate(180%) blur(24px);
+    background:
+      radial-gradient(130% 85% at 50% -24%, rgba(255, 255, 255, 0.5), transparent 56%),
+      var(--glass-bg-strong);
+    backdrop-filter: saturate(190%) blur(28px);
+    -webkit-backdrop-filter: saturate(190%) blur(28px);
     border: 1px solid var(--glass-stroke);
     box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.8),
-      0 1px 2px rgba(10, 10, 10, 0.05),
-      0 16px 40px -16px rgba(10, 10, 10, 0.2);
+      inset 0 1px 0 rgba(255, 255, 255, 0.92),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.25),
+      0 1px 2px rgba(16, 24, 40, 0.05),
+      0 24px 60px -22px rgba(20, 50, 130, 0.32);
   }
   .frost {
-    background: rgba(252, 251, 247, 0.94);
-    backdrop-filter: saturate(180%) blur(32px);
-    -webkit-backdrop-filter: saturate(180%) blur(32px);
+    background:
+      radial-gradient(130% 80% at 50% -22%, rgba(255, 255, 255, 0.55), transparent 55%),
+      rgba(248, 250, 255, 0.92);
+    backdrop-filter: saturate(190%) blur(36px);
+    -webkit-backdrop-filter: saturate(190%) blur(36px);
     border: 1px solid rgba(255, 255, 255, 0.85);
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.9),
-      0 1px 2px rgba(10, 10, 10, 0.04),
-      0 28px 80px -24px rgba(10, 10, 10, 0.35);
+      0 1px 2px rgba(16, 24, 40, 0.04),
+      0 32px 90px -28px rgba(20, 40, 110, 0.42);
   }
   .frost-backdrop {
-    background: rgba(20, 20, 25, 0.32);
-    backdrop-filter: saturate(150%) blur(18px);
-    -webkit-backdrop-filter: saturate(150%) blur(18px);
+    background: rgba(12, 20, 45, 0.34);
+    backdrop-filter: saturate(150%) blur(16px);
+    -webkit-backdrop-filter: saturate(150%) blur(16px);
   }
-  /* Pills are the universal control. One base, three fills. */
+
+  /* marker class for the big surfaces (sheen already baked into the fill) */
+  .liquid {
+    position: relative;
+  }
+
+  /* Pills are the universal control. Fixed height so labels never resize them. */
   .pill {
-    @apply inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium select-none transition;
+    @apply inline-flex h-9 items-center justify-center gap-2 rounded-full px-4 text-sm font-medium leading-none whitespace-nowrap select-none transition;
+    transition-property: transform, background-color, color, box-shadow, filter, opacity;
+    transition-duration: 160ms;
+  }
+  .pill:active {
+    transform: scale(0.96);
   }
   .pill-ghost {
-    @apply pill text-ink/80 hover:text-ink hover:bg-black/[0.04];
+    @apply pill text-ink/75 hover:text-ink hover:bg-ink/[0.05];
   }
   .pill-solid {
-    @apply pill bg-black text-white hover:bg-black/85;
+    @apply pill text-white;
+    background: linear-gradient(180deg, #2f86ff 0%, #0a6cff 100%);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.45),
+      0 6px 18px -6px rgba(10, 108, 255, 0.65);
+  }
+  .pill-solid:hover {
+    filter: brightness(1.06) saturate(1.05);
   }
   .pill-glass {
     @apply pill glass text-ink/90 hover:text-ink;
   }
+  .pill-glass:hover {
+    filter: brightness(1.03);
+  }
   .focus-ring {
-    @apply outline-none focus-visible:ring-2 focus-visible:ring-black/30 focus-visible:ring-offset-2 focus-visible:ring-offset-canvas;
+    @apply outline-none focus-visible:ring-2 focus-visible:ring-accent/45 focus-visible:ring-offset-2 focus-visible:ring-offset-canvas;
+  }
+
+  /* small inset chip used for tags */
+  .chip {
+    @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-medium text-ink-soft;
+    background: rgba(11, 18, 32, 0.05);
+  }
+}
+
+@layer utilities {
+  /* render-skip offscreen content — big win on the 880-card gallery */
+  .cv-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 300px;
   }
 }
 
@@ -102,18 +153,18 @@ button {
   background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-  background: rgba(10, 10, 10, 0.16);
+  background: rgba(20, 50, 130, 0.18);
   border: 3px solid transparent;
   border-radius: 999px;
   background-clip: padding-box;
 }
 *::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(10, 10, 10, 0.32);
+  background-color: rgba(20, 50, 130, 0.34);
   background-clip: padding-box;
 }
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(10, 10, 10, 0.18) transparent;
+  scrollbar-color: rgba(20, 50, 130, 0.2) transparent;
 }
 .no-scrollbar::-webkit-scrollbar {
   display: none;

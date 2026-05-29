@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, Search, X } from "lucide-react";
+import { ArrowLeft, BookText, Search, X } from "lucide-react";
 import { useBooks } from "@/lib/useBooks";
 import { CATEGORIES, type Book } from "@/lib/books";
 
@@ -91,7 +91,7 @@ export default function Gallery() {
             <button
               key={b.id}
               onClick={() => setDetail(b)}
-              className="glass rounded-3xl p-4 text-left focus-ring hover:bg-white/70 transition flex flex-col h-full animate-fade-in"
+              className="cv-auto glass liquid rounded-3xl p-3 text-left focus-ring transition duration-200 hover:-translate-y-0.5 hover:brightness-[1.03] flex flex-col"
             >
               {b.authorImg ? (
                 // eslint-disable-next-line @next/next/no-img-element
@@ -99,15 +99,18 @@ export default function Gallery() {
                   src={b.authorImg}
                   alt={b.author}
                   loading="lazy"
-                  className="h-28 w-full object-cover rounded-2xl"
+                  decoding="async"
+                  width={300}
+                  height={384}
+                  className="h-48 w-full object-cover object-[50%_16%] rounded-2xl bg-canvas-warm"
                   draggable={false}
                 />
               ) : (
                 <SpineDecor seed={b.fame} />
               )}
-              <div className="font-semibold leading-snug mt-3 line-clamp-3">{b.title}</div>
-              <div className="text-sm text-ink-muted mt-1">{b.author}</div>
-              <div className="mt-auto pt-3 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-wider text-ink-muted tabular-nums">
+              <div className="font-semibold leading-snug mt-3 line-clamp-2 min-h-[2.6em]">{b.title}</div>
+              <div className="text-sm text-ink-muted truncate">{b.author}</div>
+              <div className="mt-2 pt-2 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-wider text-ink-muted tabular-nums border-t border-[var(--hairline)]">
                 <span>{b.year ?? "—"}</span>
                 <span>·</span>
                 <span className="truncate">{b.genre ?? "Verk"}</span>
@@ -124,18 +127,20 @@ export default function Gallery() {
   );
 }
 
-// little decorative "book spine" band so cards aren't just text
+// decorative cool-blue band for the handful of authors without a portrait
 function SpineDecor({ seed }: { seed: number }) {
-  const hues = [28, 150, 220, 280, 0, 200];
+  const hues = [210, 224, 198, 236, 188, 250];
   const h = hues[seed % hues.length];
   return (
     <div
-      className="h-28 rounded-2xl w-full"
+      className="h-48 w-full rounded-2xl grid place-items-center text-white/70"
       style={{
-        background: `linear-gradient(135deg, hsl(${h} 45% 88%), hsl(${(h + 40) % 360} 40% 80%))`,
-        boxShadow: "inset 0 1px 0 rgba(255,255,255,.6)",
+        background: `linear-gradient(150deg, hsl(${h} 60% 72%), hsl(${(h + 30) % 360} 55% 58%))`,
+        boxShadow: "inset 0 1px 0 rgba(255,255,255,.5)",
       }}
-    />
+    >
+      <BookText size={28} className="opacity-80" />
+    </div>
   );
 }
 
@@ -225,7 +230,7 @@ function DetailModal({ book, onClose }: { book: Book; onClose: () => void }) {
 
   return (
     <div className="fixed inset-0 z-50 grid place-items-center p-4 frost-backdrop animate-fade-in" onClick={onClose}>
-      <div className="glass-strong rounded-[28px] w-full max-w-lg p-7 animate-pop" onClick={(e) => e.stopPropagation()}>
+      <div className="glass-strong liquid rounded-[28px] w-full max-w-lg p-7 animate-pop" onClick={(e) => e.stopPropagation()}>
         <div className="flex items-start justify-between gap-4">
           <div className="flex gap-4">
             {book.authorImg && (
@@ -233,7 +238,10 @@ function DetailModal({ book, onClose }: { book: Book; onClose: () => void }) {
               <img
                 src={book.authorImg}
                 alt={book.author}
-                className="w-20 h-20 object-cover rounded-2xl glass shrink-0"
+                width={112}
+                height={112}
+                decoding="async"
+                className="w-28 h-28 object-cover object-[50%_16%] rounded-2xl glass shrink-0"
                 draggable={false}
               />
             )}

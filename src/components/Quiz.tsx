@@ -10,6 +10,7 @@ import {
   Repeat,
   Sparkles,
   Timer,
+  TrendingUp,
   X,
 } from "lucide-react";
 import Link from "next/link";
@@ -27,7 +28,7 @@ import {
 } from "@/lib/books";
 import { applyResult, loadElo, opponentRating, resetElo, saveElo, type EloState } from "@/lib/elo";
 import { addReport, loadReports, type Report } from "@/lib/reports";
-import EloBadge from "./EloBadge";
+import EloHistoryModal from "./EloBadge";
 import ReportsModal from "./ReportsModal";
 import Celebration from "./Celebration";
 
@@ -267,6 +268,7 @@ export default function Quiz({
   // ── Elo (hydrate after mount; score once per round in an effect) ──────────
   const [elo, setElo] = useState<EloState>(() => loadElo());
   const [eloFlash, setEloFlash] = useState<number | null>(null);
+  const [eloOpen, setEloOpen] = useState(false);
   useEffect(() => setElo(loadElo()), []);
   const scoredRef = useRef<string | null>(null);
 
@@ -398,115 +400,171 @@ export default function Quiz({
   // dot tracker toward the streak goal
   const dots = Array.from({ length: GOAL }, (_, i) => i < state.streak % GOAL || (state.streak > 0 && state.streak % GOAL === 0));
 
+  // the 4 answer pills — fixed height so content never resizes them. Laid out
+  // differently per mode (2-col below the prompt, or 1-col beside the portrait).
+  const answerPills = (gridCls: string) => (
+    <div className={gridCls}>
+      {cur.choices.map((c, i) => {
+        const isTarget = c === cur.target;
+        const isPicked = c === state.picked;
+        let cls = "glass hover:brightness-[1.03]";
+        if (state.phase === "answered") {
+          if (isTarget) cls = "text-white border-transparent shadow-[0_8px_22px_-8px_rgba(22,163,74,0.7)]";
+          else if (isPicked) cls = "text-white border-transparent shadow-[0_8px_22px_-8px_rgba(229,72,77,0.7)]";
+          else cls = "glass opacity-50";
+        }
+        const bg =
+          state.phase === "answered" && isTarget
+            ? "linear-gradient(180deg,#22c55e,#16a34a)"
+            : state.phase === "answered" && isPicked
+              ? "linear-gradient(180deg,#f0686d,#e5484d)"
+              : undefined;
+        return (
+          <button
+            key={c}
+            onClick={() => answer(c)}
+            disabled={state.phase === "answered"}
+            style={bg ? { background: bg } : undefined}
+            className={`focus-ring text-left rounded-2xl h-14 px-4 transition-[transform,filter,opacity] duration-150 active:scale-[0.98] flex items-center gap-3 ${cls}`}
+          >
+            <span
+              className={`grid place-items-center w-6 h-6 rounded-full text-xs font-semibold shrink-0 ${
+                state.phase === "answered" && (isTarget || isPicked)
+                  ? "bg-white/25 text-white"
+                  : "bg-accent/10 text-accent"
+              }`}
+            >
+              {i + 1}
+            </span>
+            <span className="font-medium leading-tight line-clamp-2">{c}</span>
+            {state.phase === "answered" && isTarget && <Check size={18} className="ml-auto shrink-0" />}
+            {state.phase === "answered" && isPicked && !isTarget && <X size={18} className="ml-auto shrink-0" />}
+          </button>
+        );
+      })}
+    </div>
+  );
+
   return (
     <div className="mx-auto max-w-5xl px-4 pb-24">
-      {/* toolbar: a row of floating pills, no solid band */}
-      <div className="sticky top-0 z-30 flex flex-wrap items-center gap-2 py-3">
-        <span className="pill-glass">
-          <BookOpen size={15} className="opacity-70" />
-          <span className="font-semibold">Littåventyr</span>
-        </span>
-        <button onClick={onOpenMode} className="pill-glass focus-ring" title="Bytt spillmodus">
-          <Layers size={15} className="opacity-70" />
-          {m.label}
-        </button>
-        <button onClick={onOpenCategory} className="pill-glass focus-ring" title="Bytt utvalg">
-          <Sparkles size={15} className="opacity-70" />
-          <span className="tabular-nums text-ink-muted">{pool.length}</span> verk
-        </button>
-        <button onClick={cycleAuto} className="pill-glass focus-ring" title="Auto-advance">
-          <Timer size={15} className="opacity-70" />
-          {autoMs === 0 ? "Manuell" : `${autoMs / 1000}s`}
-        </button>
-        <button
-          onClick={toggleReview}
-          className={`focus-ring ${reviewOn ? "pill-solid" : "pill-glass"}`}
-          title="Repeter verk du har bommet på"
-        >
-          <Repeat size={15} className={reviewOn ? "" : "opacity-70"} />
-          Repetisjon
-        </button>
-        <Link href="/galleri" className="pill-glass focus-ring" title="Bla i hele biblioteket">
-          <Grid3x3 size={15} className="opacity-70" />
-          Galleri
-        </Link>
-        <button onClick={() => setReportsOpen(true)} className="pill-glass focus-ring" title="Rapporterte verk">
-          <Flag size={15} className="opacity-70" />
-          {reports.length > 0 && <span className="tabular-nums">{reports.length}</span>}
-        </button>
-        <div className="ml-auto">
-          <EloBadge
-            elo={elo}
-            flash={eloFlash}
-            onReset={() => {
-              setElo(resetElo());
-              setEloFlash(null);
-            }}
-          />
+      {/* toolbar: one fixed-height scrollable row of floating pills */}
+      <div className="sticky top-0 z-30 py-3">
+        <div className="flex items-center gap-2 overflow-x-auto no-scrollbar">
+          <span className="pill-glass shrink-0">
+            <BookOpen size={15} className="text-accent" />
+            <span className="font-semibold">Littåventyr</span>
+          </span>
+          <button
+            onClick={onOpenMode}
+            className="pill-glass focus-ring shrink-0 min-w-[152px] !justify-start"
+            title="Bytt spillmodus"
+          >
+            <Layers size={15} className="opacity-70 shrink-0" />
+            <span className="truncate">{m.label}</span>
+          </button>
+          <button onClick={onOpenCategory} className="pill-glass focus-ring shrink-0" title="Bytt utvalg">
+            <Sparkles size={15} className="opacity-70" />
+            <span className="tabular-nums text-ink-muted">{pool.length}</span> verk
+          </button>
+          <button
+            onClick={cycleAuto}
+            className="pill-glass focus-ring shrink-0 min-w-[120px] !justify-start"
+            title="Auto-advance"
+          >
+            <Timer size={15} className="opacity-70 shrink-0" />
+            {autoMs === 0 ? "Manuell" : `${autoMs / 1000}s auto`}
+          </button>
+          <button
+            onClick={toggleReview}
+            className={`focus-ring shrink-0 ${reviewOn ? "pill-solid" : "pill-glass"}`}
+            title="Repeter verk du har bommet på"
+          >
+            <Repeat size={15} className={reviewOn ? "" : "opacity-70"} />
+            Repetisjon
+          </button>
+          <Link href="/galleri" className="pill-glass focus-ring shrink-0" title="Bla i hele biblioteket">
+            <Grid3x3 size={15} className="opacity-70" />
+            Galleri
+          </Link>
+          <button
+            onClick={() => setReportsOpen(true)}
+            className="pill-glass focus-ring shrink-0 !px-3"
+            title="Rapporterte verk"
+          >
+            <Flag size={15} className="opacity-70" />
+            {reports.length > 0 && <span className="tabular-nums">{reports.length}</span>}
+          </button>
         </div>
       </div>
 
       <div className="grid lg:grid-cols-[1fr_360px] gap-4 mt-2">
-        {/* prompt card */}
-        <div key={item.id} className="glass-strong rounded-[28px] p-6 sm:p-10 animate-pop relative">
+        {/* prompt card — fixed height so titles of any length never shift it */}
+        <div
+          key={item.id}
+          className="glass-strong liquid rounded-[28px] p-6 sm:p-8 animate-pop relative flex flex-col lg:h-[480px]"
+        >
           <button
             onClick={report}
-            className="absolute top-4 right-4 pill-ghost focus-ring text-ink-muted"
+            className="absolute top-3 right-3 z-10 pill-ghost focus-ring text-ink-muted !px-2"
             title="Meld feil i dette verket"
             aria-label="Meld feil"
           >
             <Flag size={16} />
           </button>
 
-          <div className="text-[11px] font-semibold uppercase tracking-wider text-ink-muted mb-3">
-            {m.question}
-          </div>
-
-          <PromptBody mode={mode} item={item} />
-
-          {/* answer pills */}
-          <div className="grid sm:grid-cols-2 gap-3 mt-8">
-            {cur.choices.map((c, i) => {
-              const isTarget = c === cur.target;
-              const isPicked = c === state.picked;
-              let cls = "glass hover:bg-white/70";
-              if (state.phase === "answered") {
-                if (isTarget) cls = "bg-[var(--good)] text-white border-transparent";
-                else if (isPicked) cls = "bg-[var(--bad)] text-white border-transparent";
-                else cls = "glass opacity-55";
-              }
-              return (
-                <button
-                  key={c}
-                  onClick={() => answer(c)}
-                  disabled={state.phase === "answered"}
-                  className={`focus-ring text-left rounded-2xl px-4 py-3.5 transition flex items-center gap-3 ${cls}`}
-                >
-                  <span
-                    className={`grid place-items-center w-6 h-6 rounded-full text-xs font-semibold shrink-0 ${
-                      state.phase === "answered" && (isTarget || isPicked)
-                        ? "bg-white/25 text-white"
-                        : "bg-black/[0.06] text-ink-muted"
-                    }`}
-                  >
-                    {i + 1}
-                  </span>
-                  <span className="font-medium">{c}</span>
-                  {state.phase === "answered" && isTarget && <Check size={18} className="ml-auto" />}
-                  {state.phase === "answered" && isPicked && !isTarget && <X size={18} className="ml-auto" />}
-                </button>
-              );
-            })}
-          </div>
+          {mode === "portrait" ? (
+            <div className="flex flex-col lg:flex-row gap-6 lg:items-center h-full">
+              <div className="flex-1 min-h-0 grid place-items-center">
+                {item.authorImg ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={item.authorImg}
+                    alt="Forfatterportrett"
+                    width={400}
+                    height={400}
+                    fetchPriority="high"
+                    decoding="async"
+                    className="w-full max-w-[260px] lg:max-w-[400px] aspect-square object-cover object-[50%_20%] rounded-[28px] glass"
+                    draggable={false}
+                  />
+                ) : (
+                  <div className="w-full max-w-[260px] aspect-square grid place-items-center rounded-[28px] glass text-ink-muted">
+                    (mangler bilde)
+                  </div>
+                )}
+              </div>
+              <div className="lg:w-[300px] flex flex-col gap-3">
+                <div className="text-[11px] font-semibold uppercase tracking-wider text-ink-muted">
+                  Hvem er forfatteren?
+                </div>
+                {answerPills("grid grid-cols-1 gap-3")}
+              </div>
+            </div>
+          ) : (
+            <>
+              <div className="text-[11px] font-semibold uppercase tracking-wider text-ink-muted">
+                {m.question}
+              </div>
+              <div className="flex-1 min-h-0 flex flex-col justify-center py-4">
+                <PromptBody mode={mode} item={item} />
+              </div>
+              {answerPills("grid sm:grid-cols-2 gap-3")}
+            </>
+          )}
         </div>
 
-        {/* fixed reveal/idle side panel — never resizes */}
-        <div className="lg:min-h-[440px]">
-          <div className="glass rounded-[28px] p-6 h-full flex flex-col">
+        {/* feedback / idle panel — fixed height; holds the live rating */}
+        <div className="lg:h-[480px]">
+          <div className="glass liquid rounded-[28px] p-6 h-full flex flex-col">
             {state.phase === "idle" ? (
               <div className="animate-fade-in flex flex-col h-full">
-                <div className="text-[11px] font-semibold uppercase tracking-wider text-ink-muted">Runde</div>
-                <div className="text-4xl font-bold tabular-nums leading-tight">{state.total + 1}</div>
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <div className="text-[11px] font-semibold uppercase tracking-wider text-ink-muted">Runde</div>
+                    <div className="text-4xl font-bold tabular-nums leading-tight">{state.total + 1}</div>
+                  </div>
+                  <RatingChip rating={elo.rating} onClick={() => setEloOpen(true)} />
+                </div>
                 <div className="mt-6 text-[11px] font-semibold uppercase tracking-wider text-ink-muted">Modus</div>
                 <div className="text-lg font-semibold">{m.label}</div>
                 <div className="mt-auto pt-6 flex items-center gap-2 text-sm text-ink-muted">
@@ -516,12 +574,15 @@ export default function Quiz({
                 </div>
               </div>
             ) : (
-              <div className="animate-fade-up flex flex-col h-full">
-                <div
-                  className="text-sm font-bold uppercase tracking-wider"
-                  style={{ color: won ? "var(--good)" : "var(--bad)" }}
-                >
-                  {won ? "Riktig!" : "Ikke helt"}
+              <div className="animate-fade-up flex flex-col h-full min-h-0">
+                <div className="flex items-start justify-between gap-3">
+                  <div
+                    className="text-sm font-bold uppercase tracking-wider"
+                    style={{ color: won ? "var(--good)" : "var(--bad)" }}
+                  >
+                    {won ? "Riktig!" : "Ikke helt"}
+                  </div>
+                  <RatingChip rating={elo.rating} delta={eloFlash} onClick={() => setEloOpen(true)} />
                 </div>
                 <div className="mt-1 text-2xl font-bold leading-tight">{cur.target}</div>
                 {!won && (
@@ -530,19 +591,22 @@ export default function Quiz({
                   </div>
                 )}
 
-                <div className="mt-4 h-px bg-[var(--hairline)]" />
+                <div className="mt-3 h-px bg-[var(--hairline)]" />
 
-                <div className="mt-4 flex gap-3">
+                <div className="mt-3 flex gap-3">
                   {item.authorImg && (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img
                       src={item.authorImg}
                       alt={item.author}
-                      className="w-16 h-16 object-cover rounded-2xl glass shrink-0"
+                      width={96}
+                      height={96}
+                      decoding="async"
+                      className="w-24 h-24 object-cover object-[50%_18%] rounded-2xl glass shrink-0"
                       draggable={false}
                     />
                   )}
-                  <div>
+                  <div className="min-w-0">
                     <div className="text-lg font-semibold leading-snug">
                       {item.title}
                       {item.orig && <span className="text-ink-muted font-normal"> · {item.orig}</span>}
@@ -551,23 +615,20 @@ export default function Quiz({
                       {item.author}
                       {item.year != null && ` · ${item.year}`}
                     </div>
+                    <div className="flex flex-wrap gap-1.5 mt-2">
+                      {item.genre && <Tag>{item.genre}</Tag>}
+                      {item.eraLabel && <Tag>{item.eraLabel}</Tag>}
+                    </div>
                   </div>
                 </div>
-                <div className="flex flex-wrap gap-1.5 mt-3">
-                  {item.genre && <Tag>{item.genre}</Tag>}
-                  {item.eraLabel && <Tag>{item.eraLabel}</Tag>}
-                  {item.themes.slice(0, 2).map((t) => (
-                    <Tag key={t}>{t}</Tag>
-                  ))}
+
+                <div className="mt-3 flex-1 min-h-0 overflow-y-auto pr-1">
+                  <p className="text-sm leading-relaxed text-ink-soft">{item.blurb ?? describe(item)}</p>
                 </div>
 
-                <p className="text-sm leading-relaxed mt-3 text-ink-soft">
-                  {item.blurb ?? describe(item)}
-                </p>
-
-                <button onClick={next} className="pill-solid focus-ring mt-auto self-start">
+                <button onClick={next} className="pill-solid focus-ring mt-3 self-start">
                   Neste
-                  <span className="opacity-60 text-xs">Enter ↵</span>
+                  <span className="opacity-70 text-xs">Enter ↵</span>
                 </button>
               </div>
             )}
@@ -582,7 +643,7 @@ export default function Quiz({
             <span
               key={i}
               className="w-2.5 h-2.5 rounded-full transition"
-              style={{ background: on ? "var(--amber)" : "rgba(10,10,10,0.12)" }}
+              style={{ background: on ? "var(--streak)" : "rgba(20,50,130,0.14)" }}
             />
           ))}
         </div>
@@ -592,6 +653,16 @@ export default function Quiz({
         <Stat label="Svart" value={state.total} />
       </div>
 
+      {eloOpen && (
+        <EloHistoryModal
+          elo={elo}
+          onClose={() => setEloOpen(false)}
+          onReset={() => {
+            setElo(resetElo());
+            setEloFlash(null);
+          }}
+        />
+      )}
       {reportsOpen && (
         <ReportsModal reports={reports} onChange={setReports} onClose={() => setReportsOpen(false)} />
       )}
@@ -601,27 +672,6 @@ export default function Quiz({
 }
 
 function PromptBody({ mode, item }: { mode: ModeKey; item: Book }) {
-  if (mode === "portrait") {
-    // the portrait is the prompt — no title/author text (that would give it away)
-    return (
-      <div className="flex flex-col items-center text-center">
-        {item.authorImg ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={item.authorImg}
-            alt="Forfatterportrett"
-            className="w-48 h-48 sm:w-60 sm:h-60 object-cover rounded-[28px] glass"
-            draggable={false}
-          />
-        ) : (
-          <div className="w-48 h-48 grid place-items-center rounded-[28px] glass text-ink-muted">
-            (mangler bilde)
-          </div>
-        )}
-        <div className="text-sm text-ink-muted mt-4">Hvilken norske forfatter er dette?</div>
-      </div>
-    );
-  }
   if (mode === "title") {
     // hide the title; the blurb is the prompt
     return (
@@ -657,12 +707,28 @@ function describe(item: Book): string {
   return parts.join(", ") + ".";
 }
 
-function Tag({ children }: { children: React.ReactNode }) {
+// Live rating chip living in the feedback/idle panel. Shows the rating and,
+// after answering, the +N / -N change. Click opens the history modal.
+function RatingChip({ rating, delta, onClick }: { rating: number; delta?: number | null; onClick: () => void }) {
   return (
-    <span className="inline-flex items-center rounded-full bg-black/[0.05] px-2.5 py-1 text-xs font-medium text-ink-soft">
-      {children}
-    </span>
+    <button
+      onClick={onClick}
+      className="pill-glass focus-ring tabular-nums !h-8 !px-3 shrink-0"
+      title="Din rating — klikk for historikk"
+    >
+      <TrendingUp size={14} className="text-accent" />
+      <span className="font-semibold">{rating}</span>
+      {delta != null && (
+        <span className="font-semibold animate-scale-in" style={{ color: delta >= 0 ? "var(--good)" : "var(--bad)" }}>
+          {delta >= 0 ? `+${delta}` : delta}
+        </span>
+      )}
+    </button>
   );
+}
+
+function Tag({ children }: { children: React.ReactNode }) {
+  return <span className="chip">{children}</span>;
 }
 
 function Stat({ label, value }: { label: string; value: string | number }) {
