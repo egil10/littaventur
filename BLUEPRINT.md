@@ -290,6 +290,19 @@ in `useBooks.ts` to bust the browser cache when you regenerate. Portrait URLs ar
 rewrites `width=` down to 400 for thumbnails (`thumb()`), the quiz uses the full
 640 (and reuses that exact URL on the reveal so it's a cache hit).
 
+> **Why `Special:FilePath` and not a direct `upload.wikimedia.org` URL?**
+> Tempting, since it would skip the redirect hop — but it's a trap. Wikimedia
+> only serves *already-generated* thumbnails from `upload.wikimedia.org`; a
+> direct hit on a width that isn't cached returns **HTTP 400** (no on-demand
+> generation), and the cached buckets vary per file (e.g. for one portrait 500px
+> and 960px exist but 400/640/800 all 400). `Special:FilePath?width=N` is the
+> only URL that reliably *generates/serves* a render — it rounds up to the
+> nearest available bucket — and it's what makes the gallery's `width=400`
+> downsizing work. The redirect costs one RTT on first load (mitigated by the
+> `preconnect` in `layout.tsx`, then browser-cached), which is well worth the
+> reliability + resizability. If you ever need to truly kill the redirect,
+> **self-host** the ~100 portraits in `public/` instead of rewriting the URLs.
+
 ---
 
 ## 6. Elo rating (per-device, no backend)
