@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useMemo } from "react";
 import { X, Check } from "lucide-react";
 import { MODES, type Book, type Mode, type ModeKey } from "@/lib/books";
 
@@ -14,20 +15,38 @@ export default function ModePicker({
   onPick: (key: ModeKey) => void;
   onClose: () => void;
 }) {
-  // a mode is playable if enough items expose distinct answers for it
-  const playable = (m: Mode) => {
-    const answers = new Set<string>();
-    for (const b of books) {
-      const v = m.target(b);
-      if (v != null) answers.add(v);
+  // a mode is playable if enough items expose distinct answers for it.
+  // Computed once for the whole list rather than re-scanning per mode.
+  const playableSet = useMemo(() => {
+    const ok = new Set<ModeKey>();
+    for (const m of MODES) {
+      const answers = new Set<string>();
+      for (const b of books) {
+        const v = m.target(b);
+        if (v != null) {
+          answers.add(v);
+          if (answers.size >= 4) break;
+        }
+      }
+      if (answers.size >= 4) ok.add(m.key);
     }
-    return answers.size >= 4;
-  };
+    return ok;
+  }, [books]);
+  const playable = (m: Mode) => playableSet.has(m.key);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
 
   return (
     <div className="fixed inset-0 z-50 frost-backdrop animate-fade-in overflow-y-auto" onClick={onClose}>
       <div className="min-h-full grid place-items-center p-4">
         <div
+          role="dialog"
+          aria-modal="true"
+          aria-label="Spillmodus"
           className="frost rounded-[28px] w-full max-w-md p-6 sm:p-8 animate-pop"
           onClick={(e) => e.stopPropagation()}
         >

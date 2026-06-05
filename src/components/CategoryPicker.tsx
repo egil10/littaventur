@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useMemo } from "react";
 import { X } from "lucide-react";
 import { CATEGORIES, CATEGORY_GROUPS, type Book } from "@/lib/books";
 
@@ -14,12 +15,27 @@ export default function CategoryPicker({
   onPick: (key: string) => void;
   onClose: () => void;
 }) {
-  const count = (key: string) => (key === "" ? books.length : books.filter((b) => b.cats.includes(key)).length);
+  // tally every category tag once rather than re-filtering all books per pill
+  const counts = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const b of books) for (const c of b.cats) m.set(c, (m.get(c) ?? 0) + 1);
+    return m;
+  }, [books]);
+  const count = (key: string) => (key === "" ? books.length : counts.get(key) ?? 0);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
 
   return (
     <div className="fixed inset-0 z-50 frost-backdrop animate-fade-in overflow-y-auto" onClick={onClose}>
       <div className="min-h-full grid place-items-center p-4">
         <div
+          role="dialog"
+          aria-modal="true"
+          aria-label="Velg utvalg"
           className="frost rounded-[28px] w-full max-w-2xl p-6 sm:p-8 animate-pop"
           onClick={(e) => e.stopPropagation()}
         >

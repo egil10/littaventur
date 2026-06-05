@@ -11,6 +11,13 @@ const PAGE = 24;
 // Filters worth surfacing in the strip (skip the "all"/popular meta-rows).
 const FILTERS = CATEGORIES.filter((c) => c.group === "epoke" || c.group === "sjanger");
 
+// Author portraits are stored as Wikimedia `Special:FilePath/…?width=640` URLs.
+// Grid thumbnails only render ~190px tall, so request a smaller render to cut
+// gallery bandwidth roughly 3-4× (Wikimedia serves any width on demand).
+function thumb(url: string, w: number): string {
+  return url.replace(/width=\d+/, `width=${w}`);
+}
+
 export default function Gallery() {
   const { books } = useBooks();
   const [q, setQ] = useState("");
@@ -91,12 +98,12 @@ export default function Gallery() {
             <button
               key={b.id}
               onClick={() => setDetail(b)}
-              className="cv-auto glass liquid rounded-3xl p-3 text-left focus-ring transition duration-200 hover:-translate-y-0.5 hover:brightness-[1.03] flex flex-col"
+              className="cv-auto glass-flat liquid rounded-3xl p-3 text-left focus-ring transition duration-200 hover:-translate-y-0.5 hover:brightness-[1.03] flex flex-col"
             >
               {b.authorImg ? (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
-                  src={b.authorImg}
+                  src={thumb(b.authorImg, 400)}
                   alt={b.author}
                   loading="lazy"
                   decoding="async"
@@ -158,7 +165,13 @@ function FilterStrip({
   const ref = useRef<HTMLDivElement | null>(null);
   const drag = useRef({ active: false, startX: 0, startScroll: 0, moved: false, captured: false });
 
-  const count = (key: string) => (key === "" ? books.length : books.filter((b) => b.cats.includes(key)).length);
+  // tally every category tag once instead of re-scanning all books per pill
+  const counts = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const b of books) for (const c of b.cats) m.set(c, (m.get(c) ?? 0) + 1);
+    return m;
+  }, [books]);
+  const count = (key: string) => (key === "" ? books.length : counts.get(key) ?? 0);
 
   const onPointerDown = (e: React.PointerEvent) => {
     if (e.pointerType !== "mouse") return;

@@ -23,19 +23,28 @@
   --streak: #0a6cff;
 }
 
-/* The signature backdrop: cool blue glows over a near-white cool paper. */
+/* The signature backdrop: cool blue glows over a near-white cool paper.
+   Painted onto a single fixed pseudo-element (composited once) instead of
+   `background-attachment: fixed`, which repaints the whole gradient on every
+   scroll frame and is janky on mobile. */
 html,
 body {
-  background:
-    radial-gradient(1100px 620px at 84% -12%, #cfe0ff 0%, transparent 60%),
-    radial-gradient(900px 540px at 6% 108%, #dde7ff 0%, transparent 58%),
-    radial-gradient(760px 760px at 50% 46%, #ecf2ff 0%, transparent 72%),
-    var(--canvas);
-  background-attachment: fixed;
+  background: var(--canvas);
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-feature-settings: "ss01", "cv11";
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(1100px 620px at 84% -12%, #cfe0ff 0%, transparent 60%),
+    radial-gradient(900px 540px at 6% 108%, #dde7ff 0%, transparent 58%),
+    radial-gradient(760px 760px at 50% 46%, #ecf2ff 0%, transparent 72%);
 }
 * {
   -webkit-tap-highlight-color: transparent;
@@ -90,6 +99,20 @@ button {
     background: rgba(12, 20, 45, 0.34);
     backdrop-filter: saturate(150%) blur(16px);
     -webkit-backdrop-filter: saturate(150%) blur(16px);
+  }
+
+  /* Like `glass`, but with NO backdrop-filter. Used for the gallery grid where
+     dozens of cards are visible at once — each live `backdrop-filter: blur()`
+     is a separate compositing pass, so opaque-ish cards here keep the look at a
+     fraction of the GPU cost. */
+  .glass-flat {
+    background:
+      radial-gradient(120% 80% at 50% -28%, rgba(255, 255, 255, 0.55), transparent 60%),
+      linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.82));
+    border: 1px solid var(--glass-stroke);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.85),
+      var(--glass-shadow);
   }
 
   /* marker class for the big surfaces (sheen already baked into the fill) */

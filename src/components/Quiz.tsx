@@ -403,7 +403,7 @@ export default function Quiz({
   // the 4 answer pills — fixed height so content never resizes them. Laid out
   // differently per mode (2-col below the prompt, or 1-col beside the portrait).
   const answerPills = (gridCls: string) => (
-    <div className={gridCls}>
+    <div className={gridCls} role="group" aria-label="Svaralternativer">
       {cur.choices.map((c, i) => {
         const isTarget = c === cur.target;
         const isPicked = c === state.picked;
@@ -574,7 +574,7 @@ export default function Quiz({
                 </div>
               </div>
             ) : (
-              <div className="animate-fade-up flex flex-col h-full min-h-0">
+              <div className="animate-fade-up flex flex-col h-full min-h-0" role="status" aria-live="polite">
                 <div className="flex items-start justify-between gap-3">
                   <div
                     className="text-sm font-bold uppercase tracking-wider"
@@ -638,7 +638,7 @@ export default function Quiz({
 
       {/* streak + stats footer */}
       <div className="flex flex-wrap items-center gap-x-6 gap-y-3 mt-5">
-        <div className="flex items-center gap-1.5" title="Rekke mot 10">
+        <div className="flex items-center gap-1.5" title="Rekke mot 10" aria-hidden="true">
           {dots.map((on, i) => (
             <span
               key={i}
